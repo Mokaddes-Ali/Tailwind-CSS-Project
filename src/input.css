@@ -4,32 +4,18 @@
 
 
 @theme{
+  --color-bluecolor: #1B99D4 ;/* Primary color for the theme */
+  --color-greencolor: #27B94E;/* Secondary color for the theme */
+  --color-redcolor: #D60000;/* Tertiary color for the theme */
+  --color-yellowcolor: #FFA41B;/* Quaternary color for the theme */
+  --color-graycolor: #4D607D;/* Quinary color for the theme */
+  --color-blackcolor: #000;/* Nonary color for the theme */
    --font-montserrat: 'Montserrat', sans-serif;
    --font-poppins: 'Poppins', sans-serif;
    --font-italianno: 'Italianno', cursive;
 }
-@layer utilities {
-  .custom-button:hover {
-    @apply bg-gray-500 text-white;
-  }
-}
-@layer base {
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 100 900;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap') format('woff2');
-  }
-  @font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 100 900;
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap') format('woff2');
-  }
-}
-
   body {
-    @apply bg-gray-100 text-gray-900 font-sans;
+    @apply bg-white border-2 border-bluecolor;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold;
@@ -37,13 +23,10 @@
   p {
     @apply text-base leading-relaxed;
   }
-  a {
-    @apply text-blue-500 hover:text-blue-700;
-  }
-    ul, ol {
-        @apply list-disc pl-5;
-    }
 @layer components {
+  .common-link {
+    @apply text-[#424352] font-poppins text-base font-medium leading-6 tracking-[0.5px] hover:text-sky-500 transition duration-300 ease-in-out cursor-pointer;
+  }
   .custom-card {
     @apply bg-white shadow-md rounded-lg p-4;
   }
