@@ -1,0 +1,10 @@
+# ignore Node modules
+node_modules/
+
+
+# Ignore only output.css inside src folder
+src/output.css
+
+# Tailwind compiled output
+# *.css
+# !src/**/*.css    # নিজে লেখা CSS রাখতে চাইলে
