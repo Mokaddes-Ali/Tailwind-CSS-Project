@@ -5,12 +5,12 @@
 
 
 @theme{
-  --color-bluecolor: #1B99D4 ;/* Primary color for the theme */
-  --color-greencolor: #27B94E;/* Secondary color for the theme */
-  --color-redcolor: #D60000;/* Tertiary color for the theme */
-  --color-yellowcolor: #FFA41B;/* Quaternary color for the theme */
-  --color-graycolor: #4D607D;/* Quinary color for the theme */
-  --color-blackcolor: #000;/* Nonary color for the theme */
+  --color-bluecolor: #1B99D4 ;
+  --color-greencolor: #27B94E;
+  --color-redcolor: #D60000;
+  --color-yellowcolor: #FFA41B;
+  --color-graycolor: #4D607D;
+  --color-blackcolor: #000;
   --font-poppins: 'Poppins', sans-serif;
   --font-roboto: 'Roboto', sans-serif;
   --font-inter: 'Inter', sans-serif;
