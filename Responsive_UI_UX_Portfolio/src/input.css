@@ -5,3 +5,11 @@
 @theme{
     --font-monserrat: "Montserrat", 'sans-serif';
 }
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+}
