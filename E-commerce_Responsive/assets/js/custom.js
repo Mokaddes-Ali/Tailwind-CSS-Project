@@ -20,9 +20,9 @@ $(document).ready(function () {
   });
 
   function setUnderline($tab) {
-    const left = $tab.position().left;
-    const width = $tab.outerWidth();
-    $underline.css({ left: left + 'px', width: width + 'px' });
+    const tabCenter = $tab.position().left + $tab.outerWidth()/2;
+    const underlineLeft = tabCenter - 414/2;
+    $underline.css({ left: underlineLeft + 'px', width: '414px' });
   }
 });
 
