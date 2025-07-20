@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('../fonts/integralcf-bold.otf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('../fonts/integralcf-extrabold.otf') format('truetype');
+  font-weight: 700;
+}
+
+
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Medium.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../fonts/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 700;
+}
+
+
+@theme{
+  --font-satoshi: 'Satoshi', 'sans-serif';
+  --font-integralcf: 'IntegralCF', 'sans-serif'
+}
+
+@layer base{
+ /* // */
+}
