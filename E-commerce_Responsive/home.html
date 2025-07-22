@@ -90,7 +90,9 @@
 
 
     <!-- Hero Section -->
-     <div class="heroarea w-[1440x] px-[100px] flex gap-[30px]">
+     <div class="heroarea w-[1440x] px-[100px] flex gap-[36px] relative z-10">
+
+        <!-- hero left -->
         <div class="hero-left-text pt-[85px] pb-[116px] w-1/2 flex flex-col items-start gap-[25px]">
             <h1 class="text-black font-integralcf text-[63px] font-bold leading-[64px]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
             <p class="text-[rgba(0,0,0,0.6)] w-[545px] font-satoshi text-[16px] font-normal leading-[22px]">Browse through our diverse range of meticulously crafted garments, designed  to bring out your individuality and cater to your sense of style.</p>
@@ -99,31 +101,31 @@
 </a>
 
 <!-- Professional Data Divider Section -->
-<div class="data-divider flex  gap-[12px]  pt-[32px]">
+<div class="data-divider flex items-start gap-[32px] w-[596px] pt-[30px]">
   <!-- Card 1 -->
   <div class="flex flex-col text-start gap-[6px] w-[141px]">
     <h1 class="text-black font-satoshi text-[40px] font-bold leading-none">200+</h1>
-    <p class="text-black/60 font-satoshi text-base font-normal leading-tight">International Brands</p>
+    <p class="text-black/60 font-satoshi text-[16px] w-[141px] font-normal leading-tight">International Brands</p>
   </div>
 
   <!-- Divider -->
-   <div class="ml-[22px]">
+   <div class="">
   <div class="hidden md:block w-[1px] h-[74px] bg-black"></div>
   </div>
 
   <!-- Card 2 -->
-  <div class="flex flex-col items-start gap-[6px] w-[156px]">
+  <div class="flex flex-col gap-[6px] w-[156px]">
     <h1 class="text-black font-satoshi text-[40px] font-bold leading-none">2,000+</h1>
-    <p class="text-black/60 font-satoshi text-base font-normal leading-tight">High-Quality Products</p>
+    <p class="text-black/60 font-satoshi w-[156px] text-[16px] font-normal leading-tight">High-Quality Products</p>
   </div>
 
   <!-- Divider -->
-     <div class="ml-[22px] mr-[20px]">
+     <div class="">
   <div class="hidden md:block w-[1px] h-[74px] bg-black"></div>
   </div>
 
   <!-- Card 3 -->
-  <div class="flex flex-col items-center text-center gap-[6px]">
+  <div class="flex flex-col gap-[6px]">
     <h1 class="text-black font-satoshi text-[40px] font-bold leading-none">30,000+</h1>
     <p class="text-black/60 font-satoshi text-base font-normal leading-tight">Happy Customers</p>
   </div>
@@ -131,12 +133,48 @@
 
 
         </div>
+
+        <!-- hero right -->
+         <div class="hero-right w-1/2 pt-[92px]">
+            <div class="herom-img w-[727px] h-[570px]">
+                <img src="./assets/images/heroimg.png" />
+            </div>
+
+         </div>
      </div>
 
-    <!-- Category section -->
-    <div class="category-area w-[1440px] flex gap-[21px] px-[100px] pt-[28px]">
+
+  <!-- company trust banner -->
+<div class="banner relative z-50 -mt-[6px] w-[1440px] h-[122px] bg-[#000000] px-[100px] flex justify-center items-center gap-[105px]">
+  <div class="banner-img w-[166.48px] h-[33.16px]">
+    <img src="./assets/images/banner1.png" />
+  </div>
+  <div class="banner-img w-[91px] h-[38px]">
+    <img src="./assets/images/banner2.png" />
+  </div>
+  <div class="banner-img w-[156px] h-[36px]">
+    <img src="./assets/images/banner3.png" />
+  </div>
+  <div class="banner-img w-[194px] h-[32px]">
+    <img src="./assets/images/banner4.png" />
+  </div>
+  <div class="banner-img w-[206.79px] h-[33.35px]">
+    <img src="./assets/images/banner5.png" />
+  </div>
+</div>
+
+
+    <!--  NEW ARRIVALS section -->
+    <div class="new-araival-area w-[1440px] flex flex-col gap-[21px] px-[100px] pt-[28px]">
+        <!-- heading -->
+        <div class="heading flex justify-center items-center pt-[50px]">
+        <h1 class="text-black text-center font-[700] text-[47px] leading-none font-integralcf">
+  NEW ARRIVALS
+</h1>
+       </div>
+
      
-        <div class="flex flex-col pt-[5px]">
+        <div class="flex flex-col pt-[25px]">
              <div class="product-list pt-[13px] flex flex-col gap-[35px]">
 
             <!-- product card row 1 -->
@@ -146,19 +184,25 @@
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg01.png" />
+                        <img src="./assets/images/newarrival1.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
                         <!-- product text -->
                         <div class="text-area-wrapper flex flex-col gap-[6px]">
-                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Gradient Graphic T-shirt</h1>
+                            <h1 class="text-black font-satoshi text-[19.80px] not-italic font-bold leading-normal">
+                               T-shirt With Tape Details</h1>
 
                             <!-- rating -->
                             <div class="rating flex gap-[16px] items-center">
                                 <div class="rating-icon flex gap-[4.00px]">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                         fill="none">
                                         <path
                                             d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
@@ -183,14 +227,14 @@
                                 <!-- rating rate -->
                                 <div class="rating-rate">
                                     <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        3.5/5</h1>
+                                        4.5/5</h1>
                                 </div>
                             </div>
 
                             <!-- product price -->
                             <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
                                 <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">
-                                    $145
+                                    $120
                                 </h1>
                             </div>
                         </div>
@@ -202,24 +246,18 @@
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg02.png" />
+                        <img src="./assets/images/newarrival2.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
                         <!-- product text -->
                         <div class="text-area-wrapper flex flex-col gap-[6px]">
                             <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Polo with Tipping Details</h1>
+                                 Skinny Fit Jeans</h1>
 
                             <!-- rating -->
                             <div class="rating flex gap-[16px] items-center">
                                 <div class="rating-icon flex gap-[4.00px]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                         fill="none">
                                         <path
@@ -248,17 +286,23 @@
                                 <!-- rating rate -->
                                 <div class="rating-rate">
                                     <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        4.5/5</h1>
+                                        3.5/5</h1>
                                 </div>
                             </div>
 
-                            <!-- product price -->
+                               <!-- product price -->
                             <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">
-                                    $180
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$240
                                 </h1>
-
-
+                                <h2
+                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
+                                    $260</h2>
+                                <div
+                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
+                                    <h1
+                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
+                                        -20%</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -269,7 +313,7 @@
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg03.png" />
+                        <img src="./assets/images/newarrival3.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
@@ -305,33 +349,24 @@
                                             d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
                                             fill="#FFC633" />
                                     </svg>
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17"
                                         fill="none">
                                         <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            d="M3.76418 16.9794L9.19822 13.9561V0.255127L6.57901 5.89504L0.405762 6.64322L4.96026 10.8771L3.76418 16.9794Z"
                                             fill="#FFC633" />
                                     </svg>
                                 </div>
                                 <!-- rating rate -->
                                 <div class="rating-rate">
                                     <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        5.0/5</h1>
+                                        4.5/5</h1>
                                 </div>
                             </div>
 
                             <!-- product price -->
                             <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$120
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$180
                                 </h1>
-                                <h2
-                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
-                                    $150</h2>
-                                <div
-                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
-                                    <h1
-                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
-                                        -30%</h1>
-                                </div>
                             </div>
                         </div>
 
@@ -342,18 +377,24 @@
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg01.png" />
+                        <img src="./assets/images/newarrival4.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
                         <!-- product text -->
                         <div class="text-area-wrapper flex flex-col gap-[6px]">
                             <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Gradient Graphic T-shirt</h1>
+                                Sleeve Striped T-shirt</h1>
 
                             <!-- rating -->
                             <div class="rating flex gap-[16px] items-center">
                                 <div class="rating-icon flex gap-[4.00px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                         fill="none">
                                         <path
@@ -379,15 +420,23 @@
                                 <!-- rating rate -->
                                 <div class="rating-rate">
                                     <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        3.5/5</h1>
+                                        4.5/5</h1>
                                 </div>
                             </div>
 
-                            <!-- product price -->
+                              <!-- product price -->
                             <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">
-                                    $145
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$130
                                 </h1>
+                                <h2
+                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
+                                    $160</h2>
+                                <div
+                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
+                                    <h1
+                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
+                                        -30%</h1>
+                                </div>
                             </div>
                         </div>
 
@@ -395,101 +444,56 @@
                 </div>
 
             </div>
-            <!-- product card row 2 -->
+
+            <!-- See All Button -->
+             <div class="see-btn flex justify-center items-center">
+                <button class="flex w-[218px] h-[52px] px-[54px] py-[16px] justify-center items-center gap-[12px] flex-shrink-0 rounded-[62px] border border-[rgba(0,0,0,0.10)] text-black text-[16px] font-[500] leading-none font-satoshi">
+  View All
+</button>
+
+             </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- divider -->
+         <div class="divider w-[1440px] px-[100px] py-[63px] mx-auto">
+            <div class="w-[1240px] h-[1px] bg-[rgba(0,0,0,0.10)] "></div>
+         </div>
+
+
+          <!-- top selling section -->
+    <div class="new-araival-area w-[1440px] flex flex-col gap-[21px] px-[100px] pt-[7px]">
+        <!-- heading -->
+        <div class="heading flex justify-center items-center">
+        <h1 class="text-black text-center font-[700] text-[47px] leading-none font-integralcf uppercase">
+  top selling
+</h1>
+       </div>
+
+     
+        <div class="flex flex-col pt-[25px]">
+             <div class="product-list pt-[13px] flex flex-col gap-[35px]">
+
+            <!-- product card row 1 -->
             <div class="product-cards flex gap-[19.50px]">
 
-                <!-- single card 5 -->
+                <!-- single card 1 -->
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg4.png" />
+                        <img src="./assets/images/productimg7.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
                         <!-- product text -->
                         <div class="text-area-wrapper flex flex-col gap-[6px]">
-                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal ">
-                                Skinny Fit Jeans</h1>
+                            <h1 class="text-black font-satoshi text-[19.80px] not-italic font-bold leading-normal">
+                               Vertical Striped Shirt</h1>
 
                             <!-- rating -->
                             <div class="rating flex gap-[16px] items-center">
                                 <div class="rating-icon flex gap-[4.00px]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
-  <path d="M3.76418 16.9793L9.19822 13.956V0.255005L6.57901 5.89491L0.405762 6.6431L4.96026 10.8769L3.76418 16.9793Z" fill="#FFC633"/>
-</svg>
-                                </div>
-                                <!-- rating rate -->
-                                <div class="rating-rate">
-                                    <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        3.5/5</h1>
-                                </div>
-                            </div>
-
-                            <!-- product price -->
-                            <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$240
-                                </h1>
-                                <h2
-                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
-                                    $260</h2>
-                                <div
-                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
-                                    <h1
-                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
-                                        -20%</h1>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- single card 6 -->
-                <div class="product-card flex flex-col gap-[6px] w-[295px]">
-                    <!-- card image -->
-                    <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg5.png" />
-                    </div>
-                    <!-- card content -->
-                    <div class="card-content-wrapper pt-[10px]">
-                        <!-- product text -->
-                        <div class="text-area-wrapper flex flex-col gap-[6px]">
-                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Checkered Shirt</h1>
-
-                            <!-- rating -->
-                            <div class="rating flex gap-[16px] items-center">
-                                <div class="rating-icon flex gap-[4.00px]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                         fill="none">
                                         <path
@@ -502,23 +506,155 @@
                                             d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
                                             fill="#FFC633" />
                                     </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17"
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                         fill="none">
                                         <path
-                                            d="M3.76418 16.9794L9.19822 13.9561V0.255127L6.57901 5.89504L0.405762 6.64322L4.96026 10.8771L3.76418 16.9794Z"
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
                                             fill="#FFC633" />
                                     </svg>
                                 </div>
                                 <!-- rating rate -->
                                 <div class="rating-rate">
                                     <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        4.5/5</h1>
+                                        5.0/5</h1>
+                                </div>
+                            </div>
+
+                               <!-- product price -->
+                            <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$212
+                                </h1>
+                                <h2
+                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
+                                    $232</h2>
+                                <div
+                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
+                                    <h1
+                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
+                                        -20%</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- single card 2 -->
+                <div class="product-card flex flex-col gap-[6px] w-[295px]">
+                    <!-- card image -->
+                    <div class="image w-[295px] h-[298px]">
+                        <img src="./assets/images/productimg8.png" />
+                    </div>
+                    <!-- card content -->
+                    <div class="card-content-wrapper pt-[10px]">
+                        <!-- product text -->
+                        <div class="text-area-wrapper flex flex-col gap-[6px]">
+                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
+                                 Courage Graphic T-shirt</h1>
+
+                            <!-- rating -->
+                            <div class="rating flex gap-[16px] items-center">
+                                <div class="rating-icon flex gap-[4.00px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                </div>
+                                <!-- rating rate -->
+                                <div class="rating-rate">
+                                    <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
+                                        4.0/5</h1>
+                                </div>
+                            </div>
+
+                               <!-- product price -->
+                            <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$145
+                                </h1>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- single card 3 -->
+                <div class="product-card flex flex-col gap-[6px] w-[295px]">
+                    <!-- card image -->
+                    <div class="image w-[295px] h-[298px]">
+                        <img src="./assets/images/productimg9.png" />
+                    </div>
+                    <!-- card content -->
+                    <div class="card-content-wrapper pt-[10px]">
+                        <!-- product text -->
+                        <div class="text-area-wrapper flex flex-col gap-[6px]">
+                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
+                                Loose Fit Bermuda Shorts</h1>
+
+                            <!-- rating -->
+                            <div class="rating flex gap-[16px] items-center">
+                                <div class="rating-icon flex gap-[4.00px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
+                                        fill="none">
+                                        <path
+                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                     
+                                </div>
+                                <!-- rating rate -->
+                                <div class="rating-rate">
+                                    <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
+                                        3.0/5</h1>
                                 </div>
                             </div>
 
                             <!-- product price -->
                             <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$180
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$80
                                 </h1>
                             </div>
                         </div>
@@ -526,18 +662,18 @@
                     </div>
                 </div>
 
-                <!-- single card 7 -->
+                  <!-- single card 4 -->
                 <div class="product-card flex flex-col gap-[6px] w-[295px]">
                     <!-- card image -->
                     <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg6.png" />
+                        <img src="./assets/images/productimg10.png" />
                     </div>
                     <!-- card content -->
                     <div class="card-content-wrapper pt-[10px]">
                         <!-- product text -->
                         <div class="text-area-wrapper flex flex-col gap-[6px]">
                             <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Sleeve Striped T-shirt</h1>
+                                Faded Skinny Jeans</h1>
 
                             <!-- rating -->
                             <div class="rating flex gap-[16px] items-center">
@@ -566,12 +702,9 @@
                                             d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
                                             fill="#FFC633" />
                                     </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17"
-                                        fill="none">
-                                        <path
-                                            d="M3.76418 16.9794L9.19822 13.9561V0.255127L6.57901 5.89504L0.405762 6.64322L4.96026 10.8771L3.76418 16.9794Z"
-                                            fill="#FFC633" />
-                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+  <path d="M3.76418 16.9793L9.19822 13.9561V0.255066L6.57901 5.89498L0.405762 6.64316L4.96026 10.877L3.76418 16.9793Z" fill="#FFC633"/>
+</svg>
                                 </div>
                                 <!-- rating rate -->
                                 <div class="rating-rate">
@@ -580,93 +713,10 @@
                                 </div>
                             </div>
 
-                            
-                            <!-- product price -->
-                            <div class="product-price pt-[9px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$130
+                              <!-- product price -->
+                            <div class="product-price pt-[8px] pb-[2px] flex gap-[9px]">
+                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$210
                                 </h1>
-                                <h2
-                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
-                                    $160</h2>
-                                <div
-                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
-                                    <h1
-                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
-                                        -30%</h1>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                 <!-- single card 8 -->
-                <div class="product-card flex flex-col gap-[6px] w-[295px]">
-                    <!-- card image -->
-                    <div class="image w-[295px] h-[298px]">
-                        <img src="./assets/images/productimg6.png" />
-                    </div>
-                    <!-- card content -->
-                    <div class="card-content-wrapper pt-[10px]">
-                        <!-- product text -->
-                        <div class="text-area-wrapper flex flex-col gap-[6px]">
-                            <h1 class="text-black font-satoshi text-[20px] not-italic font-bold leading-normal">
-                                Sleeve Striped T-shirt</h1>
-
-                            <!-- rating -->
-                            <div class="rating flex gap-[16px] items-center">
-                                <div class="rating-icon flex gap-[4.00px]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
-                                        fill="none">
-                                        <path
-                                            d="M9.24494 0.255127L11.8641 5.89504L18.0374 6.64322L13.4829 10.8771L14.679 16.9794L9.24494 13.9561L3.8109 16.9794L5.00697 10.8771L0.452479 6.64322L6.62573 5.89504L9.24494 0.255127Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17"
-                                        fill="none">
-                                        <path
-                                            d="M3.76418 16.9794L9.19822 13.9561V0.255127L6.57901 5.89504L0.405762 6.64322L4.96026 10.8771L3.76418 16.9794Z"
-                                            fill="#FFC633" />
-                                    </svg>
-                                </div>
-                                <!-- rating rate -->
-                                <div class="rating-rate">
-                                    <h1 class="text-black font-satoshi text-[14px] not-italic font-normal leading-none">
-                                        4.5/5</h1>
-                                </div>
-                            </div>
-
-                            
-                            <!-- product price -->
-                            <div class="product-price pt-[9px] pb-[2px] flex gap-[9px]">
-                                <h1 class="text-black font-satoshi text-[24px] not-italic font-bold leading-none">$130
-                                </h1>
-                                <h2
-                                    class="text-[rgba(0,0,0,0.3)] font-satoshi text-[24px] not-italic font-bold leading-none line-through">
-                                    $160</h2>
-                                <div
-                                    class="inline-flex px-[16px] py-[7px] justify-center items-center gap-[12px] rounded-[62px] bg-[rgba(255,51,51,0.1)]">
-                                    <h1
-                                        class="text-[#F33] font-[Satoshi] text-[12px] not-italic font-medium leading-none">
-                                        -30%</h1>
-                                </div>
                             </div>
                         </div>
 
@@ -674,10 +724,246 @@
                 </div>
 
             </div>
-  
+
+            <!-- See All Button -->
+             <div class="see-btn flex justify-center items-center">
+                <button class="flex w-[218px] h-[52px] px-[54px] py-[16px] justify-center items-center gap-[12px] flex-shrink-0 rounded-[62px] border border-[rgba(0,0,0,0.10)] text-black text-[16px] font-[500] leading-none font-satoshi">
+  View All
+</button>
+
+             </div>
+        </div>
+        </div>
         </div>
 
+       <!-- Dress Style Section -->
+<div class="dess-style w-[1440px] px-[100px] pt-[55px]">
+  <div class="w-[1239px] h-[866px] flex-shrink-0 rounded-[40px] bg-[#F0F0F0] px-[64px] py-[74px]">
+    <!-- Heading -->
+    <div class="heading flex justify-center items-center">
+      <h1 class="text-black text-center text-[47px] font-bold leading-none font-integralcf">
+        BROWSE BY DRESS STYLE
+      </h1>
     </div>
+
+    <!-- cart content -->
+<div class="dress-style-content flex flex-col gap-[20px] pt-[70px]">
+    <!-- first row -->
+     <div class="dress-style1 h-[289px] flex gap-[20px] ">
+
+        <div class="w-[407px] h-[289px] flex justify-between items-start bg-[#FFFFFF] rounded-[20px]">
+            <h1 class="text-black font-satoshi text-[36px] not-italic font-bold leading-none pt-[32px] pl-[36px]">Casual</h1>
+            <div class="img w-[251px] h-[291px]">
+                <img src="./assets/images/dress1.png" /> 
+            </div>
+        </div>
+
+
+        <div class="w-[684px] h-[289px] flex justify-between items-start bg-[#FFFFFF] rounded-[20px]">
+            <h1 class="text-black font-satoshi text-[36px] not-italic font-bold leading-none pt-[32px] pl-[36px]">Formal</h1>
+            <div class="img w-[273px] h-[296px]">
+                <img src="./assets/images/dress2.png" /> 
+            </div>
+        </div>
+     </div>
+
+       <!-- second row -->
+     <div class="dress-style1 h-[289px] flex gap-[20px] ">
+
+        <div class="w-[684px] h-[289px] flex justify-between items-start bg-[#FFFFFF] rounded-[20px]">
+            <h1 class="text-black font-satoshi text-[36px] not-italic font-bold leading-none pt-[32px] pl-[36px]">Party</h1>
+            <div class="img w-[321px] h-[289px]">
+                <img src="./assets/images/dress3.png" /> 
+            </div>
+        </div>
+
+         <div class="w-[407px] h-[289px] flex justify-between items-start bg-[#FFFFFF] rounded-[20px]">
+            <h1 class="text-black font-satoshi text-[36px] not-italic font-bold leading-none pt-[32px] pl-[36px]">Gym</h1>
+            <div class="img w-[238px] h-[289px]">
+                <img src="./assets/images/dress4.png" /> 
+            </div>
+        </div>
+     </div>
+
+</div>
+
+  </div>
+</div>
+
+
+           <!-- Testimonial section -->
+            <div class="customers w-[1440px] px-[100px] py-[20px] flex flex-col gap-[16px]">
+
+                <!-- heading and button -->
+                 <div class="heading-btn flex justify-between items-start">
+                    <h1 class="text-black text-[48px] font-[700] leading-none font-integralcf">OUR HAPPY CUSTOMERS</h1>
+                    <div class="arrow-btn flex items-center gap-[10px]">
+                        <div class="arrow-left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M9.70406 4.4541L2.95406 11.2041C2.84918 11.3086 2.76597 11.4328 2.70919 11.5696C2.6524 11.7063 2.62317 11.8529 2.62317 12.001C2.62317 12.149 2.6524 12.2957 2.70919 12.4324C2.76597 12.5691 2.84918 12.6933 2.95406 12.7979L9.70406 19.5479C9.91541 19.7592 10.2021 19.8779 10.5009 19.8779C10.7998 19.8779 11.0865 19.7592 11.2978 19.5479C11.5092 19.3365 11.6279 19.0499 11.6279 18.751C11.6279 18.4521 11.5092 18.1654 11.2978 17.9541L6.46875 13.125L20.25 13.125C20.5484 13.125 20.8345 13.0065 21.0455 12.7955C21.2565 12.5846 21.375 12.2984 21.375 12C21.375 11.7017 21.2565 11.4155 21.0455 11.2045C20.8345 10.9936 20.5484 10.875 20.25 10.875L6.46875 10.875L11.2987 6.04598C11.5101 5.83463 11.6288 5.54799 11.6288 5.2491C11.6288 4.95022 11.5101 4.66357 11.2987 4.45223C11.0874 4.24088 10.8008 4.12215 10.5019 4.12215C10.203 4.12215 9.91634 4.24088 9.705 4.45223L9.70406 4.4541Z" fill="black"/>
+</svg></div>
+                        <div class="arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+  <path d="M14.2959 4.4541L21.0459 11.2041C21.1508 11.3086 21.234 11.4328 21.2908 11.5696C21.3476 11.7063 21.3768 11.8529 21.3768 12.001C21.3768 12.149 21.3476 12.2957 21.2908 12.4324C21.234 12.5691 21.1508 12.6933 21.0459 12.7979L14.2959 19.5479C14.0846 19.7592 13.7979 19.8779 13.4991 19.8779C13.2002 19.8779 12.9135 19.7592 12.7022 19.5479C12.4908 19.3365 12.3721 19.0499 12.3721 18.751C12.3721 18.4521 12.4908 18.1654 12.7022 17.9541L17.5313 13.125L3.75 13.125C3.45163 13.125 3.16548 13.0065 2.9545 12.7955C2.74353 12.5846 2.625 12.2984 2.625 12C2.625 11.7017 2.74353 11.4155 2.95451 11.2045C3.16548 10.9936 3.45163 10.875 3.75 10.875L17.5313 10.875L12.7013 6.04598C12.4899 5.83463 12.3712 5.54799 12.3712 5.2491C12.3712 4.95022 12.4899 4.66357 12.7013 4.45223C12.9126 4.24088 13.1992 4.12215 13.4981 4.12215C13.797 4.12215 14.0837 4.24088 14.295 4.45223L14.2959 4.4541Z" fill="black"/>
+</svg></div>
+                    </div>
+                 </div>
+                 <!-- Row 1 -->
+                    <div class="flex gap-[20px]">
+                        <!-- single cart 1 -->
+                        <div class="flex flex-wrap w-[400px] h-[240px] p-[28px_32px] items-start content-start gap-[24px_342px] flex-shrink-0 rounded-[20px] border border-[rgba(0,0,0,0.10)]">
+
+                            <!-- rating -->
+                            <div class="rating flex items-center">
+                                <div class="rating-icon flex gap-[7.10px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="client-name flex items-center justify-center pt-[5px] gap-[4px]">
+                                <h1 class="text-black font-satoshi text-[20px] font-bold leading-[22px]">Sarah M.
+                                </h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path
+                                        d="M12 2.82898C10.0716 2.82898 8.18657 3.40081 6.58319 4.47215C4.97982 5.54349 3.73013 7.06624 2.99218 8.84782C2.25422 10.6294 2.06114 12.5898 2.43735 14.4811C2.81355 16.3724 3.74215 18.1097 5.10571 19.4733C6.46928 20.8368 8.20656 21.7654 10.0979 22.1416C11.9892 22.5178 13.9496 22.3248 15.7312 21.5868C17.5127 20.8489 19.0355 19.5992 20.1068 17.9958C21.1782 16.3924 21.75 14.5073 21.75 12.579C21.7473 9.99396 20.7192 7.51559 18.8913 5.6877C17.0634 3.85982 14.585 2.83171 12 2.82898ZM16.2806 10.8596L11.0306 16.1096C10.961 16.1793 10.8783 16.2347 10.7872 16.2724C10.6962 16.3101 10.5986 16.3296 10.5 16.3296C10.4014 16.3296 10.3038 16.3101 10.2128 16.2724C10.1218 16.2347 10.039 16.1793 9.96938 16.1096L7.71938 13.8596C7.57865 13.7189 7.49959 13.528 7.49959 13.329C7.49959 13.13 7.57865 12.9391 7.71938 12.7984C7.86011 12.6576 8.05098 12.5786 8.25 12.5786C8.44903 12.5786 8.6399 12.6576 8.78063 12.7984L10.5 14.5187L15.2194 9.79835C15.2891 9.72867 15.3718 9.6734 15.4628 9.63568C15.5539 9.59797 15.6515 9.57856 15.75 9.57856C15.8486 9.57856 15.9461 9.59797 16.0372 9.63568C16.1282 9.6734 16.2109 9.72867 16.2806 9.79835C16.3503 9.86804 16.4056 9.95076 16.4433 10.0418C16.481 10.1329 16.5004 10.2304 16.5004 10.329C16.5004 10.4275 16.481 10.5251 16.4433 10.6162C16.4056 10.7072 16.3503 10.7899 16.2806 10.8596Z"
+                                        fill="#01AB31" />
+                                </svg>
+                            </div>
+                            <p class="text-[rgba(0,0,0,0.60)] font-satoshi text-[16px] font-normal leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”
+                            </p>
+                        </div>
+                        <!-- single cart 2 -->
+                       <div class="flex flex-wrap w-[400px] h-[240px] p-[28px_32px] items-start content-start gap-[24px_342px] flex-shrink-0 rounded-[20px] border border-[rgba(0,0,0,0.10)]">
+
+                            <!-- rating -->
+                            <div class="rating flex items-center">
+                                <div class="rating-icon flex gap-[7.10px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="client-name flex items-center justify-center pt-[5px] gap-[4px]">
+                                <h1 class="text-black font-satoshi text-[20px] font-bold leading-[22px]">Alex K.
+                                </h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path
+                                        d="M12 2.82898C10.0716 2.82898 8.18657 3.40081 6.58319 4.47215C4.97982 5.54349 3.73013 7.06624 2.99218 8.84782C2.25422 10.6294 2.06114 12.5898 2.43735 14.4811C2.81355 16.3724 3.74215 18.1097 5.10571 19.4733C6.46928 20.8368 8.20656 21.7654 10.0979 22.1416C11.9892 22.5178 13.9496 22.3248 15.7312 21.5868C17.5127 20.8489 19.0355 19.5992 20.1068 17.9958C21.1782 16.3924 21.75 14.5073 21.75 12.579C21.7473 9.99396 20.7192 7.51559 18.8913 5.6877C17.0634 3.85982 14.585 2.83171 12 2.82898ZM16.2806 10.8596L11.0306 16.1096C10.961 16.1793 10.8783 16.2347 10.7872 16.2724C10.6962 16.3101 10.5986 16.3296 10.5 16.3296C10.4014 16.3296 10.3038 16.3101 10.2128 16.2724C10.1218 16.2347 10.039 16.1793 9.96938 16.1096L7.71938 13.8596C7.57865 13.7189 7.49959 13.528 7.49959 13.329C7.49959 13.13 7.57865 12.9391 7.71938 12.7984C7.86011 12.6576 8.05098 12.5786 8.25 12.5786C8.44903 12.5786 8.6399 12.6576 8.78063 12.7984L10.5 14.5187L15.2194 9.79835C15.2891 9.72867 15.3718 9.6734 15.4628 9.63568C15.5539 9.59797 15.6515 9.57856 15.75 9.57856C15.8486 9.57856 15.9461 9.59797 16.0372 9.63568C16.1282 9.6734 16.2109 9.72867 16.2806 9.79835C16.3503 9.86804 16.4056 9.95076 16.4433 10.0418C16.481 10.1329 16.5004 10.2304 16.5004 10.329C16.5004 10.4275 16.481 10.5251 16.4433 10.6162C16.4056 10.7072 16.3503 10.7899 16.2806 10.8596Z"
+                                        fill="#01AB31" />
+                                </svg>
+                            </div>
+                            <p class="text-[rgba(0,0,0,0.60)] font-satoshi text-[16px] font-normal leading-[22px]">"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”
+                            </p>
+                        </div>
+
+                         <!-- single cart 3 -->
+                       <div class="flex flex-wrap w-[400px] h-[240px] p-[28px_32px] items-start content-start gap-[24px_342px] flex-shrink-0 rounded-[20px] border border-[rgba(0,0,0,0.10)]">
+
+                            <!-- rating -->
+                            <div class="rating flex items-center">
+                                <div class="rating-icon flex gap-[7.10px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 25 23"
+                                        fill="none">
+                                        <path
+                                            d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z"
+                                            fill="#FFC633" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="client-name flex items-center justify-center pt-[5px] gap-[4px]">
+                                <h1 class="text-black font-satoshi text-[20px] font-bold leading-[22px]">James L.
+                                </h1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path
+                                        d="M12 2.82898C10.0716 2.82898 8.18657 3.40081 6.58319 4.47215C4.97982 5.54349 3.73013 7.06624 2.99218 8.84782C2.25422 10.6294 2.06114 12.5898 2.43735 14.4811C2.81355 16.3724 3.74215 18.1097 5.10571 19.4733C6.46928 20.8368 8.20656 21.7654 10.0979 22.1416C11.9892 22.5178 13.9496 22.3248 15.7312 21.5868C17.5127 20.8489 19.0355 19.5992 20.1068 17.9958C21.1782 16.3924 21.75 14.5073 21.75 12.579C21.7473 9.99396 20.7192 7.51559 18.8913 5.6877C17.0634 3.85982 14.585 2.83171 12 2.82898ZM16.2806 10.8596L11.0306 16.1096C10.961 16.1793 10.8783 16.2347 10.7872 16.2724C10.6962 16.3101 10.5986 16.3296 10.5 16.3296C10.4014 16.3296 10.3038 16.3101 10.2128 16.2724C10.1218 16.2347 10.039 16.1793 9.96938 16.1096L7.71938 13.8596C7.57865 13.7189 7.49959 13.528 7.49959 13.329C7.49959 13.13 7.57865 12.9391 7.71938 12.7984C7.86011 12.6576 8.05098 12.5786 8.25 12.5786C8.44903 12.5786 8.6399 12.6576 8.78063 12.7984L10.5 14.5187L15.2194 9.79835C15.2891 9.72867 15.3718 9.6734 15.4628 9.63568C15.5539 9.59797 15.6515 9.57856 15.75 9.57856C15.8486 9.57856 15.9461 9.59797 16.0372 9.63568C16.1282 9.6734 16.2109 9.72867 16.2806 9.79835C16.3503 9.86804 16.4056 9.95076 16.4433 10.0418C16.481 10.1329 16.5004 10.2304 16.5004 10.329C16.5004 10.4275 16.481 10.5251 16.4433 10.6162C16.4056 10.7072 16.3503 10.7899 16.2806 10.8596Z"
+                                        fill="#01AB31" />
+                                </svg>
+                            </div>
+                            <p class="text-[rgba(0,0,0,0.60)] font-satoshi text-[16px] font-normal leading-[22px]">"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”
+                            </p>
+                        </div>
+                    </div>
+            </div>
 
 
 
@@ -718,7 +1004,7 @@
 
 
     <!-- Footer -->
-    <footer class="relative z-10 footer-area w-[1440px] h-[499px] px-[100px] pt-[140px] pb-[82px] bg-[#F0F0F0]">
+    <footer class="relative z-10 footer-area w-[1440px] h-[499px] px-[100px] pt-[140px] bg-[#F0F0F0]">
 
         <div class="footer-container-content w-[1240px] flex justify-between items-start">
             <!-- footer logo and icon -->
