@@ -13,81 +13,125 @@
 </head>
 
 <body class="font-monserrat">
-
-    <div class="hero relative flex flex-col gap-[32px] w-[1440px]
-     h-[638px] px-[124px] pt-[40px] bg-[#ffd4d0]">
+    <!-- Hero Area -->
+    <div
+        class="hero-area relative flex flex-col w-full md:gap-2 xl:gap-[32px] 2xl:gap-[45px] 
+     lg:h-[638px] 2xl:h-[748px] pt-[30px] px-4 sm:px-8 md:px-16  lg:px-[124px] 2xl:px-[160px] lg:pt-[40px] bg-[#ffd4d0]">
 
         <!-- Circle -->
-        <div class="circle absolute left-[438px] -top-[57px]
-      w-[146px] h-[146px] bg-[#fc3314] rounded-full">
+        <div class="circle absolute left-[35.5%] lg:left-[30.5%] 2xl:left-[40%] -top-[57px] w-[110px] h-[110px]
+       md:w-[130px] lg:w-[146px] 2xl:w-[176px] md:h-[130px] lg:h-[146px] 2xl:h-[176px] bg-[#fc3314] rounded-full z-0">
         </div>
 
         <!-- Header -->
-        <div class="header flex items-center justify-between z-10">
+        <header class="header flex items-center justify-between z-10">
             <!-- Logo -->
-            <div class="logo w-[136px] h-[45px]">
+            <div class="logo w-[110px] md:w-[136px] h-[30px] md:h-[45px] 2xl:w-[165px] 2xl:h-[60px]">
                 <a href="#">
-                    <img src="./assets/images/Logo.png" class="h-full w-full object-contain" alt="Logo">
+                    <img src="./assets/images/Logo.png" class="h-full w-full object-cover" alt="Logo">
                 </a>
             </div>
 
             <!-- Menu -->
-            <nav class="header-menu w-[360px]">
-                <ul class="flex items-center gap-[32px] leading-[130%]">
-                    <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">About</a></li>
-                    <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Services</a></li>
-                    <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Portfolio</a></li>
-                    <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Blog</a></li>
+            <nav class="header-menu md:w-[290px] lg:w-[360px] 2xl:w-[570px] hidden md:flex">
+                <ul class="flex items-center md:gap-[24px] lg:gap-[32px] 2xl:gap-[60px] leading-[130%]">
+                    <li><a href="#"
+                            class="font-bold 2xl:font-extrabold md:text-base lg:text-[18px] 2xl:text-[24px] text-[#1F1F1F]">About</a>
+                    </li>
+                    <li><a href="#"
+                            class="font-bold 2xl:font-extrabold md:text-base lg:text-[18px] 2xl:text-[24px] text-[#1F1F1F]">Services</a>
+                    </li>
+                    <li><a href="#"
+                            class="font-bold 2xl:font-extrabold md:text-base lg:text-[18px] 2xl:text-[24px] text-[#1F1F1F]">Portfolio</a>
+                    </li>
+                    <li><a href="#"
+                            class="font-bold 2xl:font-extrabold md:text-base lg:text-[18px] 2xl:text-[24px] text-[#1F1F1F]">Blog</a>
+                    </li>
                 </ul>
             </nav>
 
             <!-- Header Button -->
             <div
-                class="header-btn bg-black text-white w-[127px] h-[48px] py-3 px-6 font-bold leading-[130%] flex items-center justify-center">
+                class="header-btn bg-black text-white w-[100px] md:w-[127px] h-[30x] md:h-[48px] px-4 py-2 md:py-3 md:px-6 font-semibold text-[12px] md:text-base md:font-bold leading-[130%] flex items-center justify-center">
                 <a href="">Let’s Talk</a>
             </div>
 
-        </div>
+            <!-- Hamburger menu for mobile -->
+            <div class="relative md:hidden">
+                <input type="checkbox" id="menu-toggle" class="peer hidden">
+                <!-- Hamburger Icon -->
+                <label for="menu-toggle" class="cursor-pointer z-20">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+
+                </label>
+
+                <!-- Mobile Menu -->
+                <nav class="fixed top-[90px] right-0 h-screen w-[100%] bg-[#ffd4d0]/90 z-10 translate-x-full peer-checked:translate-x-0 duration-300 ease-in-out">
+                    <ul class="flex flex-col items-center gap-[32px] p-6 leading-[130%]">
+                        <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">About</a></li>
+                        <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Services</a></li>
+                        <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Portfolio</a></li>
+                        <li><a href="#" class="font-bold text-[18px] text-[#1F1F1F]">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+        </header>
 
         <!-- Hero Area -->
-        <div class="hero-area flex gap-[48px]">
+        <section class="hero flex flex-col-reverse md:flex md:flex-row gap-6 md:gap-[48px]">
 
             <!-- Left Text Area -->
-            <div class="hero-text-area pt-[64px] pb-[80px] flex flex-col gap-[48px] w-[457px] h-[520px] ">
+            <div class="hero-text-area md:w-1/2 2xl:w-[457px] pt-4 lg:pt-[64px] pb-12 lg:pb-[80px] flex flex-col gap-4 md:gap-9 xl:gap-[48px] text-center md:text-left">
 
-                <div class="text-wrapper flex flex-col gap-[16px]">
+                <div class="text-wrapper flex flex-col gap-3 xl:gap-[16px]">
 
-                    <h4 class="text-[#1F1F1F] font-normal text-[20px] leading-[150%] font-monserrat">UX Designer</h3>
-                        <h2 class="text-[48px] font-monserrat font-bold text-[#1F1F1F] leading-[150%]">
+                    <h4 class="text-[#1F1F1F] font-normal text-[14px] md:text-base xl:text-[20px] leading-[150%] font-monserrat">UX Designer</h3>
+                        <h2 class="text-3xl md:text-4xl xl:text-[48px] font-monserrat font-bold text-[#1F1F1F] leading-[150%]">
                             Hi There, I’m <br> <span class="text-[#FC3314]">John Smith</span>
                             </h1>
-                            <p class="text-[#1F1F1F]  text-[16px] font-normal leading-[150%]">Welcome to my portfolio of
+                            <p class="text-[#1F1F1F]   text-[14px] lg:text-[16px] font-normal leading-[150%]">Welcome to my portfolio of
                                 captivating
                                 digital
                                 experiences.
                                 Explore my work and let's create something extraordinary together.</p>
                 </div>
 
-                <div class="hero-btns w-[457px] h-[48px] flex gap-[20px]">
+                <div class="hero-btns w-[457px] h-[48px] flex gap-[18px] mx-auto md:ml-0 lg:gap-[20px]">
                     <a href="#"
-                        class="text-white bg-black w-[177px] h-[48px] py-[12px] px-[56px] font-bold flex justify-center items-center leading-[150%] hover:text-black hover:bg-yellow-400">
+                        class="text-white bg-black w-[160px] lg:w-[177px] h-[40px] lg:h-[48px] py-2 md:py-3 xl:py-[12px] px-4 md:px-8 xl:px-[56px] font-normal md:font-bold flex justify-center items-center leading-[150%] text-[14px] md:text-base  hover:text-black hover:bg-yellow-400">
                         Hire Me
                     </a>
                     <a href="#"
-                        class="bg-transparent text-black border border-[#1F1F1F] hover:text-black border border-[#1F1F1F] w-[177px] h-[48px] py-[12px] px-[56px] font-bold flex justify-center items-center leading-[150%] hover:bg-yellow-400">
+                        class="bg-transparent text-black border border-black w-[160px] lg:w-[177px] h-[40px] lg:h-[48px] py-2 md:py-3 xl:py-[12px] px-4 md:px-8 xl:px-[56px] font-normal md:font-bold flex justify-center items-center leading-[150%] text-[14px] md:text-base xl:text-[18px] hover:text-black hover:bg-yellow-400">
                         Portfolio
                     </a>
                 </div>
 
             </div>
             <!-- Right Image Area -->
-            <div class="hero-image relative mt-[30px]">
-                <img src="./assets/images/hero-right.png" alt="John Smith - UX Designer" class="">
-                <!-- <img src="./assets/images/heroimg.png" alt="John Smith - UX Designer"
-                            class="absolute left-[115px] top-0"> -->
+        <!-- Right Image Area -->
+<div class="hero-image relative mt-[30px] w-full md:w-1/2 flex justify-center items-center pb-[40px] md:pb-0">
+    <img 
+        src="./assets/images/hero-right.png" 
+        alt="John Smith - UX Designer"
+        class="w-full max-w-[400px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[550px] xl:w-[458px] 2xl:max-w-[650px] object-contain"
+    >
 
-            </div>
-        </div>
+
+     <!-- <img src="./assets/images/heroimg.png" alt="John Smith - UX Designer"
+                            class="absolute left-[115px] top-0"> -->
+</div>
+
+
+               
+
+        </section>
     </div>
 
 
@@ -95,7 +139,8 @@
     <section
         class="about-area relative bg-[#1F1F1F] w-[1440px] h-[445px] bg-[#1f1f1f] px-[188px] pt-[64px] pb-[80px] flex flex-col gap-[24px]">
         <!-- Circle -->
-        <div class="about-circle absolute left-[42%] bottom-[-185px] w-[234px] h-[234px] bg-[#FC3314] rounded-full z-[10]">
+        <div
+            class="about-circle absolute left-[42%] bottom-[-185px] w-[234px] h-[234px] bg-[#FC3314] rounded-full z-[10]">
         </div>
 
         <!-- About Text -->
@@ -130,7 +175,8 @@
 
     <!-- Start Services -->
 
-    <section class="service-section bg-[#FFFFFF] w-[1440px] h-[527px] flex flex-col  mx-auto px-[124px] py-[64px] relative z-[50]">
+    <section
+        class="service-section bg-[#FFFFFF] w-[1440px] h-[527px] flex flex-col  mx-auto px-[124px] py-[64px] relative z-[50]">
         <!-- Heading -->
         <div
             class="services-heading w-[810px] flex flex-col justify-center items-center gap-[24px] text-center mx-auto">
