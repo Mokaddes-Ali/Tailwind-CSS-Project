@@ -741,7 +741,7 @@
 
 
 <!-- How it Works Section -->
-<section class="work-area w-full px-4 md:px-8 lg:px-16 py-8 md:py-16 flex flex-col mx-auto max-w-7xl">
+<section class="work-area w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-8 md:py-16 flex flex-col mx-auto max-w-7xl">
   <!-- Badge -->
   <div class="border border-[rgba(20,33,55,0.14)] flex items-center gap-2 w-fit text-sm md:text-base font-medium leading-none text-[rgba(20,33,55,0.70)] py-2 px-3 font-poppins">
     <span class="w-1.5 h-1.5 bg-[#142137] rounded-full"></span>
@@ -919,7 +919,7 @@
 
 
 <!-- Price Package Section -->
-<section class="price-package-area w-full px-4 md:px-8 lg:px-16 py-12 md:py-20 lg:py-24 flex flex-col gap-8 md:gap-12 mx-auto max-w-7xl">
+<section class="price-package-area w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-20 lg:py-24 flex flex-col gap-8 md:gap-12 mx-auto max-w-7xl">
   <!-- heading -->
   <div class="heading flex flex-col gap-5 md:gap-6 justify-center items-center text-center">
     <button class="border border-[rgba(20,33,55,0.14)] flex items-center gap-2 text-sm md:text-base font-medium leading-none text-[rgba(20,33,55,0.70)] py-2 px-3 font-poppins">
@@ -1438,7 +1438,287 @@
 </section>
 
 
+<!-- Blog Section -->
+<section class="blog-area w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-16 md:py-24 lg:py-[149px] flex flex-col gap-5">
 
+  <!-- Latest News Label -->
+  <div class="w-[194px] h-[29px] border border-[rgba(20,33,55,0.14)] flex items-center gap-2 flex-shrink-0 text-base font-medium leading-none text-[rgba(20,33,55,0.70)] py-2 px-3 font-poppins">
+    <span class="w-[5px] h-[5px] bg-[#142137] flex-shrink-0 aspect-square"></span>
+    Latest News & Blog
+  </div>
+
+  <!-- Heading and Button -->
+  <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+    <h1 class="text-[#142137] font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-[54px] leading-tight tracking-tight text-center md:text-left lg:leading-[64px] lg:tracking-[-1.08px] font-poppins max-w-[660px]">
+      Clothing Care & Laundry Best Practices.
+    </h1>
+    <button class="w-[188px] h-[44px] shrink-0 border border-[rgba(20,33,55,0.14)] text-[#142137] font-poppins text-[15px] font-medium flex items-center justify-center gap-2 group mt-0 md:mt-[60px]">
+      See More Blog
+      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none" class="transition-transform duration-300 group-hover:translate-x-1">
+        <path d="M1 7L13 7" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M8 13L14 7L8 1" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Blog Cards -->
+  <div class="blog-cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-9">
+    
+    <!-- First Card -->
+    <div class="w-full h-auto bg-white overflow-hidden font-poppins relative">
+      <div class="w-full aspect-[3/2] overflow-hidden relative">
+        <img src="./assets/images/blog1.png" alt="Card Image" class="w-full h-full object-cover" />
+        <div class="absolute top-5 right-5 bg-[#4375E7] text-white text-[15px] font-medium leading-[26px] w-[98px] h-[26px] flex items-center justify-center rounded-sm">
+          Eco Wash
+        </div>
+      </div>
+      <div class="pt-4 flex justify-start gap-[18px] text-[15px] font-medium text-[rgba(20,33,55,0.7)] leading-[26px]">
+        <div class="flex items-center gap-[4px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+            <path d="M17 9C17 13.416 13.416 17 9 17C4.584 17 1 13.416 1 9C1 4.584 4.584 1 9 1C13.416 1 17 4.584 17 9Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11.9681 11.5442L9.4881 10.0642C9.0561 9.8082 8.7041 9.1922 8.7041 8.6882V5.4082" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>March 23, 2025</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+            <path d="M14.1752 12.8638L14.4872 15.3918C14.5672 16.0558 13.8552 16.5197 13.2872 16.1757L9.93546 14.1838C9.56749 14.1838 9.20752 14.1598 8.85554 14.1118C9.4475 13.4158 9.79947 12.5358 9.79947 11.5838C9.79947 9.31185 7.8316 7.47192 5.39976 7.47192C4.47182 7.47192 3.61588 7.73589 2.90392 8.19989C2.87992 7.99989 2.87192 7.79989 2.87192 7.59189C2.87192 3.95195 6.03171 1 9.93546 1C13.8392 1 16.999 3.95195 16.999 7.59189C16.999 9.75185 15.8871 11.6638 14.1752 12.8638Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.79943 11.5836C9.79943 12.5356 9.44746 13.4156 8.8555 14.1116C8.06355 15.0716 6.80762 15.6875 5.39971 15.6875L3.31185 16.9275C2.95987 17.1435 2.5119 16.8475 2.5599 16.4395L2.75988 14.8636C1.68795 14.1196 1 12.9276 1 11.5836C1 10.1756 1.75196 8.93564 2.90388 8.19965C3.61583 7.73565 4.47177 7.47168 5.39971 7.47168C7.83156 7.47168 9.79943 9.31161 9.79943 11.5836Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>05 Comment</span>
+        </div>
+      </div>
+      <div class="w-full h-[1px] bg-[rgba(0,0,0,0.2)] mt-4"></div>
+      <div class="pt-4">
+        <h2 class="text-[#142137] text-xl md:text-2xl font-semibold leading-[1.3] tracking-tight">
+          Natural Laundry Detergents Explained.
+        </h2>
+      </div>
+    </div>
+
+    <!-- Second Card -->
+    <div class="w-full h-auto bg-white overflow-hidden font-poppins relative">
+      <div class="w-full aspect-[3/2] overflow-hidden relative">
+        <img src="./assets/images/blog2.png" alt="Card Image" class="w-full h-full object-cover" />
+        <div class="absolute top-5 right-5 bg-[#4375E7] text-white text-[15px] font-medium leading-[26px] w-[98px] h-[26px] flex items-center justify-center rounded-sm">
+          Eco Wash
+        </div>
+      </div>
+      <div class="pt-4 flex justify-start gap-[18px] text-[15px] font-medium text-[rgba(20,33,55,0.7)] leading-[26px]">
+        <div class="flex items-center gap-[4px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+            <path d="M17 9C17 13.416 13.416 17 9 17C4.584 17 1 13.416 1 9C1 4.584 4.584 1 9 1C13.416 1 17 4.584 17 9Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11.9681 11.5442L9.4881 10.0642C9.0561 9.8082 8.7041 9.1922 8.7041 8.6882V5.4082" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>April 15, 2025</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+            <path d="M14.1752 12.8638L14.4872 15.3918C14.5672 16.0558 13.8552 16.5197 13.2872 16.1757L9.93546 14.1838C9.56749 14.1838 9.20752 14.1598 8.85554 14.1118C9.4475 13.4158 9.79947 12.5358 9.79947 11.5838C9.79947 9.31185 7.8316 7.47192 5.39976 7.47192C4.47182 7.47192 3.61588 7.73589 2.90392 8.19989C2.87992 7.99989 2.87192 7.79989 2.87192 7.59189C2.87192 3.95195 6.03171 1 9.93546 1C13.8392 1 16.999 3.95195 16.999 7.59189C16.999 9.75185 15.8871 11.6638 14.1752 12.8638Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.79943 11.5836C9.79943 12.5356 9.44746 13.4156 8.8555 14.1116C8.06355 15.0716 6.80762 15.6875 5.39971 15.6875L3.31185 16.9275C2.95987 17.1435 2.5119 16.8475 2.5599 16.4395L2.75988 14.8636C1.68795 14.1196 1 12.9276 1 11.5836C1 10.1756 1.75196 8.93564 2.90388 8.19965C3.61583 7.73565 4.47177 7.47168 5.39971 7.47168C7.83156 7.47168 9.79943 9.31161 9.79943 11.5836Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>02 Comment</span>
+        </div>
+      </div>
+      <div class="w-full h-[1px] bg-[rgba(0,0,0,0.2)] mt-4"></div>
+      <div class="pt-4">
+        <h2 class="text-[#142137] text-xl md:text-2xl font-semibold leading-[1.3] tracking-tight underline underline-offset-auto decoration-solid decoration-1">
+          Complete Guide to Green & Natural Laundry.
+        </h2>
+      </div>
+    </div>
+
+    <!-- Third Card -->
+    <div class="w-full h-auto bg-white overflow-hidden font-poppins relative">
+      <div class="w-full aspect-[3/2] overflow-hidden relative">
+        <img src="./assets/images/blog3.png" alt="Card Image" class="w-full h-full object-cover" />
+        <div class="absolute top-5 right-5 bg-[#4375E7] text-white text-[15px] font-medium leading-[26px] w-[98px] h-[26px] flex items-center justify-center rounded-sm">
+          Eco Wash
+        </div>
+      </div>
+      <div class="pt-4 flex justify-start gap-[18px] text-[15px] font-medium text-[rgba(20,33,55,0.7)] leading-[26px]">
+        <div class="flex items-center gap-[4px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+            <path d="M17 9C17 13.416 13.416 17 9 17C4.584 17 1 13.416 1 9C1 4.584 4.584 1 9 1C13.416 1 17 4.584 17 9Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11.9681 11.5442L9.4881 10.0642C9.0561 9.8082 8.7041 9.1922 8.7041 8.6882V5.4082" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>June 23, 2025</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+            <path d="M14.1752 12.8638L14.4872 15.3918C14.5672 16.0558 13.8552 16.5197 13.2872 16.1757L9.93546 14.1838C9.56749 14.1838 9.20752 14.1598 8.85554 14.1118C9.4475 13.4158 9.79947 12.5358 9.79947 11.5838C9.79947 9.31185 7.8316 7.47192 5.39976 7.47192C4.47182 7.47192 3.61588 7.73589 2.90392 8.19989C2.87992 7.99989 2.87192 7.79989 2.87192 7.59189C2.87192 3.95195 6.03171 1 9.93546 1C13.8392 1 16.999 3.95195 16.999 7.59189C16.999 9.75185 15.8871 11.6638 14.1752 12.8638Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.79943 11.5836C9.79943 12.5356 9.44746 13.4156 8.8555 14.1116C8.06355 15.0716 6.80762 15.6875 5.39971 15.6875L3.31185 16.9275C2.95987 17.1435 2.5119 16.8475 2.5599 16.4395L2.75988 14.8636C1.68795 14.1196 1 12.9276 1 11.5836C1 10.1756 1.75196 8.93564 2.90388 8.19965C3.61583 7.73565 4.47177 7.47168 5.39971 7.47168C7.83156 7.47168 9.79943 9.31161 9.79943 11.5836Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>07 Comment</span>
+        </div>
+      </div>
+      <div class="w-full h-[1px] bg-[rgba(0,0,0,0.2)] mt-4"></div>
+      <div class="pt-4">
+        <h2 class="text-[#142137] text-xl md:text-2xl font-semibold leading-[1.3] tracking-tight">
+          15 Reasons Let Experts Handle Dry Cleaning.
+        </h2>
+      </div>
+    </div>
+
+    <!-- Fourth Card -->
+    <div class="w-full h-auto bg-white overflow-hidden font-poppins relative">
+      <div class="w-full aspect-[3/2] overflow-hidden relative">
+        <img src="./assets/images/blog4.png" alt="Card Image" class="w-full h-full object-cover" />
+        <div class="absolute top-5 right-5 bg-[#4375E7] text-white text-[15px] font-medium leading-[26px] w-[98px] h-[26px] flex items-center justify-center rounded-sm">
+          Eco Wash
+        </div>
+      </div>
+      <div class="pt-4 flex justify-start gap-[18px] text-[15px] font-medium text-[rgba(20,33,55,0.7)] leading-[26px]">
+        <div class="flex items-center gap-[4px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none">
+            <path d="M17 9C17 13.416 13.416 17 9 17C4.584 17 1 13.416 1 9C1 4.584 4.584 1 9 1C13.416 1 17 4.584 17 9Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M11.9681 11.5442L9.4881 10.0642C9.0561 9.8082 8.7041 9.1922 8.7041 8.6882V5.4082" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>July 28, 2025</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none">
+            <path d="M14.1752 12.8638L14.4872 15.3918C14.5672 16.0558 13.8552 16.5197 13.2872 16.1757L9.93546 14.1838C9.56749 14.1838 9.20752 14.1598 8.85554 14.1118C9.4475 13.4158 9.79947 12.5358 9.79947 11.5838C9.79947 9.31185 7.8316 7.47192 5.39976 7.47192C4.47182 7.47192 3.61588 7.73589 2.90392 8.19989C2.87992 7.99989 2.87192 7.79989 2.87192 7.59189C2.87192 3.95195 6.03171 1 9.93546 1C13.8392 1 16.999 3.95195 16.999 7.59189C16.999 9.75185 15.8871 11.6638 14.1752 12.8638Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9.79943 11.5836C9.79943 12.5356 9.44746 13.4156 8.8555 14.1116C8.06355 15.0716 6.80762 15.6875 5.39971 15.6875L3.31185 16.9275C2.95987 17.1435 2.5119 16.8475 2.5599 16.4395L2.75988 14.8636C1.68795 14.1196 1 12.9276 1 11.5836C1 10.1756 1.75196 8.93564 2.90388 8.19965C3.61583 7.73565 4.47177 7.47168 5.39971 7.47168C7.83156 7.47168 9.79943 9.31161 9.79943 11.5836Z" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>08 Comment</span>
+        </div>
+      </div>
+      <div class="w-full h-[1px] bg-[rgba(0,0,0,0.2)] mt-4"></div>
+      <div class="pt-4">
+        <h2 class="text-[#142137] text-xl md:text-2xl font-semibold leading-[1.3] tracking-tight">
+          Benefits of Using Professional Dry Cleaning Services.
+        </h2>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="footer-area w-full h-auto font-poppins text-white px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-16 lg:py-[112px] flex flex-col gap-8 lg:gap-[90px] bg-[#142137]">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-10">
+    <!-- First Column -->
+    <div class="flex flex-col gap-2">
+      <img src="./assets/images/footerlogo.png" alt="Logo" class="w-[183px] h-[40px] mb-4">
+      <p class="text-base leading-[26px] text-white/70 lg:w-[345px] mb-6">
+        Fusce non ellus nege purus fermentum commodo nunc ame alique Suspendisse poten In eu ipsum massa.
+      </p>
+      <div class="flex items-center gap-[14px] mt-1">
+        <div class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+          <!-- Phone Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+            <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M1.464 3.249c.3-.497 1.952-2.302 3.13-2.248.352.03.664.243.917.49.58.568 2.243 2.712 2.337 3.163.23 1.107-1.09 1.745-.686 2.86 1.03 2.518 2.803 4.292 5.324 5.32 1.115.405 1.753-.914 2.86-.684.452.095 2.597 1.758 3.165 2.339.246.251.46.564.49.916.044 1.24-1.873 2.914-2.246 3.128-.882.631-2.032.62-3.434-.032C9.407 16.875 3.154 10.74 1.496 6.681c-.634-1.394-.677-2.552-.032-3.433Z" />
+            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M12.43 1.238c3.508.39 6.277 3.157 6.671 6.663" />
+            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M12.429 4.592c1.676.327 2.986 1.637 3.313 3.314" />
+          </svg>
+        </div>
+        <div>
+          <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Hotline:</p>
+          <p class="text-white text-base font-semibold leading-[24px] tracking-[-0.32px]">(234) 987 - 354 - 3670</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-4 mt-3">
+        <div class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+          <!-- Email Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewBox="0 0 21 18">
+            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M1 5.706C1 2.412 2.882 1 5.706 1h9.412c2.824 0 4.706 1.412 4.706 4.706v6.588c0 3.294-1.882 4.706-4.706 4.706H5.706" />
+            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M15.117 6.176 12.171 8.528c-0.97.772-2.561.772-3.53 0L5.705 6.176" />
+            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M1 13.235h5.647M1 9.47h2.824" />
+          </svg>
+        </div>
+        <div>
+          <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Email:</p>
+          <p class="text-white text-base font-semibold leading-[24px] tracking-[-0.32px]">example@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Column -->
+    <div class="flex items-start flex-col lg:pl-[112px] gap-5">
+      <h3 class="text-white text-xl font-semibold tracking-[-0.4px]">Our Services</h3>
+      <ul class="text-white/70 text-base font-medium leading-[44px]">
+        <li>Laundry Service</li>
+        <li>Dry Cleaning</li>
+        <li>Ironing</li>
+        <li>Alteration & Repairs</li>
+        <li>Dry Cleaners</li>
+        <li>Shirt Service</li>
+      </ul>
+    </div>
+
+    <!-- Third Column -->
+    <div class="flex items-start flex-col lg:pl-[40px] gap-5">
+      <h3 class="text-white text-xl font-semibold tracking-[-0.4px]">Quick Links</h3>
+      <ul class="text-white/70 text-base font-medium leading-[44px]">
+        <li>About Us</li>
+        <li>Pricing</li>
+        <li>Our Services</li>
+        <li>FAQs</li>
+        <li>Privacy Policy</li>
+        <li>Terms & Conditions</li>
+      </ul>
+    </div>
+
+    <!-- Fourth Column -->
+    <div class="flex items-start flex-col lg:-ml-[34px] gap-5">
+      <h3 class="text-white text-xl font-semibold tracking-[-0.4px]">Commercial Services</h3>
+      <ul class="text-white/70 text-base font-medium leading-[44px]">
+        <li>Airbnb Laundry</li>
+        <li>Restaurant Laundry</li>
+        <li>Workwear Laundry</li>
+        <li>Cafe Laundry</li>
+        <li>Hotel Laundry</li>
+        <li>Gym Laundry</li>
+      </ul>
+    </div>
+
+    <!-- Fifth Column -->
+    <div class="flex items-start flex-col lg:-ml-[55px] gap-5">
+      <h3 class="text-white text-xl font-semibold tracking-[-0.4px]">Newsletters</h3>
+      <p class="text-white/70 text-base font-normal leading-[26px] lg:w-[259px]">Sign up and receive our special offers.</p>
+      <form class="w-full lg:w-[375px] h-[50px] mt-1 flex border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px]">
+        <input type="email" placeholder="Enter your Email..."
+          class="flex-1 px-4 text-white/70 text-[15px] font-normal bg-transparent outline-none" />
+        <button
+          class="w-[124px] h-[40px] my-auto mr-2 bg-[#4375E7] text-white text-[15px] font-medium rounded">Subscribe</button>
+      </form>
+
+      <!-- Social icons (simplified version) -->
+      <div class="flex gap-4 mt-4">
+        <div class="w-9 h-9 rounded-full bg-[#142137] border border-white/10 flex items-center justify-center">
+          <!-- Facebook icon -->
+        </div>
+        <div class="w-9 h-9 rounded-full bg-[#142137] border border-white/10 flex items-center justify-center">
+          <!-- Twitter icon -->
+        </div>
+        <div class="w-9 h-9 rounded-full bg-[#4375E7] border border-white/10 flex items-center justify-center">
+          <!-- Instagram icon -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- divider and footer bottom -->
+  <div class="flex flex-col gap-[30px]">
+    <div class="w-full h-px flex-shrink-0 bg-white/10"></div>
+    <div class="footer-bottom flex flex-col md:flex-row justify-between items-center gap-4">
+      <h2 class="text-white/70 text-base font-normal leading-[26px]">©2025 Laundre All Rights Reserved</h2>
+      <p class="text-base font-normal leading-[26px]">
+        <span class="text-white/70">Privacy Policy</span>
+        <span class="text-white/70 mx-[14px]">|</span>
+        <span class="text-white">Term of Service</span>
+      </p>
+    </div>
+  </div>
+</footer>
 
 
 
