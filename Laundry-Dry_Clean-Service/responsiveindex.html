@@ -16,12 +16,18 @@
 
 
 <!-- Navbar Top -->
-<section class="header-top w-full px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[10rem] py-[0.625rem] bg-[#4375E7] h-[2.375rem] flex flex-wrap md:flex-row md:justify-between items-start">
+<section class="header-top w-full px-[12%] lg:px-[8%] xl:px-[10%] 2xl:px-[15%] py-[0.625rem] bg-[#4375E7] h-[4rem] lg:h-[3.375rem] flex flex-col gap-3 lg:gap-0 items-center lg:flex-row lg:justify-between">
+
   
+
   <!-- left -->
-  <div class="follow-liink flex items-center gap-2 sm:gap-3 md:gap-4 lg:gap-[1.25rem]">
-    <h3 class="text-white font-poppins text-xs sm:text-sm md:text-[0.9375rem] lg:text-[1rem] font-medium leading-none">Follow Us:</h3>
-    <div class="social-icon flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-[1.125rem]">
+<div class="follow-liink flex w-full justify-between lg:justify-start items-center lg:gap-[1.25rem]">
+  
+  <!-- Social Icons -->
+  <div class="social-icon flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-[1.125rem]">
+    <h3 class="text-white font-poppins text-xs sm:text-sm  lg:text-[1rem] font-medium leading-none">
+      Follow Us:
+    </h3>
        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
         <path opacity="0.5"
           d="M7.7 0H5.6C4.67174 0 3.7815 0.368749 3.12513 1.02513C2.46875 1.6815 2.1 2.57174 2.1 3.5V5.6H0V8.4H2.1V14H4.9V8.4H7L7.7 5.6H4.9V3.5C4.9 3.31435 4.97375 3.1363 5.10503 3.00503C5.2363 2.87375 5.41435 2.8 5.6 2.8H7.7V0Z"
@@ -46,14 +52,11 @@
           d="M7.50631 0C3.36066 0 0 3.35508 0 7.49385C0 10.6702 1.97701 13.384 4.76925 14.4756C4.70087 13.8838 4.646 12.9706 4.7936 12.3231C4.92947 11.7369 5.67074 8.59746 5.67074 8.59746C5.67074 8.59746 5.4486 8.14746 5.4486 7.4874C5.4486 6.44502 6.054 5.66807 6.80759 5.66807C7.44997 5.66807 7.75927 6.14941 7.75927 6.72305C7.75927 7.36436 7.35166 8.32676 7.13509 9.22119C6.95608 9.96738 7.51189 10.5779 8.24699 10.5779C9.58163 10.5779 10.6073 9.17168 10.6073 7.14844C10.6073 5.35342 9.31635 4.10156 7.46904 4.10156C5.3318 4.10156 4.07728 5.69912 4.07728 7.35205C4.07728 7.99336 4.32466 8.68447 4.63308 9.06094C4.69559 9.13418 4.70205 9.20215 4.68326 9.27598C4.62751 9.51035 4.49809 10.0222 4.47286 10.1273C4.44204 10.263 4.36134 10.2935 4.21931 10.2261C3.28025 9.78809 2.69305 8.4249 2.69305 7.321C2.69305 4.9585 4.41035 2.78789 7.65392 2.78789C10.2551 2.78789 12.2808 4.63857 12.2808 7.11797C12.2808 9.59736 10.6501 11.7812 8.38873 11.7812C7.62868 11.7812 6.91177 11.3862 6.67143 10.9175C6.67143 10.9175 6.29463 12.348 6.2019 12.6999C6.03551 13.3535 5.57772 14.168 5.269 14.6675C5.97388 14.8825 6.71574 15 7.49399 15C11.6396 15 15.0003 11.6449 15.0003 7.50615C15.0123 3.35508 11.652 0 7.50631 0Z"
           fill="white" />
       </svg>
-    </div>
   </div>
 
-  <!-- right -->
-  <div class="contact-info relative hidden sm:flex">
-    <!-- Location -->
-    <div class="location absolute top-0 md:right-[21.875rem] lg:right-[31.875rem] flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem]">
-      <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
+  <!-- Location for mobile, sm, md device -->
+  <div class="location flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25 lg:hidden">
+     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
         <path
           d="M0.141069 4.88781C1.62473 -1.63429 11.2874 -1.62676 12.7635 4.89534C13.6296 8.72124 10.3086 12.9009 8.22238 14.9042C6.70859 16.3653 6.19599 16.3653 4.67467 14.9042C2.59604 12.9009 -0.72503 8.71371 0.141069 4.88781Z"
           fill="white" />
@@ -62,45 +65,66 @@
           fill="#4375E7" />
       </svg>
       <h3 class="text-white font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">Holland, London 7QU UK</h3>
-    </div>
+  </div>
 
-    <!-- Divider -->
-    <div class="divider absolute top-0 right-[20.5625rem] lg:right-[30.5625rem]">
-      <div class="w-[0.0625rem] h-[1.125rem] bg-white/25"></div>
-    </div>
+</div>
 
-    <!-- Contact Number -->
-    <div class="contact-number absolute top-0 right-[11.5625rem] lg:right-[17.1875rem] flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem]">
-       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+
+
+<!-- right -->
+<div class="contact-info relative flex flex-row items-center justify-center gap-2 sm:gap-3 md:gap-6 lg:gap-[1.25rem]">
+
+  <!-- Location  Location for lg or large device -->
+  <div class="location hidden lg:flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25">
+     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
+        <path
+          d="M0.141069 4.88781C1.62473 -1.63429 11.2874 -1.62676 12.7635 4.89534C13.6296 8.72124 10.3086 12.9009 8.22238 14.9042C6.70859 16.3653 6.19599 16.3653 4.67467 14.9042C2.59604 12.9009 -0.72503 8.71371 0.141069 4.88781Z"
+          fill="white" />
+        <path
+          d="M6.45206 8.60897C7.7498 8.60897 8.80182 7.55694 8.80182 6.25921C8.80182 4.96147 7.7498 3.90944 6.45206 3.90944C5.15432 3.90944 4.10229 4.96147 4.10229 6.25921C4.10229 7.55694 5.15432 8.60897 6.45206 8.60897Z"
+          fill="#4375E7" />
+      </svg>
+
+    <h3 class="text-white font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">
+      Holland, London 7QU UK
+    </h3>
+  </div>
+
+  <!-- Contact Number -->
+  <div class="contact-number flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25">
+    <!-- svg -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
         <path
           d="M15.9995 11.9791V14.3877C16.0004 14.6113 15.9545 14.8327 15.8648 15.0375C15.775 15.2424 15.6434 15.4263 15.4783 15.5775C15.3132 15.7286 15.1183 15.8437 14.906 15.9154C14.6938 15.987 14.4689 16.0136 14.2457 15.9935C11.7702 15.725 9.39235 14.8808 7.30312 13.5286C5.35937 12.2959 3.71141 10.6512 2.47627 8.71134C1.11669 6.61679 0.270593 4.23206 0.00652969 1.75036C-0.0135738 1.52834 0.0128649 1.30457 0.0841619 1.0933C0.155459 0.882034 0.270052 0.687898 0.420646 0.523253C0.57124 0.358607 0.754535 0.22706 0.958861 0.136987C1.16319 0.0469136 1.38407 0.000287778 1.60744 7.78413e-05H4.02086C4.41128 -0.00375708 4.78977 0.134222 5.0858 0.388297C5.38182 0.642373 5.57517 0.995207 5.62981 1.38103C5.73168 2.15185 5.92059 2.9087 6.19295 3.63713C6.30118 3.9245 6.32461 4.23682 6.26045 4.53707C6.19629 4.83732 6.04723 5.11292 5.83093 5.33121L4.80925 6.35087C5.95446 8.36092 7.62206 10.0252 9.6361 11.1682L10.6578 10.1485C10.8765 9.93264 11.1527 9.78387 11.4535 9.71984C11.7544 9.6558 12.0673 9.67918 12.3552 9.78721C13.0851 10.059 13.8435 10.2476 14.6158 10.3492C15.0066 10.4042 15.3635 10.6007 15.6186 10.9012C15.8737 11.2017 16.0093 11.5853 15.9995 11.9791Z"
           fill="white" />
       </svg>
-      <h3 class="text-white w-[10.75rem] font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">(234) 987 - 354 - 3670</h3>
-    </div>
+    <h3 class="text-white w-[10.75rem] font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">
+      (234) 987 - 354 - 3670
+    </h3>
+  </div>
 
-    <!-- Divider -->
-    <div class="divider absolute top-0 right-[10.75rem] lg:right-[16rem]">
-      <div class="w-[0.0625rem] h-[1.125rem] bg-white/25"></div>
-    </div>
-
-    <!-- Email -->
-    <div class="email absolute top-0 -right-[0.75rem] flex items-center gap-1 sm:gap-2 lg:gap-[0.375rem]">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+  <!-- Email -->
+  <div class="email flex items-center gap-1 sm:gap-2 lg:gap-[0.375rem]">
+    <!-- svg -->
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
         <path
           d="M2.75 0H16.75C17.7125 0 18.5 0.7875 18.5 1.75V12.25C18.5 13.2125 17.7125 14 16.75 14H2.75C1.7875 14 1 13.2125 1 12.25V1.75C1 0.7875 1.7875 0 2.75 0Z"
           fill="white" />
         <path d="M18.5 1.75L9.75 7.875L1 1.75" stroke="#4375E7" stroke-width="1.5" stroke-linecap="round"
           stroke-linejoin="round" />
       </svg>
-      <h3 class="text-white font-poppins text-xs sm:text-sm lg:text-[1rem] font-medium leading-none whitespace-nowrap">Email: example@gmail.com</h3>
-    </div>
+    <h3 class="text-white font-poppins text-xs sm:text-sm lg:text-[1rem] font-medium leading-none whitespace-nowrap">
+      Email: example@gmail.com
+    </h3>
   </div>
+
+</div>
+
 </section>
 
 
 <!-- Hero Section -->
-<section class="relative w-full h-[35rem] sm:h-[40rem] md:h-[38rem] lg:h-[44rem]  xl:h-[46.5rem]  2xl:h-[52.5rem] overflow-hidden">
+<section class="relative w-full h-[30rem] md:h-[38rem] lg:h-[48rem]  xl:h-[40.5rem]  2xl:h-[52.5rem] overflow-hidden">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img src="./assets/images/Image_here.png" alt="Background" class="w-full h-full object-cover" />
@@ -112,7 +136,7 @@
   </div>
   
   <!-- design -->
-  <div class="design absolute top-[42%] sm:top-[37%] md:top-[50%] z-10 left-[0%] sm:left-[6%] md:left-[15%] lg:left-[15.625rem]">
+  <div class="design absolute top-[30%] sm:top-[34%] md:top-[40%] lg:top-[57%] xl:top-[50%] z-10 left-[0%] sm:left-[5%] md:left-[6%] lg:left-[15.625rem]">
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 474 54" fill="none" class="w-[18rem] sm:w-[22rem] md:w-[25rem] lg:w-[29.625rem]">
       <path
         d="M473.807 20.1567C483.484 -13.3431 126.015 -3.02882 4.10742 35.9075C-2.43858 37.1866 -0.730936 42.5433 6.19456 41.264C174.968 14.9603 294.029 11.8422 403.319 14.9603C562.51 20.1567 206.749 29.428 185.403 44.2991C181.502 47.0174 179.332 55.0126 193.278 53.8933C328.941 35.5843 466.994 43.743 473.807 20.1567Z"
@@ -121,21 +145,21 @@
   </div>
 
   <!-- Hero Content -->
-  <div class="relative z-20 flex flex-col gap-[1.5rem] px-[5%] sm:px-[8%] md:px-[10%] lg:px-[10rem] pt-[5rem] sm:pt-[6rem] md:pt-[12rem] h-full pb-[6rem] sm:pb-[8rem] md:pb-[12rem] mx-auto text-white">
+  <div class="relative z-20 flex flex-col gap-[1.5rem] px-[5%] sm:px-[8%] md:px-[10%] lg:px-[10rem] pt-[1.75rem] sm:pt-[2.25rem] md:pt-[6rem] 2xl:pt-[12rem] h-full pb-[3rem] sm:pb-[4rem] md:pb-[5rem] 2xl:pb-[12rem] mx-auto text-white">
 
     <!-- Tag Box -->
-    <div class="w-[11.375rem] h-[1.8125rem] flex items-center gap-[0.5rem] px-[0.875rem] py-[0.5rem] bg-white/15 backdrop-blur-[0.4375rem] text-white/70 text-[1rem] font-poppins font-medium">
+    <div class="w-[10.5rem] h-[1.50rem] md:w-[11.375rem] md:h-[1.8125rem] flex items-center gap-[0.5rem] px-[0.875rem] py-[0.5rem] bg-white/15 backdrop-blur-[0.4375rem] text-white/70 text-sm md:text-[1rem] font-poppins font-medium">
       <div class="w-[0.3125rem] h-[0.3125rem] rounded-full bg-white flex-shrink-0"></div>
       Dry Clean Experts
     </div>
 
     <!-- Heading -->
-    <h1 class="text-white font-poppins -ml-[0.25rem] w-full text-[2.5rem] sm:text-[3.5rem] md:text-[4.5rem] lg:text-[6.25rem] font-semibold leading-[1.1] tracking-[-0.125rem]">
+    <h1 class="text-white font-poppins -ml-[0.25rem] w-full text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] lg:text-[6.25rem] font-semibold leading-[1.1] tracking-[-0.125rem]">
       Fabric Fresh Laundry <span class="rounded-2xl pr-[0.125rem]">&</span>Cleaning.
     </h1>
 
     <!-- Description -->
-    <p class="text-white/70 font-poppins w-full md:w-[80%] lg:w-[48.125rem] pt-[0.5rem] text-[1rem] sm:text-[1.125rem] font-medium leading-[1.8]">
+    <p class="text-white/70 font-poppins w-full md:w-[80%] lg:w-[48.125rem] md:pt-[0.5rem] text-sm sm:text-[1rem] md:sm:text-[1.125rem] font-medium leading-[1.8]">
       Our services are designed for convenience and efficiency, offering doorstep pickup & delivery to make your
       laundry experience as seamless as possible.
     </p>
@@ -170,25 +194,25 @@
 
 
 <!-- About Company -->
-<section class="w-full relative px-[5%] sm:px-[8%] md:px-[10%] lg:px-[9.875rem] py-[5rem] sm:py-[7rem] md:py-[9.375rem] flex flex-col lg:flex-row gap-[3rem] md:gap-[5rem] lg:gap-[15.3125rem]">
+<section class="w-full mx-auto relative h-auto min-h-[1065px] px-[5%] sm:px-[8%] md:px-[10%] lg:px-[12%] 2xl:px-[15%] py-10 md:py-16 2xl:py-[150px] flex flex-col md:flex-row gap-6 lg:gap-10 2xl:gap-[245px]">
 
-  <!-- about left - Top on mobile, Left on desktop -->
-  <div class="left flex flex-col gap-[1.25rem] w-full lg:w-[40.5rem]">
+  <!-- about left -->
+  <div class="left flex flex-col gap-2 w-full md:max-w-[340px] lg:max-w-[400px] xl:max-w-[500px] 2xl:max-w-[648px] md:gap-3 2xl:gap-[20px]">
 
-    <button class="w-[13rem] h-[1.8125rem] rounded-[1.875rem] border border-[rgba(20,33,55,0.14)] flex items-center gap-[0.5rem] flex-shrink-0 text-[1rem] font-[500] leading-none text-[rgba(20,33,55,0.70)] py-[0.5rem] px-[0.75rem] font-poppins">
-      <span class="w-[0.3125rem] h-[0.3125rem] rounded-[0.625rem] bg-[#142137] flex-shrink-0 aspect-square"></span>
+    <button class="w-[180px] sm:w-[200px] md:w-[208px] h-[29px] rounded-[30px] border border-[rgba(20,33,55,0.14)] flex items-center gap-2 flex-shrink-0 text-[12px] sm:text-[14px] md:text-[16px] font-[500] leading-none text-[rgba(20,33,55,0.70)] py-2 px-[12px] font-poppins">
+      <!-- Dot -->
+      <span class="w-[5px] h-[5px] rounded-[10px] bg-[#142137] flex-shrink-0 aspect-square"></span>
       About Our Company
     </button>
 
-    <h1 class="text-[#142137] w-full lg:w-[38.625rem] font-poppins text-[2.5rem] sm:text-[3rem] md:text-[3.3125rem] lg:text-[3.3125rem] font-semibold leading-[1.2] tracking-[-0.0675rem]">
+    <h1 class="text-[#142137] w-full md:w-[618px] font-poppins text-[32px] sm:text-[40px] md:text-[48px] lg:text-[53px] font-semibold leading-[40px] sm:leading-[48px] md:leading-[56px] lg:leading-[64px] tracking-[-0.5px] sm:tracking-[-0.8px] lg:tracking-[-1.08px]">
       Laundry & Dry Cleaning Made Simple.
     </h1>
-    
-    <p class="text-[rgba(20,33,55,0.70)] font-poppins text-[1rem] font-normal leading-[1.625rem]">
+    <p class="text-[rgba(20,33,55,0.70)] font-poppins text-[14px] sm:text-[15px] md:text-[16px] font-normal leading-[22px] sm:leading-[24px] md:leading-[26px]">
       Revolutionized the way you think about dry cleaning and laundry. Our mission is simple: to make laundry day hassle-free. With our easy-to-use service, you can enjoy the convenience of professional dry cleaning and laundry.
     </p>
 
-    <button class="w-[12.375rem] h-[3.375rem] mt-[1rem] border border-[rgba(20,33,55,0.14)] flex items-center justify-center gap-[0.625rem] flex-shrink-0 text-[#142137] font-poppins text-[0.9375rem] font-medium leading-none">
+    <button class="w-[160px] sm:w-[180px] md:w-[198px] h-[44px] sm:h-[50px] md:h-[54px] mt-[12px] sm:mt-[14px] md:mt-[16px] border border-[rgba(20,33,55,0.14)] flex items-center justify-center gap-[8px] sm:gap-[10px] flex-shrink-0 text-[#142137] font-poppins text-[13px] sm:text-[14px] md:text-[15px] font-medium leading-none">
       Discover More
       <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
         <path d="M1 7.00049L13 7.00049" stroke="#142137" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -196,124 +220,99 @@
       </svg>
     </button>
 
-    <!-- image and time - Only shown on mobile/tablet -->
-    <div class="flex lg:hidden mt-[2rem] items-end relative w-full">
+    <!-- image and time -->
+    <div class="flex relative md:absolute bottom-0 left-0 md:left-[5%] lg:left-[10%] xl:left-[160px] items-end mt-8 md:mt-0">
 
       <!-- Image -->
-      <div class="image w-[60%] h-[18rem] sm:h-[22rem]">
+      <div class="image w-[250px] sm:w-[300px] md:w-[350px] lg:w-[390px] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[450px]">
         <img src="./assets/images/aboutleft.png" alt="about image" class="w-full h-full object-cover" />
       </div>
 
       <!-- Experience Card -->
-      <div class="w-[60%] h-[12rem] sm:h-[14rem] -ml-[30%] flex-shrink-0 border border-[rgba(20,33,55,0.14)] bg-white text-[#142137] font-poppins relative p-4 sm:p-6 z-10 shadow-lg">
+      <div class="w-[280px] sm:w-[320px] md:w-[350px] lg:w-[400px] h-[200px] sm:h-[240px] md:h-[260px] lg:h-[287px] -ml-[100px] sm:-ml-[120px] md:-ml-[150px] flex-shrink-0 border border-[rgba(20,33,55,0.14)] bg-white text-[#142137] font-poppins relative p-4 sm:p-5 md:p-6 z-10 shadow-lg">
 
         <!-- Top Right Circle with Text -->
-        <div class="absolute top-2 sm:top-3 left-[30%] w-[8rem] sm:w-[11.25rem] h-[4rem] sm:h-[6.375rem] flex items-center relative">
+        <div class="absolute top-2 sm:top-3 left-20 sm:left-28 md:left-32 lg:left-40 w-[120px] sm:w-[150px] lg:w-[180px] h-[70px] sm:h-[85px] lg:h-[102px] flex items-center relative">
 
           <!-- Circle -->
           <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
             <circle cx="51" cy="51" r="51" fill="#EBEFF3" />
           </svg>
 
-          <!-- Text -->
-          <div class="absolute right-1 sm:right-2 text-[rgba(20,33,55,0.70)] font-poppins text-[0.875rem] sm:text-[1.125rem] font-medium leading-[1.2]">
+          <!-- Text Inside Same Container, moved right -->
+          <div class="absolute right-0 sm:right-2 text-[rgba(20,33,55,0.70)] font-poppins text-[14px] sm:text-[16px] lg:text-[18px] font-medium leading-[20px] sm:leading-[22px] lg:leading-[26px]">
             <p>Years</p>
             <p>Experience</p>
           </div>
         </div>
 
         <!-- Large Center Number -->
-        <div class="absolute left-[1.5rem] sm:left-[2.75rem] bottom-[3rem] sm:bottom-[5.3125rem] text-[6rem] sm:text-[9rem] font-medium leading-[1]">
+        <div class="absolute left-[20px] sm:left-[30px] md:left-[40px] lg:left-[44px] bottom-[50px] sm:bottom-[60px] md:bottom-[70px] lg:bottom-[85px] text-[120px] sm:text-[160px] md:text-[200px] lg:text-[230px] font-medium leading-[60px] sm:leading-[80px] md:leading-[90px] lg:leading-[100px]">
           14
         </div>
       </div>
     </div>
   </div>
 
-  <!-- About Right - Bottom on mobile, Right on desktop -->
-  <div class="about-right relative pt-0 lg:pt-[15.9375rem] flex flex-col w-full lg:w-auto">
+  <!-- About Right -->
+  <div class="about-right relative pt-[30px] sm:pb-4 md:pt-[50px] lg:pt-[255px] flex flex-col">
 
     <!-- circle text -->
-    <div class="text-circle flex flex-wrap justify-center gap-[1.25rem] sm:gap-[1.5625rem]">
+    <div class="text-circle flex flex-wrap justify-center gap-[15px] md:gap-[20px] lg:gap-[25px]">
 
       <!-- first circle -->
-      <div class="w-[10rem] sm:w-[13.75rem] h-[10rem] sm:h-[13.75rem] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[2rem] sm:py-[4rem] px-[2rem] sm:px-[3.75rem]">
-        <div class="text -mt-[0.5rem]">
-          <h2 class="text-[#142137] font-poppins text-[2rem] sm:text-[3.125rem] font-semibold leading-[1.2] uppercase">
+      <div class="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] lg:w-[220px] lg:h-[220px] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[30px] sm:py-[40px] md:py-[50px] lg:py-[64px] px-[20px] sm:px-[30px] md:px-[40px] lg:px-[60px]">
+        <div class="text -mt-[4px] sm:-mt-[6px] lg:-mt-[8px]">
+          <h2 class="text-[#142137] font-poppins text-[30px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-[36px] sm:leading-[48px] md:leading-[54px] lg:leading-[60px] uppercase">
             86K
           </h2>
-          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[0.5rem] text-[0.875rem] sm:text-[1rem] font-medium leading-[1.2] text-center min-w-[5rem] sm:min-w-[6.875rem] break-words">
+          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[4px] sm:pt-[6px] lg:pt-[8px] text-[12px] sm:text-[14px] lg:text-[16px] font-medium leading-[16px] sm:leading-[18px] lg:leading-[22px] text-center min-w-[80px] sm:min-w-[100px] lg:min-w-[110px] break-words">
             Free Pickup & Delivery
           </p>
         </div>
       </div>
 
       <!-- second circle -->
-      <div class="w-[10rem] sm:w-[13.75rem] h-[10rem] sm:h-[13.75rem] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[2rem] sm:py-[4rem] px-[2rem] sm:px-[3.75rem]">
-        <div class="text -mt-[0.5rem]">
-          <h2 class="text-[#142137] font-poppins text-[2rem] sm:text-[3.125rem] font-semibold leading-[1.2] uppercase">
+      <div class="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] lg:w-[220px] lg:h-[220px] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[30px] sm:py-[40px] md:py-[50px] lg:py-[64px] px-[20px] sm:px-[30px] md:px-[40px] lg:px-[60px]">
+        <div class="text -mt-[4px] sm:-mt-[6px] lg:-mt-[8px]">
+          <h2 class="text-[#142137] font-poppins text-[30px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-[36px] sm:leading-[48px] md:leading-[54px] lg:leading-[60px] uppercase">
             140+
           </h2>
-          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[0.5rem] text-[0.875rem] sm:text-[1rem] font-medium leading-[1.2] text-center min-w-[5rem] sm:min-w-[8.125rem] break-words">
+          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[4px] sm:pt-[6px] lg:pt-[8px] text-[12px] sm:text-[14px] lg:text-[16px] font-medium leading-[16px] sm:leading-[18px] lg:leading-[22px] text-center min-w-[90px] sm:min-w-[110px] lg:min-w-[130px] break-words">
             Cleaning Expert Members
           </p>
         </div>
       </div>
 
       <!-- third circle -->
-      <div class="w-[10rem] sm:w-[13.75rem] h-[10rem] sm:h-[13.75rem] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[2rem] sm:py-[4rem] px-[2rem] sm:px-[3.75rem]">
-        <div class="text -mt-[0.5rem]">
-          <h2 class="text-[#142137] font-poppins text-[2rem] sm:text-[3.125rem] font-semibold leading-[1.2] uppercase">
+      <div class="w-[150px] h-[150px] sm:w-[180px] sm:h-[180px] md:w-[200px] md:h-[200px] lg:w-[220px] lg:h-[220px] rounded-full border border-gray-300 flex flex-col items-center justify-center text-center py-[30px] sm:py-[40px] md:py-[50px] lg:py-[64px] px-[20px] sm:px-[30px] md:px-[40px] lg:px-[60px]">
+        <div class="text -mt-[4px] sm:-mt-[6px] lg:-mt-[8px]">
+          <h2 class="text-[#142137] font-poppins text-[30px] sm:text-[40px] md:text-[45px] lg:text-[50px] font-semibold leading-[36px] sm:leading-[48px] md:leading-[54px] lg:leading-[60px] uppercase">
             98%
           </h2>
-          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[0.5rem] text-[0.875rem] sm:text-[1rem] font-medium leading-[1.2] text-center min-w-[5rem] sm:min-w-[8.75rem] break-words">
+          <p class="text-[rgba(20,33,55,0.70)] font-poppins pt-[4px] sm:pt-[6px] lg:pt-[8px] text-[12px] sm:text-[14px] lg:text-[16px] font-medium leading-[16px] sm:leading-[18px] lg:leading-[22px] text-center min-w-[90px] sm:min-w-[120px] lg:min-w-[140px] break-words">
             Company Award Winner
           </p>
         </div>
       </div>
     </div>
 
-    <!-- image - Hidden on mobile, shown on desktop -->
-    <div class="hidden lg:block absolute right-0 -bottom-[9.375rem]">
+    <!-- image -->
+    <div class="absolute left-1/2 -translate-x-1/2 -bottom-[160px] sm:-bottom-[170px] md:-bottom-[100px] lg:-bottom-[150px] w-[300px] sm:w-[350px] md:w-[250px] lg:w-[300px] xl:w-auto">
       <div class="image">
-        <img src="./assets/images/aboutright.png" alt="About right image" class="max-w-full" />
-      </div>
-    </div>
-  </div>
-
-  <!-- image and time - Only shown on desktop -->
-  <div class="hidden lg:flex absolute bottom-[9.375rem] left-[10rem] items-end">
-
-    <!-- Image -->
-    <div class="image w-[24.375rem] h-[28.125rem]">
-      <img src="./assets/images/aboutleft.png" alt="about image" class="w-full h-full object-cover" />
-    </div>
-
-    <!-- Experience Card -->
-    <div class="w-[25rem] h-[17.9375rem] -ml-[9.375rem] flex-shrink-0 border border-[rgba(20,33,55,0.14)] bg-white text-[#142137] font-poppins relative p-6 z-10 shadow-lg">
-
-      <!-- Top Right Circle with Text -->
-      <div class="absolute top-3 left-[10rem] w-[11.25rem] h-[6.375rem] flex items-center relative">
-
-        <!-- Circle -->
-        <svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102" fill="none">
-          <circle cx="51" cy="51" r="51" fill="#EBEFF3" />
-        </svg>
-
-        <!-- Text -->
-        <div class="absolute right-2 text-[rgba(20,33,55,0.70)] font-poppins text-[1.125rem] font-medium leading-[1.625rem]">
-          <p>Years</p>
-          <p>Experience</p>
-        </div>
-      </div>
-
-      <!-- Large Center Number -->
-      <div class="absolute left-[2.75rem] bottom-[5.3125rem] text-[14.375rem] font-medium leading-[1]">
-        14
+        <img src="./assets/images/aboutright.png" alt="about right image" class="w-full h-auto" />
       </div>
     </div>
   </div>
 </section>
+
+
+
+
+
+
+
+
 
 
 
