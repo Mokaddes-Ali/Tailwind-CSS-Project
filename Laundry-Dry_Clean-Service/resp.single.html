@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white m-0 p-0">
+  <!-- Navbar Top -->
+  <section class="header-top w-[1920px] px-[160px] py-[10px] bg-[#4375E7] h-[38px] flex justify-between items-start">
+    <!-- left -->
+    <div class="follow-liink flex items-center gap-[20px]">
+      <h3 class="text-white font-poppins text-[16px] font-medium leading-none">Follow Us:</h3>
+      <div class="social-icon flex items-center justify-center gap-[18px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+          <path opacity="0.5"
+            d="M7.7 0H5.6C4.67174 0 3.7815 0.368749 3.12513 1.02513C2.46875 1.6815 2.1 2.57174 2.1 3.5V5.6H0V8.4H2.1V14H4.9V8.4H7L7.7 5.6H4.9V3.5C4.9 3.31435 4.97375 3.1363 5.10503 3.00503C5.2363 2.87375 5.41435 2.8 5.6 2.8H7.7V0Z"
+            fill="white" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+          <path
+            d="M10.3117 4.42106C11.4842 4.42106 12.6087 4.88684 13.4378 5.71595C14.2669 6.54506 14.7327 7.66957 14.7327 8.84211V14H11.7854V8.84211C11.7854 8.45126 11.6301 8.07643 11.3537 7.80006C11.0774 7.52369 10.7025 7.36842 10.3117 7.36842C9.92083 7.36842 9.54599 7.52369 9.26962 7.80006C8.99325 8.07643 8.83799 8.45126 8.83799 8.84211V14H5.89062V8.84211C5.89062 7.66957 6.35641 6.54506 7.18552 5.71595C8.01463 4.88684 9.13914 4.42106 10.3117 4.42106Z"
+            fill="white" />
+          <path d="M2.94737 5.15775H0V13.9998H2.94737V5.15775Z" fill="white" />
+          <path
+            d="M1.47368 2.94737C2.28758 2.94737 2.94737 2.28758 2.94737 1.47368C2.94737 0.659791 2.28758 0 1.47368 0C0.659791 0 0 0.659791 0 1.47368C0 2.28758 0.659791 2.94737 1.47368 2.94737Z"
+            fill="white" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+          <path opacity="0.5"
+            d="M15.5294 0.00672484C14.8534 0.458456 14.105 0.803959 13.3129 1.02993C12.8878 0.566818 12.3228 0.238578 11.6944 0.0896016C11.0659 -0.0593751 10.4044 -0.021901 9.79912 0.196956C9.19388 0.415812 8.67419 0.805492 8.31034 1.31329C7.94649 1.82109 7.75602 2.42251 7.76471 3.0362V3.70496C6.52421 3.73544 5.29502 3.47478 4.18659 2.94622C3.07817 2.41765 2.12493 1.63758 1.41176 0.675484C1.41176 0.675484 -1.41176 6.69432 4.94118 9.36935C3.48743 10.3043 1.75564 10.773 0 10.7069C6.35294 14.0507 14.1176 10.7069 14.1176 3.01614C14.117 2.82986 14.0981 2.64404 14.0612 2.46107C14.7816 1.78796 15.29 0.938114 15.5294 0.00672484Z"
+            fill="white" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <path opacity="0.5"
+            d="M7.50631 0C3.36066 0 0 3.35508 0 7.49385C0 10.6702 1.97701 13.384 4.76925 14.4756C4.70087 13.8838 4.646 12.9706 4.7936 12.3231C4.92947 11.7369 5.67074 8.59746 5.67074 8.59746C5.67074 8.59746 5.4486 8.14746 5.4486 7.4874C5.4486 6.44502 6.054 5.66807 6.80759 5.66807C7.44997 5.66807 7.75927 6.14941 7.75927 6.72305C7.75927 7.36436 7.35166 8.32676 7.13509 9.22119C6.95608 9.96738 7.51189 10.5779 8.24699 10.5779C9.58163 10.5779 10.6073 9.17168 10.6073 7.14844C10.6073 5.35342 9.31635 4.10156 7.46904 4.10156C5.3318 4.10156 4.07728 5.69912 4.07728 7.35205C4.07728 7.99336 4.32466 8.68447 4.63308 9.06094C4.69559 9.13418 4.70205 9.20215 4.68326 9.27598C4.62751 9.51035 4.49809 10.0222 4.47286 10.1273C4.44204 10.263 4.36134 10.2935 4.21931 10.2261C3.28025 9.78809 2.69305 8.4249 2.69305 7.321C2.69305 4.9585 4.41035 2.78789 7.65392 2.78789C10.2551 2.78789 12.2808 4.63857 12.2808 7.11797C12.2808 9.59736 10.6501 11.7812 8.38873 11.7812C7.62868 11.7812 6.91177 11.3862 6.67143 10.9175C6.67143 10.9175 6.29463 12.348 6.2019 12.6999C6.03551 13.3535 5.57772 14.168 5.269 14.6675C5.97388 14.8825 6.71574 15 7.49399 15C11.6396 15 15.0003 11.6449 15.0003 7.50615C15.0123 3.35508 11.652 0 7.50631 0Z"
+            fill="white" />
+        </svg>
+      </div>
+
+    </div>
+
+    <!-- right -->
+    <div class="contact-info relative flex">
+
+      <!-- Location -->
+      <div class="location absolute top-0 right-[510px] flex items-center gap-[7px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
+          <path
+            d="M0.141069 4.88781C1.62473 -1.63429 11.2874 -1.62676 12.7635 4.89534C13.6296 8.72124 10.3086 12.9009 8.22238 14.9042C6.70859 16.3653 6.19599 16.3653 4.67467 14.9042C2.59604 12.9009 -0.72503 8.71371 0.141069 4.88781Z"
+            fill="white" />
+          <path
+            d="M6.45206 8.60897C7.7498 8.60897 8.80182 7.55694 8.80182 6.25921C8.80182 4.96147 7.7498 3.90944 6.45206 3.90944C5.15432 3.90944 4.10229 4.96147 4.10229 6.25921C4.10229 7.55694 5.15432 8.60897 6.45206 8.60897Z"
+            fill="#4375E7" />
+        </svg>
+        <h3 class="text-white font-poppins text-[15px] font-medium leading-none whitespace-nowrap">Holland, London 7QU
+          UK</h3>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider absolute top-0 right-[489px] ">
+        <div class="w-[1px] h-[18px] bg-white/25"></div>
+      </div>
+
+      <!-- Contact Number -->
+      <div class="contact-number absolute top-0 right-[275px] flex items-center gap-[7px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path
+            d="M15.9995 11.9791V14.3877C16.0004 14.6113 15.9545 14.8327 15.8648 15.0375C15.775 15.2424 15.6434 15.4263 15.4783 15.5775C15.3132 15.7286 15.1183 15.8437 14.906 15.9154C14.6938 15.987 14.4689 16.0136 14.2457 15.9935C11.7702 15.725 9.39235 14.8808 7.30312 13.5286C5.35937 12.2959 3.71141 10.6512 2.47627 8.71134C1.11669 6.61679 0.270593 4.23206 0.00652969 1.75036C-0.0135738 1.52834 0.0128649 1.30457 0.0841619 1.0933C0.155459 0.882034 0.270052 0.687898 0.420646 0.523253C0.57124 0.358607 0.754535 0.22706 0.958861 0.136987C1.16319 0.0469136 1.38407 0.000287778 1.60744 7.78413e-05H4.02086C4.41128 -0.00375708 4.78977 0.134222 5.0858 0.388297C5.38182 0.642373 5.57517 0.995207 5.62981 1.38103C5.73168 2.15185 5.92059 2.9087 6.19295 3.63713C6.30118 3.9245 6.32461 4.23682 6.26045 4.53707C6.19629 4.83732 6.04723 5.11292 5.83093 5.33121L4.80925 6.35087C5.95446 8.36092 7.62206 10.0252 9.6361 11.1682L10.6578 10.1485C10.8765 9.93264 11.1527 9.78387 11.4535 9.71984C11.7544 9.6558 12.0673 9.67918 12.3552 9.78721C13.0851 10.059 13.8435 10.2476 14.6158 10.3492C15.0066 10.4042 15.3635 10.6007 15.6186 10.9012C15.8737 11.2017 16.0093 11.5853 15.9995 11.9791Z"
+            fill="white" />
+        </svg>
+        <h3 class="text-white w-[172px] font-poppins text-[15px] font-medium leading-none whitespace-nowrap">(234) 987 -
+          354 - 3670</h3>
+      </div>
+
+      <!-- Divider -->
+      <div class="divider absolute top-0 right-[256px]">
+        <div class="w-px h-[18px] bg-white/25"></div>
+      </div>
+
+      <!-- Email -->
+      <div class="email absolute top-0 -right-[12px] flex items-center gap-[6px]">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+          <path
+            d="M2.75 0H16.75C17.7125 0 18.5 0.7875 18.5 1.75V12.25C18.5 13.2125 17.7125 14 16.75 14H2.75C1.7875 14 1 13.2125 1 12.25V1.75C1 0.7875 1.7875 0 2.75 0Z"
+            fill="white" />
+          <path d="M18.5 1.75L9.75 7.875L1 1.75" stroke="#4375E7" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+        <h3 class="text-white font-poppins text-[16px] font-medium leading-none whitespace-nowrap">Email:
+          example@gmail.com</h3>
+      </div>
+
+
+
+
+
+    </div>
+
+    </div>
+
+  </section>
+
+  <!-- header  -->
+  <header class="header w-[1920px] px-[160px] py-[20px] flex gap-[286px]">
+    <!-- logo -->
+    <div class="logo w-[183px] h-[40px]">
+      <img src="./assets/images/Logo (1).png" />
+    </div>
+
+    <!-- Navbar menu -->
+    <nav class="bg-white py-2 pl-[4px]  h-[21px]">
+
+      <ul class="flex justify-center text-[#142137] font-medium text-[16px] font-poppins">
+        <li><a href="#" class="flex items-center gap-[4px] hover:text-blue-600 transition">Home
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+          </a></li>
+        <li class="pl-[32px]"><a href="#" class="hover:text-blue-600 transition">About Us</a></li>
+        <li class="pl-[60px]"><a href="#" class="flex items-center gap-[16px] hover:text-blue-600 transition">Service
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+          </a></li>
+        <li class="pl-[27px]"><a href="#" class=" flex items-center  gap-[22px] hover:text-blue-600 transition">Pages
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+          </a></li>
+        <li class="pl-[22px]"><a href="#" class="flex items-center  gap-[30px] hover:text-blue-600 transition">Blog
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </span>
+          </a></li>
+        <li class="pl-[13px]"><a href="#" class="hover:text-blue-600 transition">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- nav button -->
+    <div class="navbar-btn -mt-[3px]">
+      <button
+        class="w-[220px] h-[44px] flex items-center justify-center gap-2 border border-[rgba(20,33,55,0.14)] text-[#142137] font-[Poppins] text-[15px] font-medium rounded">
+        Schedule a Pickup
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+          <path d="M1 7.00056L13 7.00056" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M8 13.0002L14 7.00016L8 1.00016" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+
+
+  </header>
+
+
+  <!-- Blog Hero Area -->
+<section class="relative bg-cover bg-center bg-no-repeat py-12 md:py-16 lg:py-20 xl:py-24 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-[160px] h-[250px] sm:h-[300px] md:h-[350px] lg:h-[370px] w-full"
+  style="background-image: url('./assets/images/bg.png');">
+  <div class="container mx-auto text-white h-full flex flex-col justify-center">
+
+    <!-- Blog Title -->
+    <h1 class="text-white text-4xl sm:text-5xl md:text-[50px] lg:text-[60px] font-semibold leading-[1.2] sm:leading-[1.3] md:leading-[1.4] lg:leading-[110px] tracking-[-0.8px] sm:tracking-[-1px] lg:tracking-[-1.2px] font-poppins mb-4 sm:mb-6">
+      Blog Details
+    </h1>
+
+    <!-- Background Badge -->
+    <div class="w-full max-w-[218px] h-[34px] rounded-[195px] bg-white/10 backdrop-blur-[7px] flex items-center justify-center gap-[10px] px-3 sm:px-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none" class="w-4 h-4 sm:w-5 sm:h-5">
+        <path
+          d="M16.146 15.9992H11.0899V11.0576H8.29524V15.985H3.01103C3.0043 15.8855 2.99008 15.7786 2.99008 15.6716C2.98859 13.6145 2.99158 11.5581 2.9856 9.50094C2.9856 9.31169 3.02823 9.17928 3.18757 9.0581C5.25592 7.47523 7.31904 5.88563 9.38365 4.29827C9.44125 4.25413 9.50484 4.21673 9.58413 4.16437C9.74795 4.28854 9.90579 4.40674 10.0621 4.52717C12.0078 6.02402 13.9535 7.52161 15.8999 9.01696C16.051 9.1329 16.167 9.23539 16.1655 9.46504C16.1542 11.5715 16.1587 13.6788 16.158 15.7853C16.158 15.8459 16.1505 15.9057 16.1445 16L16.146 15.9992Z"
+          fill="white" />
+        <path
+          d="M19.15 7.36603C18.699 7.9525 18.2741 8.50381 17.8282 9.08355C15.0784 6.96882 12.345 4.86605 9.57576 2.73561C6.83417 4.84436 4.09332 6.95236 1.32255 9.0828C0.87746 8.50456 0.446585 7.94577 0 7.36453C3.19267 4.90869 6.37038 2.46407 9.57352 0C10.9155 1.03081 12.2523 2.05788 13.6616 3.14031V1.82449H16.4443V2.21946C16.4443 3.11712 16.4571 4.01477 16.4369 4.91168C16.4301 5.19594 16.5289 5.36276 16.7503 5.52733C17.5492 6.12203 18.3332 6.73767 19.15 7.36603Z"
+          fill="white" />
+      </svg>
+
+      <!-- Breadcrumb -->
+      <div class="flex items-center gap-1 sm:gap-2">
+        <!-- Home Text -->
+        <span class="text-white text-xs sm:text-sm md:text-[16px] font-medium leading-none tracking-[-0.24px] sm:tracking-[-0.28px] md:tracking-[-0.32px] font-[Poppins]">
+          Home
+        </span>
+
+        <!-- Dot Separator -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+          <circle cx="1.5" cy="1.5" r="1.5" fill="white" fill-opacity="0.7" />
+        </svg>
+
+        <!-- Blog Text -->
+        <span class="text-white text-xs sm:text-sm md:text-[16px] font-medium leading-none tracking-[-0.24px] sm:tracking-[-0.28px] md:tracking-[-0.32px] font-[Poppins]">
+          Blog Details
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section class="blog-section w-full max-w-[1920px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-[160px] py-12 md:py-16 lg:py-20 xl:py-[150px] flex flex-col lg:flex-row gap-8 lg:gap-[60px]">
+    <!-- Blog Left Content -->
+    <div class="blog-left w-full lg:w-[calc(100%-440px)] xl:w-[1160px]">
+        <!-- First Card -->
+        <div class="w-full xl:w-[1160px]">
+            <!-- Image Section -->
+            <div class="w-full h-auto aspect-[1160/570]">
+                <img src="./assets/images/blogdetail1.png" alt="Blog detail image" class="w-full h-full object-cover" />
+            </div>
+
+            <!-- Text Section -->
+            <div class="py-6 md:py-[24px] pr-0 xl:pr-[50px] flex flex-col gap-3 md:gap-[12px]">
+                <!-- First Row -->
+                <div class="flex flex-wrap items-center gap-3 md:gap-[13px]">
+                    <!-- Avatar -->
+                    <div class="w-10 h-10 md:w-[54px] md:h-[54px] flex-shrink-0 rounded-[6px] bg-[#CFD4C6] overflow-hidden">
+                        <img src="./assets/images/postclient1.jpg" class="w-full h-full object-cover" />
+                    </div>
+
+                    <!-- Name -->
+                    <h2 class="text-[#142137] font-poppins text-base md:text-[18px] font-semibold leading-none">Miles Tone</h2>
+
+                    <!-- Service Type -->
+                    <div class="text-[rgba(20,33,55,0.60)] pl-2 md:pl-[10px] flex gap-1 md:gap-[5px] items-center text-center font-poppins text-sm md:text-[16px] font-medium leading-[26px]">
+                        <!-- SVG Comment -->
+                        [SVG]
+                        <h1>Laundry Services</h1>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="text-[rgba(20,33,55,0.60)] pl-1 md:pl-[7px] flex items-center gap-1 md:gap-[7px] text-center font-poppins text-sm md:text-[16px] font-medium leading-[26px]">
+                        <!-- SVG Comment -->
+                        [SVG]
+                        <h2>March 16, 2025</h2>
+                    </div>
+
+                    <!-- Comment Count -->
+                    <div class="text-[rgba(20,33,55,0.60)] pl-1 md:pl-[7px] flex items-center gap-1 md:gap-[7px] text-center font-poppins text-sm md:text-[16px] font-medium leading-[26px]">
+                        <!-- SVG Comment -->
+                        [SVG]
+                        <h2>02 Comment</h2>
+                    </div>
+                </div>
+
+                <!-- Second Row - Title -->
+                <div class="text-[#142137] -mt-1 md:-mt-[3px] mb-1 md:mb-[4px] font-poppins text-2xl md:text-3xl lg:text-[34px] font-semibold leading-tight md:leading-[64px] tracking-tight md:tracking-[-0.68px]">
+                    <h1>How to Keep Your Garments Fresh & Clean Laundry Tips.</h1>
+                </div>
+
+                <!-- Third Row - Description -->
+                <div class="text-[rgba(20,33,55,0.70)] font-poppins text-base md:text-[16px] font-normal leading-relaxed md:leading-[26px]">
+                    Cleaning is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek relaxation, adventure, or cultural exploration, we are here to turn your journey into a story worth telling. Sed consectetur lobortis arcu, ut fringilla dolor lobortis et. Maecenas ut tincidunt enim. Mauris eu condimentum.
+                </div>
+
+                <!-- Four row -->
+                <div class="flex flex-col gap-6 md:gap-[28px] pt-6 md:pt-[34px]">
+                    <div class="text-area flex flex-col md:flex-row gap-6 md:gap-[175px]">
+                        <!-- left -->
+                        <div class="text-left flex flex-col gap-4 md:gap-[17px]">
+                            <div class="text-svg flex gap-2 md:gap-[10px] items-center">
+                                <!-- SVG Comment -->
+                                [SVG]
+                                <h1 class="text-[#142137] font-poppins text-base md:text-[16px] font-medium leading-none [font-feature-settings:'case'_on,'cpsp'_on]">
+                                    Professional Dry Cleaning & Laundry
+                                </h1>
+                            </div>
+                            <p class="text-[rgba(20,33,55,0.70)] font-poppins text-base md:text-[16px] font-normal leading-relaxed md:leading-[26px] w-full md:w-[485px]">
+                                Cleaning is more than just visiting places creating memories discovering new cultures.
+                            </p>
+                        </div>
+                        <!-- Right -->
+                        <div class="text-right flex flex-col gap-4 md:gap-[17px]">
+                            <div class="text-svg flex gap-2 md:gap-[10px] items-center">
+                                <!-- SVG Comment -->
+                                [SVG]
+                                <h1 class="text-[#142137] font-poppins text-base md:text-[16px] font-medium leading-none [font-feature-settings:'case'_on,'cpsp'_on]">
+                                    Fast & Reliable Laundry Services
+                                </h1>
+                            </div>
+                            <p class="text-[rgba(20,33,55,0.70)] font-poppins text-base md:text-[16px] font-normal leading-relaxed md:leading-[26px] w-full md:w-[485px]">
+                                Cleaning is more than just visiting places creating memories discovering new cultures.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- text -->
+                    <p class="w-full text-[rgba(20,33,55,0.70)] font-poppins text-base md:text-[16px] font-normal leading-relaxed md:leading-[26px]">
+                        Cleaning is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local adventures, we curate seamless trave.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="relative w-full xl:w-[1160px] h-auto md:h-[280px] mx-auto mt-12 md:mt-[130px] bg-[#EBEFF3] flex flex-col items-center justify-center gap-4 text-center p-6 md:p-0">
+            <!-- SVG Icon -->
+            <div class="absolute left-1/2 -translate-x-1/2 top-4 md:top-[45px] w-8 md:w-[34px] h-7 md:h-[30px]">
+                <!-- SVG Comment -->
+                [SVG]
+            </div>
+
+            <!-- Paragraph -->
+            <p class="mt-12 md:mt-0 md:absolute md:left-[5.5%] md:top-[82px] w-full md:w-[1045px] text-center text-base md:text-[18px] leading-relaxed md:leading-[28px] font-normal font-poppins text-[#142137B3]">
+                Cleaning is more than just visiting places—it's about creating lasting memories, discovering new cultures periencing the extrinary. From breathtaking landscapes to immercal advres, ate seamless travel experiences tailored to your dreams. Whether adventure exploration, we are here to turn your journey.
+            </p>
+
+            <!-- Heading -->
+            <h2 class="mt-4 md:absolute md:left-[42.80%] md:top-[208px] text-[#142137] text-lg md:text-[20px] leading-relaxed md:leading-[34px] font-medium font-poppins tracking-tight md:tracking-[-0.4px]">
+                Don Guidelines
+            </h2>
+        </div>
+
+        <!-- Third Card Post -->
+        <div class="w-full xl:w-[1140px] mt-8 md:mt-[80px] h-auto relative flex flex-col gap-6 md:gap-[33px]">
+            <!-- image and text -->
+            <div class="flex flex-col md:flex-row gap-6 md:gap-[26px]">
+                <img class="w-full md:w-[570px] h-auto aspect-[570/250]" src="./assets/images/blogdetail2.png" />
+                <!-- divider and text -->
+                <div class="flex gap-4 md:gap-[33px]">
+                    <div class="divider hidden md:block">
+                        <div class="w-0.5 h-full bg-blue-500"></div>
+                    </div>
+                    <div class="flex flex-col pt-1 md:pt-[5px] gap-4 md:gap-[18px]">
+                        <h1 class="w-full md:w-[485px] text-[#142137] font-medium text-xl md:text-[24px] leading-relaxed md:leading-[34px] tracking-tight md:tracking-[-0.48px] font-poppins">
+                            A picture speaks of quality—just like fresh, professionally cleaned clothes.
+                        </h1>
+
+                        <p class="w-full md:w-[490px] text-slate-800/70 text-base font-normal font-poppins leading-relaxed">
+                            Cleaning is more than just visiting places—it's about creating lasting memories, discovering new cultures, and expencing the extrinary. From breathtaking landscapes to immersiveal adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek relaxation, adventure, or cultural exploration, we are here.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- bottom text -->
+            <div class="w-full xl:w-[1140px] text-slate-800/70 text-base font-normal font-poppins leading-relaxed">
+                <h2>Cleaning is more than just visiting places—it's about creating lasting memories, discovering new cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek relaxation, adventure, or cultural exploration, we are here to turn your journey.
+                </h2>
+            </div>
+        </div>
+
+        <!-- Four Card Author -->
+        <div class="relative mt-12 md:mt-[112px] w-full xl:w-[1160px] h-auto md:h-[370px] bg-[#EBEFF3] flex flex-col md:flex-row gap-6 md:gap-[50px] p-4 md:p-[14px]">
+            <!-- Image Section -->
+            <div class="w-full md:w-[342px] h-[342px]">
+                <img src="./assets/images/blogdetail3.png" alt="images" class="h-full w-full object-cover" />
+            </div>
+
+            <!-- Text Section -->
+            <div class="w-full md:w-[667px] flex flex-col pt-6 md:pt-[36px] gap-6 md:gap-[32px]">
+                <div class="h-7 md:h-[28px] w-[174px] bg-[#4375E7] pl-3 md:pl-[14px] py-0.5 md:py-[2px]">
+                    <h2 class="text-white font-medium text-sm md:text-[15px] leading-relaxed md:leading-[26px] tracking-tight md:tracking-[-0.3px] uppercase font-poppins">
+                        ceo & co-founder
+                    </h2>
+                </div>
+
+                <h3 class="text-[#142137] font-semibold md:font-[600] text-lg md:text-[20px] leading-normal font-poppins leading-trim">
+                    Lurch Schpellchek
+                </h3>
+
+                <p class="-mt-4 md:-mt-[17px] text-[rgba(20,33,55,0.70)] text-base md:text-[16px] leading-relaxed md:leading-[28px] font-medium md:font-[500] font-poppins">
+                    We believe that fresh clean clothes bring confidence and comfort. With a passion for quality and convenience, we provide top-notch laundry & dry cleaning services tailored to meet your needs.
+                </p>
+
+                <!-- button and social icon -->
+                <div class="flex flex-col md:flex-row justify-between pt-2 md:pt-[7px] gap-4">
+                    <div class="flex items-center gap-2 text-[#142137] text-base md:text-[16px] font-medium leading-normal font-poppins">
+                        See All Post
+                        <!-- SVG Comment -->
+                        [SVG]
+                    </div>
+
+                    <!-- social media icon -->
+                    <div class="social-icon">
+                        <!-- SVG Comment -->
+                        [SVG]
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related tags and share -->
+        <div class="flex flex-col md:flex-row justify-between gap-4 pt-8 md:pt-[80px]">
+            <div class="flex items-center gap-3 md:gap-[12px]">
+                <h2 class="text-[#142137] text-xl md:text-[24px] leading-relaxed md:leading-[34px] font-medium md:font-[500] tracking-tight md:tracking-[-0.48px] font-poppins">
+                    Related Tags:
+                </h2>
+
+                <!-- Tag List -->
+                <div class="flex flex-wrap gap-2 md:gap-[9px]">
+                    <span class="h-[28px] px-2 text-sm md:text-[15px] font-medium leading-relaxed md:leading-[26px] tracking-tight md:tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Fresh</span>
+                    <span class="h-[28px] px-2 text-sm md:text-[15px] font-medium leading-relaxed md:leading-[26px] tracking-tight md:tracking-[-0.3px] text-white border border-[#14213723] bg-[#4375E7] flex items-center justify-center">Flawless</span>
+                    <span class="h-[28px] px-2 text-sm md:text-[15px] font-medium leading-relaxed md:leading-[26px] tracking-tight md:tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Clean</span>
+                    <span class="h-[28px] px-2 text-sm md:text-[15px] font-medium leading-relaxed md:leading-[26px] tracking-tight md:tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Crisp</span>
+                </div>
+            </div>
+
+            <!-- social icon -->
+            <div class="social-icon flex flex-col md:flex-row gap-3 md:gap-[14px] items-center">
+                <h2 class="text-[#142137] text-xl md:text-[24px] leading-relaxed md:leading-[34px] font-medium md:font-[500] tracking-tight md:tracking-[-0.48px] font-poppins">Social Share:</h2>
+                <!-- icon list -->
+                <div class="flex gap-2 md:gap-[5px]">
+                    <!-- SVG Icons -->
+                    [SVG]
+                    [SVG]
+                    [SVG]
+                    [SVG]
+                </div>
+            </div>
+        </div>
+
+        <!-- Next and previous post -->
+        <div class="flex flex-col md:flex-row justify-between gap-4 pt-8 md:pt-[80px]">
+            <!-- First Card -->
+            <div class="w-full md:w-[565px] h-auto md:h-[148px] flex items-center border border-[rgba(20,33,55,0.14)] bg-transparent py-4 px-3 gap-4 md:gap-8">
+                <!-- Image -->
+                <div class="w-20 md:w-[100px] h-24 md:h-[120px] flex-shrink-0 aspect-[149/224]">
+                    <img src="./assets/images/previewpost.png" alt="Previous post image" class="h-full w-full object-cover" />
+                </div>
+
+                <!-- Text Section -->
+                <div class="flex flex-col pt-0.5 md:pt-[2px] justify-center gap-2 md:gap-3">
+                    <!-- Previous Post -->
+                    <div class="flex items-center gap-2 text-sm md:text-[15px] font-medium uppercase text-[rgba(20,33,55,0.70)] font-[Poppins]">
+                        <!-- SVG Comment -->
+                        [SVG]
+                        Previous Post
+                    </div>
+                    <!-- Title -->
+                    <h4 class="text-[#142137] text-base md:text-[20px] font-semibold leading-snug md:leading-[30px] tracking-tight md:tracking-[-0.4px] font-[Poppins]">
+                        How to Keep Your Garments Fresh & Clean Laundry Tips.
+                    </h4>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="w-full md:w-[565px] h-auto md:h-[148px] flex items-center justify-end border border-[rgba(20,33,55,0.14)] bg-transparent py-4 px-3 gap-4 md:gap-8">
+                <!-- Text Section -->
+                <div class="flex flex-col pt-0.5 md:pt-[2px] justify-center items-end gap-2 md:gap-3">
+                    <!-- Next Post -->
+                    <div class="flex items-center gap-2 text-sm md:text-[15px] font-medium uppercase text-[rgba(20,33,55,0.70)] font-[Poppins]">
+                        Next Post
+                        <!-- SVG Comment -->
+                        [SVG]
+                    </div>
+                    <!-- Title -->
+                    <h4 class="w-full md:w-[370px] text-[#142137] text-right text-base md:text-[20px] font-semibold leading-snug md:leading-[30px] tracking-tight md:tracking-[-0.4px] font-[Poppins]">
+                        Stain Removal to Fabric Care Laundry & Dry Cleaning Tips.
+                    </h4>
+                </div>
+
+                <!-- Image -->
+                <div class="w-20 md:w-[100px] h-24 md:h-[120px] flex-shrink-0 aspect-[149/224]">
+                    <img src="./assets/images/nextpost.png" alt="Next post image" class="h-full w-full object-cover" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Comments Section-->
+        <div class="comment-area w-full md:w-[922px] flex flex-col gap-6 md:gap-[24px] py-12 md:py-[85px]">
+            <!-- heading -->
+            <div class="comment-heading">
+                <h1 class="text-[#142137] font-poppins text-3xl md:text-[44px] font-semibold leading-relaxed md:leading-[64px] tracking-tight md:tracking-[-0.88px]">2 Comments</h1>
+            </div>
+            
+            <!-- Comment components would go here -->
+            <!-- ... -->
+            
+            <!-- Write Comment -->
+            <div class="write-comment-area mb-2 md:mb-[8px]">
+                <!-- heading -->
+                <div class="heading mb-3 md:mb-[14px]">
+                    <h2 class="text-[#142137] font-poppins text-3xl md:text-[44px] font-semibold leading-relaxed md:leading-[64px] tracking-tight md:tracking-[-0.88px]">
+                        Leave a Comment
+                    </h2>
+                </div>
+
+                <form class="max-w-[1160px] mx-auto space-y-6 font-poppins text-base md:text-[16px] font-normal text-[rgba(20,33,55,0.7)] leading-relaxed md:leading-[26px]">
+                    <div class="flex flex-col md:flex-row gap-6 md:gap-[30px]">
+                        <!-- Name -->
+                        <div class="w-full">
+                            <label for="name" class="block mb-2 cursor-text">Your Name *</label>
+                            <input id="name" type="text" placeholder="Your Name"
+                                class="w-full h-12 md:h-[50px] border border-[rgba(20,33,55,0.1)] bg-transparent px-4 text-[rgba(20,33,55,0.7)] placeholder:text-[rgba(20,33,55,0.7)] focus:outline-none"
+                                required />
+                        </div>
+
+                        <!-- Email -->
+                        <div class="w-full">
+                            <label for="email" class="block mb-2 cursor-text">Your Email *</label>
+                            <input id="email" type="email" placeholder="Your Email"
+                                class="w-full h-12 md:h-[50px] border border-[rgba(20,33,55,0.1)] bg-transparent px-4 text-[rgba(20,33,55,0.7)] placeholder:text-[rgba(20,33,55,0.7)] focus:outline-none"
+                                required />
+                        </div>
+                    </div>
+
+                    <!-- Comment textarea -->
+                    <div>
+                        <label for="comment" class="block mb-2 cursor-text">Your Comment *</label>
+                        <textarea id="comment" placeholder="Your Comment"
+                            class="w-full h-48 md:h-[210px] border border-[rgba(20,33,55,0.1)] bg-transparent px-4 py-3 resize-none text-[rgba(20,33,55,0.7)] placeholder:text-[rgba(20,33,55,0.7)] focus:outline-none"
+                            required></textarea>
+                    </div>
+
+                    <!-- Checkbox with label -->
+                    <div class="flex items-center gap-2 -mt-4 md:-mt-[16px]">
+                        <input id="save-info" type="checkbox"
+                            class="w-3.5 h-3.5 md:w-[14px] md:h-[14px] border border-[rgba(20,33,55,0.1)] bg-transparent cursor-pointer" />
+                        <label for="save-info" class="cursor-pointer select-none text-sm md:text-base">
+                            Save my name, email, and website in this browser for the next time I comment.
+                        </label>
+                    </div>
+
+                    <!-- Submit button with icon -->
+                    <div class="flex mt-8 md:mt-[34px] items-center gap-6">
+                        <button type="submit"
+                            class="w-full md:w-[207px] h-12 md:h-[54px] pl-4 md:pl-[16px] rounded-[50px] border border-[rgba(20,33,55,0.2)] bg-[#142137] text-white font-medium leading-normal cursor-pointer flex items-center justify-center gap-3 hover:bg-[#0f1b2a] transition">
+                            Post Comment
+                            <span class="w-8 md:w-[34px] h-8 md:h-[34px] rounded-[50px] bg-white flex items-center justify-center">
+                                <!-- SVG Comment -->
+                                [SVG]
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog Right Sidebar -->
+    <div class="blog-sidebar w-full lg:w-[380px] flex flex-col gap-6 md:gap-[27px]">
+        <!-- search section -->
+        <div class="search-area w-full lg:w-[380px] h-auto md:h-[165px] flex-shrink-0 bg-[#EBEFF3] px-6 md:px-[30px] pt-5 md:pt-[20px] text-[#142137] font-poppins text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] tracking-tight md:tracking-[-0.48px]">
+            <h2 class="mb-6">Search</h2>
+
+            <div class="relative w-full md:w-[318px] mb-6 md:mb-0">
+                <input type="text" placeholder="Search Here...."
+                    class="w-full h-11 md:h-[44px] border border-[#1421371A] bg-transparent text-[#142137B3] font-poppins text-sm md:text-[15px] font-normal leading-relaxed md:leading-[26px] pl-4 pr-12 outline-none" />
+
+                <!-- Icon inside input -->
+                <button type="submit"
+                    class="absolute right-0 top-1/2 -translate-y-1/2 w-11 md:w-[44px] h-11 md:h-[44px] bg-[#4375E7] flex items-center justify-center">
+                    <!-- SVG Comment -->
+                    [SVG]
+                </button>
+            </div>
+        </div>
+
+        <!-- Recent Posts Card -->
+        <div class="w-full lg:w-[380px] h-auto md:h-[469px] flex-shrink-0 bg-[#EBEFF3] px-6 md:pl-[30px] pt-5 md:pt-[21px] text-[#142137] font-poppins">
+            <!-- Title -->
+            <h2 class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 md:mb-[26px] tracking-tight md:tracking-[-0.48px]">
+                Recent Posts
+            </h2>
+
+            <!-- Post Rows -->
+            <div class="space-y-6">
+                <!-- Repeat this block for each post -->
+                <div class="flex gap-5 items-center">
+                    <!-- Left: Image -->
+                    <div class="w-20 md:w-[90px] h-24 md:h-[100px] aspect-[9/10] flex-shrink-0 bg-gray-300 overflow-hidden">
+                        <img src="./assets/images/post1.png" class="w-full h-full object-cover" />
+                    </div>
+
+                    <!-- Right: Content -->
+                    <div class="flex-1">
+                        <!-- Date -->
+                        <div class="flex items-center gap-1.5 text-sm md:text-[15px] text-[#142137B3] leading-relaxed md:leading-[26px]">
+                            <!-- SVG Comment -->
+                            [SVG]
+                            <span>June 29, 2025</span>
+                        </div>
+                        <!-- Title -->
+                        <h3 class="text-base md:text-[18px] font-medium leading-relaxed md:leading-[28px] tracking-tight md:tracking-[-0.36px] mt-1">
+                            Natural Laundry Detergents Explained.
+                        </h3>
+                    </div>
+                </div>
+                
+                <!-- More post rows would go here -->
+                <!-- ... -->
+            </div>
+        </div>
+
+        <!-- Category Card -->
+        <div class="w-full lg:w-[380px] h-auto md:h-[407px] flex-shrink-0 bg-[#EBEFF3] px-6 md:pt-[24px] md:pl-[30px] text-[#142137] font-poppins">
+            <!-- Title -->
+            <h2 class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 tracking-tight md:tracking-[-0.48px]">
+                Categories
+            </h2>
+
+            <!-- Category List -->
+            <div class="space-y-3 md:space-y-[15px]">
+                <!-- Single Category -->
+                <div class="w-full md:w-[318px] h-11 md:h-[46px] flex items-center justify-between border border-[#14213723] bg-transparent px-4 md:px-4.5">
+                    <div class="flex items-center gap-2">
+                        <!-- Dot Icon -->
+                        <!-- SVG Comment -->
+                        [SVG]
+                        <!-- Category Name -->
+                        <span class="text-sm md:text-[15px] text-[#142137B3] font-medium leading-relaxed md:leading-[26px]">
+                            Laundry Services
+                        </span>
+                    </div>
+                    <!-- Count -->
+                    <span class="text-sm md:text-[15px] text-[#142137B3] font-medium leading-relaxed md:leading-[26px]">(6)</span>
+                </div>
+                
+                <!-- More category items would go here -->
+                <!-- ... -->
+            </div>
+        </div>
+
+        <!-- Popular Tags Card -->
+        <div class="w-full lg:w-[380px] h-auto md:h-[225px] flex-shrink-0 bg-[#EBEFF3] px-6 md:pl-[30px] md:pt-[22px] text-[#142137] font-poppins">
+            <!-- Title -->
+            <h2 class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-4 tracking-tight md:tracking-[-0.48px]">
+                Popular Tags
+            </h2>
+
+            <!-- Tag List -->
+            <div class="flex mt-6 md:mt-[25px] flex-wrap gap-2 md:gap-[10px]">
+                <!-- Tags would go here -->
+                <!-- ... -->
+            </div>
+        </div>
+
+        <!-- Follow Us Card -->
+        <div class="w-full lg:w-[380px] h-auto md:h-[171px] flex-shrink-0 bg-[#EBEFF3] px-6 md:pl-[30px] md:pt-[24px] text-[#142137] font-poppins">
+            <!-- Title -->
+            <h2 class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 tracking-tight md:tracking-[-0.48px]">
+                Follow Us
+            </h2>
+
+            <!-- Icons Row -->
+            <div class="flex items-center gap-2 md:gap-2.5">
+                <!-- Social media icons would go here -->
+                <!-- ... -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer
+    class="footer-area w-[1920px] h-[614px] font-poppins text-white px-[160px] py-[112px] flex flex-col gap-[90px] bg-[#142137]">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 space-x-10">
+      <!-- First Column -->
+      <div class="flex flex-col gap-[7px]">
+        <img src="./assets/images/footerlogo.png" alt="Logo" class="w-[183px] h-[40px] mb-4">
+        <p class="text-[16px] leading-[26px] text-white/70 w-[345px] mb-6">
+          Fusce non ellus nege purus fermentum commodo nunc ame alique Suspendisse poten In eu ipsum massa.
+        </p>
+        <div class="flex items-center gap-[14px] mt-1">
+          <div
+            class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+            <!-- Phone Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+              <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M1.464 3.249c.3-.497 1.952-2.302 3.13-2.248.352.03.664.243.917.49.58.568 2.243 2.712 2.337 3.163.23 1.107-1.09 1.745-.686 2.86 1.03 2.518 2.803 4.292 5.324 5.32 1.115.405 1.753-.914 2.86-.684.452.095 2.597 1.758 3.165 2.339.246.251.46.564.49.916.044 1.24-1.873 2.914-2.246 3.128-.882.631-2.032.62-3.434-.032C9.407 16.875 3.154 10.74 1.496 6.681c-.634-1.394-.677-2.552-.032-3.433Z" />
+              <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M12.43 1.238c3.508.39 6.277 3.157 6.671 6.663" />
+              <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M12.429 4.592c1.676.327 2.986 1.637 3.313 3.314" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Hotline:</p>
+            <p class="text-white text-[16px] font-semibold leading-[24px] tracking-[-0.32px]">(234) 987 - 354 - 3670</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 mt-3">
+          <div
+            class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+            <!-- Email Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewBox="0 0 21 18">
+              <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M1 5.706C1 2.412 2.882 1 5.706 1h9.412c2.824 0 4.706 1.412 4.706 4.706v6.588c0 3.294-1.882 4.706-4.706 4.706H5.706" />
+              <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M15.117 6.176 12.171 8.528c-0.97.772-2.561.772-3.53 0L5.705 6.176" />
+              <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                d="M1 13.235h5.647M1 9.47h2.824" />
+            </svg>
+          </div>
+          <div>
+            <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Email:</p>
+            <p class="text-white text-[16px] font-semibold leading-[24px] tracking-[-0.32px]">example@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Column -->
+      <div class="flex items-start flex-col pl-[112px] gap-[20px]">
+        <h3 class="text-white text-[20px] font-semibold tracking-[-0.4px]">Our Services</h3>
+        <ul class="text-white/70 text-[16px] font-medium leading-[44px]">
+          <li>Laundry Service</li>
+          <li>Dry Cleaning</li>
+          <li>Ironing</li>
+          <li>Alteration & Repairs</li>
+          <li>Dry Cleaners</li>
+          <li>Shirt Service</li>
+        </ul>
+      </div>
+
+      <!-- Third Column -->
+      <div class="flex items-start flex-col pl-[40px] gap-[20px]">
+        <h3 class="text-white text-[20px] font-semibold tracking-[-0.4px]">Quick Links</h3>
+        <ul class="text-white/70 text-[16px] font-medium leading-[44px]">
+          <li>About Us</li>
+          <li>Pricing</li>
+          <li>Our Services</li>
+          <li>FAQs</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+        </ul>
+      </div>
+
+      <!-- Fourth Column -->
+      <div class="flex items-start flex-col -ml-[34px] gap-[20px]">
+        <h3 class="text-white text-[20px] font-semibold tracking-[-0.4px]">Commercial Services</h3>
+        <ul class="text-white/70 text-[16px] font-medium leading-[44px]">
+          <li>Airbnb Laundry</li>
+          <li>Restaurant Laundry</li>
+          <li>Workwear Laundry</li>
+          <li>Cafe Laundry</li>
+          <li>Hotel Laundry</li>
+          <li>Gym Laundry</li>
+        </ul>
+      </div>
+
+      <!-- Fifth Column -->
+      <div class="flex items-start flex-col -ml-[55px] gap-[20px]">
+        <h3 class="text-white text-[20px] font-semibold tracking-[-0.4px]">Newsletters</h3>
+        <p class="text-white/70 text-[16px] font-normal leading-[26px] w-[259px]">Sign up and receive our special
+          offers.</p>
+        <form
+          class="w-[375px] h-[50px] mt-1 flex border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px]">
+          <input type="email" placeholder="Enter your Email..."
+            class="flex-1 px-4 text-white/70 text-[15px] font-normal bg-transparent outline-none" />
+          <button
+            class="w-[124px] h-[40px] my-auto mr-2 bg-[#4375E7] text-white text-[15px] font-medium rounded">Subscribe</button>
+        </form>
+
+        <!-- socail icon -->
+        <div class="socil-icon -ml-[60px] -mt-[32px]">
+          <svg xmlns="http://www.w3.org/2000/svg" width="290" height="158" viewBox="0 0 290 158" fill="none">
+            <foreignObject x="132" y="0" width="158" height="158">
+              <div xmlns="http://www.w3.org/1999/xhtml"
+                style="backdrop-filter:blur(5px);clip-path:url(#bgblur_0_193_306_clip_path);height:100%;width:100%">
+              </div>
+            </foreignObject>
+            <g filter="url(#filter0_d_193_306)" data-figma-bg-blur-radius="10">
+              <circle cx="211" cy="69" r="18" fill="#142137" shape-rendering="crispEdges" />
+              <circle cx="211" cy="69" r="18.5" stroke="white" stroke-opacity="0.14" shape-rendering="crispEdges" />
+            </g>
+            <path
+              d="M211.008 60C206.033 60 202 64.0261 202 68.9926C202 72.8043 204.372 76.0608 207.723 77.3707C207.641 76.6605 207.575 75.5647 207.752 74.7878C207.915 74.0843 208.805 70.317 208.805 70.317C208.805 70.317 208.538 69.777 208.538 68.9849C208.538 67.734 209.265 66.8017 210.169 66.8017C210.94 66.8017 211.311 67.3793 211.311 68.0677C211.311 68.8372 210.822 69.9921 210.562 71.0654C210.347 71.9609 211.014 72.6935 211.896 72.6935C213.498 72.6935 214.729 71.006 214.729 68.5781C214.729 66.4241 213.18 64.9219 210.963 64.9219C208.398 64.9219 206.893 66.8389 206.893 68.8225C206.893 69.592 207.19 70.4214 207.56 70.8731C207.635 70.961 207.642 71.0426 207.62 71.1312C207.553 71.4124 207.398 72.0266 207.367 72.1528C207.33 72.3156 207.234 72.3521 207.063 72.2713C205.936 71.7457 205.232 70.1099 205.232 68.7852C205.232 65.9502 207.292 63.3455 211.185 63.3455C214.306 63.3455 216.737 65.5663 216.737 68.5416C216.737 71.5168 214.78 74.1374 212.066 74.1374C211.154 74.1374 210.294 73.6635 210.006 73.101C210.006 73.101 209.554 74.8177 209.442 75.2399C209.243 76.0242 208.693 77.0016 208.323 77.601C209.169 77.859 210.059 78 210.993 78C215.968 78 220 73.9739 220 69.0074C220.015 64.0261 215.982 60 211.008 60Z"
+              fill="white" />
+            <foreignObject x="88" y="0" width="158" height="158">
+              <div xmlns="http://www.w3.org/1999/xhtml"
+                style="backdrop-filter:blur(5px);clip-path:url(#bgblur_1_193_306_clip_path);height:100%;width:100%">
+              </div>
+            </foreignObject>
+            <g filter="url(#filter1_d_193_306)" data-figma-bg-blur-radius="10">
+              <circle cx="167" cy="69" r="18" fill="#142137" shape-rendering="crispEdges" />
+              <circle cx="167" cy="69" r="18.5" stroke="white" stroke-opacity="0.14" shape-rendering="crispEdges" />
+            </g>
+            <path
+              d="M170.047 65.7363C171.304 65.7363 172.509 66.2354 173.397 67.1237C174.285 68.012 174.784 69.2169 174.784 70.4732V75.9995H171.626V70.4732C171.626 70.0544 171.46 69.6528 171.164 69.3567C170.868 69.0606 170.466 68.8942 170.047 68.8942C169.629 68.8942 169.227 69.0606 168.931 69.3567C168.635 69.6528 168.468 70.0544 168.468 70.4732V75.9995H165.311V70.4732C165.311 69.2169 165.81 68.012 166.698 67.1237C167.586 66.2354 168.791 65.7363 170.047 65.7363Z"
+              fill="white" />
+            <path d="M162.158 66.5254H159V75.9991H162.158V66.5254Z" fill="white" />
+            <path
+              d="M160.579 64.1579C161.451 64.1579 162.158 63.451 162.158 62.5789C162.158 61.7069 161.451 61 160.579 61C159.707 61 159 61.7069 159 62.5789C159 63.451 159.707 64.1579 160.579 64.1579Z"
+              fill="white" />
+            <circle cx="123" cy="69" r="18" fill="#4375E7" />
+            <path
+              d="M121.925 70.5625C121.556 70.9874 121.195 71.4029 120.834 71.8186C119.649 73.1821 118.464 74.5452 117.282 75.9102C117.224 75.9766 117.165 76.0009 117.079 75.9998C116.764 75.9953 116.449 75.9982 116.135 75.9977C116.098 75.9977 116.062 75.9944 116 75.9912C116.123 75.8488 116.232 75.7226 116.341 75.5971C117.889 73.815 119.438 72.0326 120.986 70.2504C121.102 70.1175 121.214 69.9821 121.334 69.8529C121.383 69.8007 121.38 69.7652 121.341 69.7092C120.715 68.8114 120.092 67.912 119.469 67.013C118.745 65.9694 118.02 64.9261 117.295 63.8827C116.879 63.2823 116.463 62.6819 116.046 62.0814C116.034 62.0634 116.022 62.0443 116 62.009C116.052 62.0063 116.091 62.0025 116.13 62.0025C117.416 62.002 118.702 62.0029 119.988 62C120.074 61.9998 120.123 62.0308 120.17 62.099C121.081 63.4143 121.994 64.7283 122.906 66.0428C123.133 66.369 123.358 66.6958 123.585 67.0223C123.612 67.0621 123.641 67.101 123.677 67.1521C123.796 67.0164 123.909 66.8886 124.021 66.7597C125.373 65.2039 126.725 63.6481 128.075 62.0909C128.128 62.0292 128.182 61.9989 128.266 62.0002C128.585 62.005 128.903 62.002 129.222 62.0023C129.258 62.0023 129.295 62.0059 129.356 62.0092C129.212 62.1757 129.085 62.3251 128.956 62.4733C127.402 64.2609 125.849 66.0488 124.293 67.8341C124.228 67.9086 124.231 67.9576 124.284 68.0341C125.591 69.9139 126.896 71.795 128.202 73.6759C128.71 74.4086 129.22 75.1406 129.728 75.8733C129.751 75.9069 129.773 75.9415 129.806 75.9921C129.753 75.9946 129.713 75.9977 129.674 75.9977C128.392 75.998 127.11 75.9971 125.828 76C125.734 76.0002 125.681 75.9685 125.628 75.892C124.69 74.5362 123.749 73.1826 122.808 71.8283C122.531 71.4283 122.254 71.0275 121.976 70.627C121.963 70.609 121.949 70.5924 121.925 70.5625ZM128.146 75.131C128.118 75.0867 128.101 75.0549 128.08 75.0255C127.873 74.7314 127.664 74.4381 127.457 74.1443C125.912 71.9557 124.367 69.767 122.822 67.5786C121.746 66.0542 120.669 64.5306 119.594 63.0049C119.546 62.9367 119.498 62.9061 119.412 62.9066C118.861 62.9106 118.31 62.9084 117.759 62.9086C117.726 62.9086 117.694 62.9122 117.647 62.9151C117.679 62.9637 117.703 63.0006 117.728 63.0364C119.056 64.9155 120.383 66.7941 121.711 68.6732C123.213 70.8003 124.715 72.9275 126.215 75.0565C126.261 75.1215 126.309 75.1384 126.382 75.1379C126.93 75.1357 127.477 75.1368 128.024 75.1364C128.059 75.1368 128.095 75.1334 128.146 75.131Z"
+              fill="white" />
+            <foreignObject x="0" y="0" width="158" height="158">
+              <div xmlns="http://www.w3.org/1999/xhtml"
+                style="backdrop-filter:blur(5px);clip-path:url(#bgblur_2_193_306_clip_path);height:100%;width:100%">
+              </div>
+            </foreignObject>
+            <g filter="url(#filter2_d_193_306)" data-figma-bg-blur-radius="10">
+              <circle cx="79" cy="69" r="18" fill="#142137" shape-rendering="crispEdges" />
+              <circle cx="79" cy="69" r="18.5" stroke="white" stroke-opacity="0.14" shape-rendering="crispEdges" />
+            </g>
+            <path
+              d="M83.35 61H80.8C79.6728 61 78.5918 61.4478 77.7948 62.2448C76.9978 63.0418 76.55 64.1228 76.55 65.25V67.8H74V71.2H76.55V78H79.95V71.2H82.5L83.35 67.8H79.95V65.25C79.95 65.0246 80.0396 64.8084 80.199 64.649C80.3584 64.4896 80.5746 64.4 80.8 64.4H83.35V61Z"
+              fill="white" />
+            <defs>
+              <filter id="filter0_d_193_306" x="132" y="0" width="158" height="158" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha" />
+                <feOffset dy="10" />
+                <feGaussianBlur stdDeviation="30" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix"
+                  values="0 0 0 0 0.0117647 0 0 0 0 0.0235294 0 0 0 0 0.0666667 0 0 0 0.2 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_193_306" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_193_306" result="shape" />
+              </filter>
+              <clipPath id="bgblur_0_193_306_clip_path" transform="translate(-132 0)">
+                <circle cx="211" cy="69" r="18" />
+              </clipPath>
+              <filter id="filter1_d_193_306" x="88" y="0" width="158" height="158" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha" />
+                <feOffset dy="10" />
+                <feGaussianBlur stdDeviation="30" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix"
+                  values="0 0 0 0 0.0117647 0 0 0 0 0.0235294 0 0 0 0 0.0666667 0 0 0 0.2 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_193_306" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_193_306" result="shape" />
+              </filter>
+              <clipPath id="bgblur_1_193_306_clip_path" transform="translate(-88 0)">
+                <circle cx="167" cy="69" r="18" />
+              </clipPath>
+              <filter id="filter2_d_193_306" x="0" y="0" width="158" height="158" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha" />
+                <feOffset dy="10" />
+                <feGaussianBlur stdDeviation="30" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix"
+                  values="0 0 0 0 0.0117647 0 0 0 0 0.0235294 0 0 0 0 0.0666667 0 0 0 0.2 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_193_306" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_193_306" result="shape" />
+              </filter>
+              <clipPath id="bgblur_2_193_306_clip_path" transform="translate(0 0)">
+                <circle cx="79" cy="69" r="18" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- divider and footer buttom -->
+    <div class="flex flex-col gap-[30px]">
+      <div class="w-[1600px] h-px flex-shrink-0 bg-white/10"></div>
+      <div class="footer-bottom flex justify-between items-start">
+        <h2 class="text-white/70 font-poppins text-base not-italic font-normal leading-[26px]">©2025 Laundre All Rights
+          Reserved</h2>
+        <p class="font-poppins text-base not-italic font-normal leading-[26px]">
+          <span class="text-white/70">Privacy Policy</span>
+          <span class="text-white/70 mx-[14px]">|</span>
+          <span class="text-white">Term of Service</span>
+        </p>
+
+      </div>
+    </div>
+
+
+  </footer>
+
+
+</body>
+
+</html>
