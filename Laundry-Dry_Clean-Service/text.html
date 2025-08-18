@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scroll Sync with Fixed End</title>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+ <link href="./assets/css/output.css" rel="stylesheet">
+<style>
+  body, html { margin: 0; padding: 0; height: 100%; }
+  /* scrollbar hidden */
+  .scrollbar-hide::-webkit-scrollbar { display: none; }
+  .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+</head>
+<body>
+
+<div class="flex h-screen">
+  <!-- Left Content -->
+  <div id="left" class="w-1/2 h-full overflow-y-scroll scrollbar-hide p-4">
+    <h2 class="text-xl font-bold mb-4">Left Content</h2>
+    <div class="space-y-6">
+      <div class="h-64 bg-blue-200">Item 1</div>
+      <div class="h-64 bg-blue-300">Item 2</div>
+      <div class="h-64 bg-blue-400">Item 3</div>
+      <div class="h-64 bg-blue-500">Item 4</div>
+      <div class="h-64 bg-blue-600">Item 5</div>
+      <div class="h-64 bg-blue-700">Item 6</div>
+      <div class="h-64 bg-blue-800">Item 7</div>
+      <div class="h-64 bg-blue-900">Item 8</div>
+    </div>
+  </div>
+
+  <!-- Right Content -->
+  <div id="right" class="w-1/2 h-full overflow-y-scroll scrollbar-hide p-4">
+    <h2 class="text-xl font-bold mb-4">Right Content</h2>
+    <div class="space-y-6">
+      <div class="h-64 bg-red-200">Item A</div>
+      <div class="h-64 bg-red-300">Item B</div>
+      <div class="h-64 bg-red-400">Item C</div>
+      <div class="h-64 bg-red-500">Item D</div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function(){
+  function syncScroll(e){
+    var left = $('#left');
+    var right = $('#right');
+
+    // Determine scroll amount based on mouse wheel
+    var delta = e.originalEvent.deltaY;
+
+    // Apply scroll to both sides
+    left.scrollTop(left.scrollTop() + delta);
+    right.scrollTop(right.scrollTop() + delta);
+
+    // Fix left if finished
+    if(left.scrollTop() + left.innerHeight() >= left[0].scrollHeight){
+      left.css({'position':'sticky','top':'0'});
+    } else {
+      left.css({'position':'static'});
+    }
+
+    // Fix right if finished
+    if(right.scrollTop() + right.innerHeight() >= right[0].scrollHeight){
+      right.css({'position':'sticky','top':'0'});
+    } else {
+      right.css({'position':'static'});
+    }
+
+    // Prevent default scrolling to avoid double scroll
+    e.preventDefault();
+  }
+
+  // Bind mouse wheel on container for user-friendly anywhere scroll
+  $(document).on('wheel', syncScroll);
+});
+</script>
+
+</body>
+</html>

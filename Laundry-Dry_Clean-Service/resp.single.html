@@ -10,8 +10,6 @@
 
 <body class="bg-white m-0 p-0">
 
-
-
   <!-- Blog Hero Area -->
 <section class="relative mx-auto w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-16 lg:py-20 xl:py-24 h-[250px] sm:h-[300px] md:h-[350px] lg:h-[370px] bg-cover bg-center bg-no-repeat "
   style="background-image: url('./assets/images/bg.png');">
@@ -592,7 +590,7 @@
 
 
     <!-- Blog Right Sidebar -->
-    <div class="blog-sidebar w-full md:w-4/12 flex flex-col gap-6 md:gap-[27px]">
+    <div class="blog-sidebar w-full md:w-4/12 flex flex-col gap-6 md:gap-[27px] ">
 
       <!-- For mobile device only -->
        <div class="flex flex-row h-[130px] gap-6 md:hidden">
@@ -946,6 +944,85 @@
         </div>
     </div>
 </section>
+
+
+<div class="flex h-screen">
+  <!-- Left Content -->
+  <div id="left" class="w-1/2 h-full overflow-y-scroll scrollbar-none p-4">
+    <h2 class="text-xl font-bold mb-4">Left Content</h2>
+    <div class="space-y-6">
+      <div class="h-64 bg-blue-200">Item 1</div>
+      <div class="h-64 bg-blue-300">Item 2</div>
+      <div class="h-64 bg-blue-400">Item 3</div>
+      <div class="h-64 bg-blue-500">Item 4</div>
+      <div class="h-64 bg-blue-600">Item 5</div>
+      <div class="h-64 bg-blue-700">Item 6</div>
+      <div class="h-64 bg-blue-200">Item 1</div>
+      <div class="h-64 bg-blue-300">Item 2</div>
+      <div class="h-64 bg-blue-400">Item 3</div>
+      <div class="h-64 bg-blue-500">Item 4</div>
+      <div class="h-64 bg-blue-600">Item 5</div>
+      <div class="h-64 bg-blue-700">Item 6</div>
+      <div class="h-64 bg-blue-200">Item 1</div>
+      <div class="h-64 bg-blue-300">Item 2</div>
+      <div class="h-64 bg-blue-400">Item 3</div>
+      <div class="h-64 bg-blue-500">Item 4</div>
+      <div class="h-64 bg-blue-600">Item 5</div>
+      <div class="h-64 bg-blue-700">Item 6</div>
+    </div>
+  </div>
+
+  <!-- Right Content -->
+  <div id="right" class="w-1/2 h-full overflow-y-scroll scrollbar-none p-4">
+    <h2 class="text-xl font-bold mb-4">Right Content</h2>
+    <div class="space-y-6">
+      <div class="h-64 bg-red-200">Item A</div>
+      <div class="h-64 bg-red-300">Item B</div>
+      <div class="h-64 bg-red-400">Item C</div>
+      <div class="h-64 bg-red-500">Item D</div>
+      <div class="h-64 bg-red-600">Item E</div>
+      <div class="h-64 bg-red-700">Item F</div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Tailwind doesn't provide scrollbar-none by default for all browsers */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+</style>
+
+<script>
+  const left = document.getElementById('left');
+  const right = document.getElementById('right');
+
+  function syncScroll() {
+    // scroll sync
+    right.scrollTop = left.scrollTop;
+
+    // left finished
+    if(left.scrollTop + left.clientHeight >= left.scrollHeight){
+      left.style.position = 'sticky';
+      left.style.top = '0';
+    }
+
+    // right finished
+    if(right.scrollTop + right.clientHeight >= right.scrollHeight){
+      right.style.position = 'sticky';
+      right.style.top = '0';
+    }
+  }
+
+  left.addEventListener('scroll', syncScroll);
+  right.addEventListener('scroll', syncScroll);
+</script>
+
+
 
 
 
