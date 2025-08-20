@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./assets/css/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-white m-0 p-0">
+    <!-- Navbar Top -->
+    <section
+        class="header-top w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-[0.625rem] bg-[#4375E7] h-[4rem] lg:h-[3.375rem] flex flex-col gap-3 lg:gap-0 items-center lg:flex-row lg:justify-between">
+
+
+
+        <!-- left -->
+        <div class="follow-liink flex w-full justify-between lg:justify-start items-center lg:gap-[1.25rem]">
+
+            <!-- Social Icons -->
+            <div class="social-icon flex items-center justify-center gap-2 sm:gap-3 md:gap-4 lg:gap-[1.125rem]">
+                <h3 class="text-white font-poppins text-xs sm:text-sm  lg:text-[1rem] font-medium leading-none">
+                    Follow Us:
+                </h3>
+                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14" fill="none">
+                    <path opacity="0.5"
+                        d="M7.7 0H5.6C4.67174 0 3.7815 0.368749 3.12513 1.02513C2.46875 1.6815 2.1 2.57174 2.1 3.5V5.6H0V8.4H2.1V14H4.9V8.4H7L7.7 5.6H4.9V3.5C4.9 3.31435 4.97375 3.1363 5.10503 3.00503C5.2363 2.87375 5.41435 2.8 5.6 2.8H7.7V0Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                    <path
+                        d="M10.3117 4.42106C11.4842 4.42106 12.6087 4.88684 13.4378 5.71595C14.2669 6.54506 14.7327 7.66957 14.7327 8.84211V14H11.7854V8.84211C11.7854 8.45126 11.6301 8.07643 11.3537 7.80006C11.0774 7.52369 10.7025 7.36842 10.3117 7.36842C9.92083 7.36842 9.54599 7.52369 9.26962 7.80006C8.99325 8.07643 8.83799 8.45126 8.83799 8.84211V14H5.89062V8.84211C5.89062 7.66957 6.35641 6.54506 7.18552 5.71595C8.01463 4.88684 9.13914 4.42106 10.3117 4.42106Z"
+                        fill="white" />
+                    <path d="M2.94737 5.15775H0V13.9998H2.94737V5.15775Z" fill="white" />
+                    <path
+                        d="M1.47368 2.94737C2.28758 2.94737 2.94737 2.28758 2.94737 1.47368C2.94737 0.659791 2.28758 0 1.47368 0C0.659791 0 0 0.659791 0 1.47368C0 2.28758 0.659791 2.94737 1.47368 2.94737Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
+                    <path opacity="0.5"
+                        d="M15.5294 0.00672484C14.8534 0.458456 14.105 0.803959 13.3129 1.02993C12.8878 0.566818 12.3228 0.238578 11.6944 0.0896016C11.0659 -0.0593751 10.4044 -0.021901 9.79912 0.196956C9.19388 0.415812 8.67419 0.805492 8.31034 1.31329C7.94649 1.82109 7.75602 2.42251 7.76471 3.0362V3.70496C6.52421 3.73544 5.29502 3.47478 4.18659 2.94622C3.07817 2.41765 2.12493 1.63758 1.41176 0.675484C1.41176 0.675484 -1.41176 6.69432 4.94118 9.36935C3.48743 10.3043 1.75564 10.773 0 10.7069C6.35294 14.0507 14.1176 10.7069 14.1176 3.01614C14.117 2.82986 14.0981 2.64404 14.0612 2.46107C14.7816 1.78796 15.29 0.938114 15.5294 0.00672484Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path opacity="0.5"
+                        d="M7.50631 0C3.36066 0 0 3.35508 0 7.49385C0 10.6702 1.97701 13.384 4.76925 14.4756C4.70087 13.8838 4.646 12.9706 4.7936 12.3231C4.92947 11.7369 5.67074 8.59746 5.67074 8.59746C5.67074 8.59746 5.4486 8.14746 5.4486 7.4874C5.4486 6.44502 6.054 5.66807 6.80759 5.66807C7.44997 5.66807 7.75927 6.14941 7.75927 6.72305C7.75927 7.36436 7.35166 8.32676 7.13509 9.22119C6.95608 9.96738 7.51189 10.5779 8.24699 10.5779C9.58163 10.5779 10.6073 9.17168 10.6073 7.14844C10.6073 5.35342 9.31635 4.10156 7.46904 4.10156C5.3318 4.10156 4.07728 5.69912 4.07728 7.35205C4.07728 7.99336 4.32466 8.68447 4.63308 9.06094C4.69559 9.13418 4.70205 9.20215 4.68326 9.27598C4.62751 9.51035 4.49809 10.0222 4.47286 10.1273C4.44204 10.263 4.36134 10.2935 4.21931 10.2261C3.28025 9.78809 2.69305 8.4249 2.69305 7.321C2.69305 4.9585 4.41035 2.78789 7.65392 2.78789C10.2551 2.78789 12.2808 4.63857 12.2808 7.11797C12.2808 9.59736 10.6501 11.7812 8.38873 11.7812C7.62868 11.7812 6.91177 11.3862 6.67143 10.9175C6.67143 10.9175 6.29463 12.348 6.2019 12.6999C6.03551 13.3535 5.57772 14.168 5.269 14.6675C5.97388 14.8825 6.71574 15 7.49399 15C11.6396 15 15.0003 11.6449 15.0003 7.50615C15.0123 3.35508 11.652 0 7.50631 0Z"
+                        fill="white" />
+                </svg>
+            </div>
+
+            <!-- Location for mobile, sm, md device -->
+            <div
+                class="location flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25 lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
+                    <path
+                        d="M0.141069 4.88781C1.62473 -1.63429 11.2874 -1.62676 12.7635 4.89534C13.6296 8.72124 10.3086 12.9009 8.22238 14.9042C6.70859 16.3653 6.19599 16.3653 4.67467 14.9042C2.59604 12.9009 -0.72503 8.71371 0.141069 4.88781Z"
+                        fill="white" />
+                    <path
+                        d="M6.45206 8.60897C7.7498 8.60897 8.80182 7.55694 8.80182 6.25921C8.80182 4.96147 7.7498 3.90944 6.45206 3.90944C5.15432 3.90944 4.10229 4.96147 4.10229 6.25921C4.10229 7.55694 5.15432 8.60897 6.45206 8.60897Z"
+                        fill="#4375E7" />
+                </svg>
+                <h3
+                    class="text-white font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">
+                    Holland, London 7QU UK</h3>
+            </div>
+
+        </div>
+
+
+
+        <!-- right -->
+        <div
+            class="contact-info relative flex flex-row items-center justify-center gap-2 sm:gap-3 md:gap-6 lg:gap-[1.25rem]">
+
+            <!-- Location  Location for lg or large device -->
+            <div
+                class="location hidden lg:flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="16" viewBox="0 0 13 16" fill="none">
+                    <path
+                        d="M0.141069 4.88781C1.62473 -1.63429 11.2874 -1.62676 12.7635 4.89534C13.6296 8.72124 10.3086 12.9009 8.22238 14.9042C6.70859 16.3653 6.19599 16.3653 4.67467 14.9042C2.59604 12.9009 -0.72503 8.71371 0.141069 4.88781Z"
+                        fill="white" />
+                    <path
+                        d="M6.45206 8.60897C7.7498 8.60897 8.80182 7.55694 8.80182 6.25921C8.80182 4.96147 7.7498 3.90944 6.45206 3.90944C5.15432 3.90944 4.10229 4.96147 4.10229 6.25921C4.10229 7.55694 5.15432 8.60897 6.45206 8.60897Z"
+                        fill="#4375E7" />
+                </svg>
+
+                <h3
+                    class="text-white font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">
+                    Holland, London 7QU UK
+                </h3>
+            </div>
+
+            <!-- Contact Number -->
+            <div
+                class="contact-number flex items-center gap-1 sm:gap-2 lg:gap-[0.4375rem] pr-[10px] border-r border-white/25">
+                <!-- svg -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path
+                        d="M15.9995 11.9791V14.3877C16.0004 14.6113 15.9545 14.8327 15.8648 15.0375C15.775 15.2424 15.6434 15.4263 15.4783 15.5775C15.3132 15.7286 15.1183 15.8437 14.906 15.9154C14.6938 15.987 14.4689 16.0136 14.2457 15.9935C11.7702 15.725 9.39235 14.8808 7.30312 13.5286C5.35937 12.2959 3.71141 10.6512 2.47627 8.71134C1.11669 6.61679 0.270593 4.23206 0.00652969 1.75036C-0.0135738 1.52834 0.0128649 1.30457 0.0841619 1.0933C0.155459 0.882034 0.270052 0.687898 0.420646 0.523253C0.57124 0.358607 0.754535 0.22706 0.958861 0.136987C1.16319 0.0469136 1.38407 0.000287778 1.60744 7.78413e-05H4.02086C4.41128 -0.00375708 4.78977 0.134222 5.0858 0.388297C5.38182 0.642373 5.57517 0.995207 5.62981 1.38103C5.73168 2.15185 5.92059 2.9087 6.19295 3.63713C6.30118 3.9245 6.32461 4.23682 6.26045 4.53707C6.19629 4.83732 6.04723 5.11292 5.83093 5.33121L4.80925 6.35087C5.95446 8.36092 7.62206 10.0252 9.6361 11.1682L10.6578 10.1485C10.8765 9.93264 11.1527 9.78387 11.4535 9.71984C11.7544 9.6558 12.0673 9.67918 12.3552 9.78721C13.0851 10.059 13.8435 10.2476 14.6158 10.3492C15.0066 10.4042 15.3635 10.6007 15.6186 10.9012C15.8737 11.2017 16.0093 11.5853 15.9995 11.9791Z"
+                        fill="white" />
+                </svg>
+                <h3
+                    class="text-white w-[10.75rem] font-poppins text-xs sm:text-sm lg:text-[0.9375rem] font-medium leading-none whitespace-nowrap">
+                    (234) 987 - 354 - 3670
+                </h3>
+            </div>
+
+            <!-- Email -->
+            <div class="email flex items-center gap-1 sm:gap-2 lg:gap-[0.375rem]">
+                <!-- svg -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                    <path
+                        d="M2.75 0H16.75C17.7125 0 18.5 0.7875 18.5 1.75V12.25C18.5 13.2125 17.7125 14 16.75 14H2.75C1.7875 14 1 13.2125 1 12.25V1.75C1 0.7875 1.7875 0 2.75 0Z"
+                        fill="white" />
+                    <path d="M18.5 1.75L9.75 7.875L1 1.75" stroke="#4375E7" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <h3
+                    class="text-white font-poppins text-xs sm:text-sm lg:text-[1rem] font-medium leading-none whitespace-nowrap">
+                    Email: example@gmail.com
+                </h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- header  -->
+    <header
+        class="header w-full top-0 left-0 z-50 px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-3 md:py-[20px] flex items-center justify-between gap-12 2xl:gap-[286px]">
+        <!-- logo -->
+        <div class="logo w-4/12 md:w-3/12 h-[40px] flex items-center">
+            <img src="./assets/images/Logo (1).png" />
+        </div>
+
+        <!-- Navbar menu -->
+        <div class="w-7/12 hidden md:flex justify-center">
+            <nav class="bg-white justify-center gap-6 w-full py-2 pl-[4px] h-[21px]">
+                <ul class="flex justify-center text-[#142137] font-medium text-[16px] font-poppins">
+                    <li><a href="#" class="flex items-center gap-[4px] hover:text-blue-600 transition">Home
+                            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </a></li>
+                    <li class="pl-[32px]"><a href="#" class="hover:text-blue-600 transition">About Us</a></li>
+                    <li class="pl-[60px]"><a href="#"
+                            class="flex items-center gap-[16px] hover:text-blue-600 transition">Service
+                            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </a></li>
+                    <li class="pl-[27px]"><a href="#"
+                            class=" flex items-center  gap-[22px] hover:text-blue-600 transition">Pages
+                            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </a></li>
+                    <li class="pl-[22px]"><a href="#"
+                            class="flex items-center  gap-[30px] hover:text-blue-600 transition">Blog
+                            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-4">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                        </a></li>
+                    <li class="pl-[13px]"><a href="#" class="hover:text-blue-600 transition">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- nav button -->
+        <div class="navbar-btn w-4/12 md:w-4/12 -mt-[3px] flex items-center md:justify-end">
+            <button
+                class="w-auto p-4 h-[44px] flex items-center gap-1 md:gap-2 border border-[rgba(20,33,55,0.14)] text-[#142137] font-poppins text-sm md:text-[15px] font-medium rounded">
+                Schedule a Pickup
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14" fill="none">
+                    <path d="M1 7.00056L13 7.00056" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M8 13.0002L14 7.00016L8 1.00016" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Button -->
+        <div class="flex md:hidden">
+            <button id="menuBtn" class="menu-btn text-black z-50">
+                <!-- Open Icon -->
+                <svg id="openIcon" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <!-- Close Icon -->
+                <svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 hidden" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+    <!-- Blog Hero Area -->
+    <section
+        class="relative mx-auto w-full px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-16 lg:py-20 xl:py-24 h-[250px] sm:h-[300px] md:h-[350px] lg:h-[370px] bg-cover bg-center bg-no-repeat "
+        style="background-image: url('./assets/images/bg.png');">
+        <div class="container mx-auto text-white h-full flex flex-col justify-center">
+
+            <!-- Blog Title -->
+            <h1
+                class="text-white text-4xl sm:text-5xl md:text-[50px] lg:text-[60px] font-semibold leading-[1.2] sm:leading-[1.3] md:leading-[1.4] lg:leading-[110px] tracking-[-0.8px] sm:tracking-[-1px] lg:tracking-[-1.2px] font-poppins mb-4 sm:mb-6">
+                Blog Details
+            </h1>
+
+            <!-- Background Badge -->
+            <div
+                class="w-[200px] sm:w-[230px] max-w-[240px] h-[34px] rounded-[195px] bg-white/10 backdrop-blur-[7px] flex items-center justify-center gap-[10px] px-3 sm:px-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none"
+                    class="w-4 h-4 sm:w-5 sm:h-5">
+                    <path
+                        d="M16.146 15.9992H11.0899V11.0576H8.29524V15.985H3.01103C3.0043 15.8855 2.99008 15.7786 2.99008 15.6716C2.98859 13.6145 2.99158 11.5581 2.9856 9.50094C2.9856 9.31169 3.02823 9.17928 3.18757 9.0581C5.25592 7.47523 7.31904 5.88563 9.38365 4.29827C9.44125 4.25413 9.50484 4.21673 9.58413 4.16437C9.74795 4.28854 9.90579 4.40674 10.0621 4.52717C12.0078 6.02402 13.9535 7.52161 15.8999 9.01696C16.051 9.1329 16.167 9.23539 16.1655 9.46504C16.1542 11.5715 16.1587 13.6788 16.158 15.7853C16.158 15.8459 16.1505 15.9057 16.1445 16L16.146 15.9992Z"
+                        fill="white" />
+                    <path
+                        d="M19.15 7.36603C18.699 7.9525 18.2741 8.50381 17.8282 9.08355C15.0784 6.96882 12.345 4.86605 9.57576 2.73561C6.83417 4.84436 4.09332 6.95236 1.32255 9.0828C0.87746 8.50456 0.446585 7.94577 0 7.36453C3.19267 4.90869 6.37038 2.46407 9.57352 0C10.9155 1.03081 12.2523 2.05788 13.6616 3.14031V1.82449H16.4443V2.21946C16.4443 3.11712 16.4571 4.01477 16.4369 4.91168C16.4301 5.19594 16.5289 5.36276 16.7503 5.52733C17.5492 6.12203 18.3332 6.73767 19.15 7.36603Z"
+                        fill="white" />
+                </svg>
+
+                <!-- Breadcrumb -->
+                <div class="flex items-center gap-1 sm:gap-2">
+                    <!-- Home Text -->
+                    <span
+                        class="text-white text-xs sm:text-sm md:text-[16px] font-medium leading-none tracking-[-0.24px] sm:tracking-[-0.28px] md:tracking-[-0.32px] font-[Poppins]">
+                        Home
+                    </span>
+
+                    <!-- Dot Separator -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3" height="3" viewBox="0 0 3 3" fill="none">
+                        <circle cx="1.5" cy="1.5" r="1.5" fill="white" fill-opacity="0.7" />
+                    </svg>
+
+                    <!-- Blog Text -->
+                    <span
+                        class="flex text-white text-xs md:text-[16px] font-medium leading-none tracking-[-0.24px] md:tracking-[-0.32px] font-poppins">
+                        Blog
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="blog-section mx-auto w-full px-[2.5%] md:px-[3.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-16 lg:py-20 xl:py-24 flex flex-col-reverse md:flex-row gap-4 md:gap-6 xl:gap-12 overflow-hidden">
+        <!-- Blog Left  -->
+        <div class="blog-left w-full md:w-8/12">
+
+
+            <!-- first card -->
+            <div class="w-full fle-shrink-0 bg-[#EBEFF3]">
+                <!-- Image Section -->
+                <div class="w-full h-auto aspect-[1160/570]">
+                    <img src="./assets/images/blogBig1.png" alt="images" class="w-full h-full object-cover"/>
+                </div>
+
+                <!-- Text Section -->
+                <div class="px-[41px] py-[37px] flex flex-col gap-[14px]">
+                    <!-- First Row -->
+                    <div class="flex items-center gap-[13px]">
+                        <!-- Avatar -->
+                        <div
+                            class="w-[54px] h-[54px] flex-shrink-0 aspect-square rounded-[6px] bg-[#CFD4C6] bg-cover bg-no-repeat">
+                            <img src="./assets/images/postclient1.jpg" /></div>
+
+                        <!-- Name -->
+                        <h2 class="text-[#142137] font-poppins text-[18px] font-semibold leading-none">Miles Tone</h2>
+
+
+                        <!-- Service Type -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[10px] flex gap-[5px] items-center text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Phone Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none" class="w-[22px] h-[22px] flex-shrink-0 aspect-square">
+                                <path
+                                    d="M16.3906 0.00652348C17.3671 0.00652348 18.3446 0.0285093 19.3211 0.00102703C20.8363 -0.0411124 22.0281 1.21941 21.9997 2.69245C21.9631 4.58415 21.9887 6.47767 21.9915 8.37028C21.9933 9.80119 21.4821 11.0177 20.4726 12.0263C17.4386 15.0576 14.4064 18.0907 11.3696 21.1202C10.1998 22.2864 8.67634 22.2946 7.51568 21.1367C5.28962 18.9161 3.06814 16.691 0.849406 14.4631C-0.0190321 13.5901 -0.237974 12.4798 0.268615 11.4492C0.40053 11.1808 0.583745 10.9215 0.795358 10.7099C3.87245 7.6136 6.95412 4.52094 10.0459 1.43926C11.0078 0.480134 12.1913 0.0120199 13.5517 0.00743955C14.498 0.00377525 15.4443 0.00743955 16.3906 0.00743955V0.00652348ZM16.3503 1.73241C15.48 1.73241 14.6098 1.74981 13.7395 1.72783C12.6823 1.70034 11.8166 2.0796 11.0755 2.82528C8.11662 5.80252 5.14671 8.7706 2.18229 11.7423C2.07511 11.8504 1.96244 11.9576 1.87816 12.0822C1.66929 12.3891 1.68395 12.7665 1.90747 13.0642C1.98076 13.1613 2.07053 13.2456 2.15664 13.3327C4.32408 15.5047 6.49242 17.6758 8.66077 19.8469C8.73589 19.922 8.81009 20.0008 8.89345 20.0667C9.22599 20.3287 9.61074 20.337 9.94877 20.0869C10.0468 20.0145 10.1329 19.9275 10.2199 19.8414C13.2127 16.8531 16.2019 13.8631 19.1975 10.8776C19.9157 10.1612 20.2839 9.31842 20.2702 8.29516C20.2528 6.90639 20.2656 5.51671 20.2656 4.12794C20.2656 3.60853 20.2766 3.08911 20.2601 2.57062C20.2436 2.05853 19.9331 1.76264 19.4191 1.73424C19.3129 1.72874 19.2057 1.73149 19.0985 1.73149C18.1824 1.73149 17.2664 1.73149 16.3503 1.73149V1.73241Z"
+                                    fill="#1D92CD" />
+                                <path
+                                    d="M15.747 3.57547C17.1935 3.56815 18.3377 4.70408 18.3358 6.14598C18.334 7.56315 17.1962 8.7119 15.7873 8.71832C14.3555 8.72473 13.1893 7.56773 13.1912 6.1414C13.1921 4.72881 14.3344 3.5828 15.747 3.57547ZM16.6127 6.14415C16.6127 5.66412 16.2582 5.30502 15.7791 5.29953C15.2991 5.29403 14.9317 5.6458 14.9225 6.12033C14.9125 6.61684 15.2844 6.99426 15.7791 6.98785C16.2591 6.98235 16.6136 6.62325 16.6136 6.14415H16.6127Z"
+                                    fill="#1D92CD" />
+                            </svg>
+                            <h1>Laundry Services</h1>
+                        </div>
+
+
+
+                        <!-- Date -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Calendar Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 19 20"
+                                fill="none" class="w-[16.201px] h-[18px] flex-shrink-0">
+                                <path d="M5.75195 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M12.9531 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M17.4528 6.84927V14.4997C17.4528 17.1999 16.1027 19 12.9525 19H5.75218C2.60202 19 1.25195 17.1999 1.25195 14.4997V6.84927C1.25195 4.14911 2.60202 2.349 5.75218 2.349H12.9525C16.1027 2.349 17.4528 4.14911 17.4528 6.84927Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5.75195 9.09912H12.9523" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.75195 13.5994H9.35213" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>March 16, 2025</h2>
+                        </div>
+
+
+                        <!-- Comment Count -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+
+                            <!-- Comment Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 20 20"
+                                fill="none" class="w-[17.941px] h-[18px] flex-shrink-0">
+                                <path
+                                    d="M18.9411 6.37784V10.8687C18.9411 11.1606 18.9298 11.4413 18.8962 11.7108C18.6379 14.7421 16.8528 16.2465 13.5632 16.2465H13.1142C12.8335 16.2465 12.564 16.3813 12.3956 16.6058L11.0484 18.4022C10.4533 19.1993 9.48776 19.1993 8.89272 18.4022L7.54544 16.6058C7.39949 16.4149 7.07392 16.2465 6.82692 16.2465H6.37784C2.79636 16.2465 1 15.3596 1 10.8687V6.37784C1 3.08827 2.51568 1.30314 5.5358 1.04492C5.80525 1.01124 6.08593 1 6.37784 1H13.5632C17.1447 1 18.9411 2.79636 18.9411 6.37784Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.904 9.13973H13.9141" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9.98209 9.13973H9.99219" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M6.04849 9.13973H6.0586" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>02 Comment</h2>
+                        </div>
+                    </div>
+
+                    <!-- Second Row - Title -->
+                    <div
+                        class="text-[#142137] font-poppins text-[34px] font-semibold leading-[64px] tracking-[-0.68px]">
+                        <h1>Refresh Your Wardrobe, Refresh Your Life</h1>
+
+                    </div>
+
+                    <!-- Third Row - Description -->
+                    <div
+                        class="text-[rgba(20,33,55,0.70)] -mt-[8px] font-poppins text-[16px] font-normal leading-[26px]">
+                        Cleaning is more than just visiting places—it's about creating lasting memories, discovering new
+                        cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local
+                        adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek
+                        relaxation, adventure, or cultural exploration.
+                    </div>
+
+                    <!-- Fourth Row - Button -->
+                    <div class="flex flex-col items-start gap-3 mt-[38px]">
+                        <button
+                            class="w-[173px] h-[54px] flex items-center gap-3 pl-[30px] py-[22px] rounded-full border border-[rgba(20,33,55,0.20)] bg-[#142137] text-white font-poppins text-[16px] font-medium">
+                            Read More
+                            <div class="w-[34px] h-[34px] flex items-center justify-center rounded-full bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 15 14"
+                                    fill="none">
+                                    <path d="M0.853516 7.1615L12.8535 7.1615" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M7.85352 13.1611L13.8535 7.16113L7.85352 1.16113" stroke="#142137"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- Second Card  -->
+            <div
+                class="relative w-[1160px] h-[280px] mx-auto mt-14 bg-[#EBEFF3] flex flex-col items-center justify-center gap-4 text-center">
+
+                <!-- SVG Icon -->
+                <div class="absolute left-[48%] top-[45px] w-[34px] h-[30px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30" fill="none">
+                        <path
+                            d="M0 27.0588C3.52166 24.5098 6.11488 22.0588 7.77966 19.7059C9.44444 17.4183 10.2768 15.1961 10.2768 13.0392C10.2768 12.3856 10.0207 12.0588 9.50847 12.0588L7.39548 12.2549C5.41055 12.2549 3.80979 11.6993 2.59322 10.5882C1.37665 9.54248 0.768364 8.10457 0.768364 6.27451C0.768364 4.44444 1.40866 2.94118 2.68927 1.7647C3.90584 0.588234 5.44256 0 7.29943 0C9.73258 0 11.7175 0.882351 13.2542 2.64706C14.791 4.47712 15.5593 6.96078 15.5593 10.098C15.5593 13.7582 14.5028 17.1895 12.3898 20.3922C10.2128 23.6601 6.88324 26.8627 2.40113 30L0 27.0588ZM18.4407 27.0588C21.5141 25.098 24.0113 22.8105 25.9322 20.1961C27.8531 17.5817 28.8136 15.1961 28.8136 13.0392C28.8136 12.3856 28.5574 12.0588 28.0452 12.0588L26.0282 12.2549C23.9793 12.2549 22.3465 11.6993 21.1299 10.5882C19.9134 9.54248 19.3051 8.10457 19.3051 6.27451C19.3051 4.44444 19.9454 2.94118 21.226 1.7647C22.4426 0.588234 23.9793 0 25.8362 0C28.2693 0 30.2542 0.882351 31.791 2.64706C33.2637 4.47712 34 6.96078 34 10.098C34 13.7582 32.9435 17.1895 30.8305 20.3922C28.7175 23.6601 25.42 26.8627 20.9379 30L18.4407 27.0588Z"
+                            fill="#181616" />
+                    </svg>
+                </div>
+
+                <!-- Paragraph -->
+                <p
+                    class="absolute left-[5.5%] top-[82px] w-[1045px] -ml-[12px] mt-[10px] text-center text-[18px] leading-[28px] font-normal font-poppins text-[#142137B3]">
+                    Cleaning is more than just visiting places—it's about creating lasting memories, discovering new
+                    cultures periencing the extrinary. From breathtaking landscapes to immercal advres, ate seamless
+                    travel experiences tailored to
+                    your dreams. Whether adventure exploration, we are here to turn your journey.
+                </p>
+
+                <!-- Heading -->
+                <h2
+                    class="absolute left-[43%] top-[210px] text-[#142137] text-[20px] leading-[34px] font-medium font-poppins tracking-[-0.4px]">
+                    Don Guidelines
+                </h2>
+
+            </div>
+
+
+            <!-- third card vedio -->
+
+            <div class="relative mt-[60px] w-[1160px] h-[993px] flex-shrink-0 bg-[#EBEFF3]">
+                <!-- vedio button -->
+                <div class="absolute top-[24%] left-[45.5%]">
+                    <img src="./assets/images/Video.png" alt="vedio button" />
+                </div>
+                <!-- Image Section -->
+                <div class="h-[570px] w-[1160px]">
+                    <img src="./assets/images/blogBig2.png" alt="images" />
+                </div>
+
+                <!-- Text Section -->
+                <div class="px-[41px] py-[42px] flex flex-col gap-[14px]">
+                    <!-- First Row -->
+                    <div class="flex items-center gap-[13px]">
+                        <!-- Avatar -->
+                        <div
+                            class="w-[54px] h-[54px] flex-shrink-0 aspect-square rounded-[6px] bg-[#CFD4C6] bg-cover bg-no-repeat">
+                            <img src="./assets/images/postclient2.jpg" /></div>
+
+                        <!-- Name -->
+                        <h2 class="text-[#142137] font-poppins text-[18px] font-semibold leading-none">Indigo Violet
+                        </h2>
+
+
+                        <!-- Service Type -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[10px] flex gap-[5px] items-center text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Phone Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none" class="w-[22px] h-[22px] flex-shrink-0 aspect-square">
+                                <path
+                                    d="M16.3906 0.00652348C17.3671 0.00652348 18.3446 0.0285093 19.3211 0.00102703C20.8363 -0.0411124 22.0281 1.21941 21.9997 2.69245C21.9631 4.58415 21.9887 6.47767 21.9915 8.37028C21.9933 9.80119 21.4821 11.0177 20.4726 12.0263C17.4386 15.0576 14.4064 18.0907 11.3696 21.1202C10.1998 22.2864 8.67634 22.2946 7.51568 21.1367C5.28962 18.9161 3.06814 16.691 0.849406 14.4631C-0.0190321 13.5901 -0.237974 12.4798 0.268615 11.4492C0.40053 11.1808 0.583745 10.9215 0.795358 10.7099C3.87245 7.6136 6.95412 4.52094 10.0459 1.43926C11.0078 0.480134 12.1913 0.0120199 13.5517 0.00743955C14.498 0.00377525 15.4443 0.00743955 16.3906 0.00743955V0.00652348ZM16.3503 1.73241C15.48 1.73241 14.6098 1.74981 13.7395 1.72783C12.6823 1.70034 11.8166 2.0796 11.0755 2.82528C8.11662 5.80252 5.14671 8.7706 2.18229 11.7423C2.07511 11.8504 1.96244 11.9576 1.87816 12.0822C1.66929 12.3891 1.68395 12.7665 1.90747 13.0642C1.98076 13.1613 2.07053 13.2456 2.15664 13.3327C4.32408 15.5047 6.49242 17.6758 8.66077 19.8469C8.73589 19.922 8.81009 20.0008 8.89345 20.0667C9.22599 20.3287 9.61074 20.337 9.94877 20.0869C10.0468 20.0145 10.1329 19.9275 10.2199 19.8414C13.2127 16.8531 16.2019 13.8631 19.1975 10.8776C19.9157 10.1612 20.2839 9.31842 20.2702 8.29516C20.2528 6.90639 20.2656 5.51671 20.2656 4.12794C20.2656 3.60853 20.2766 3.08911 20.2601 2.57062C20.2436 2.05853 19.9331 1.76264 19.4191 1.73424C19.3129 1.72874 19.2057 1.73149 19.0985 1.73149C18.1824 1.73149 17.2664 1.73149 16.3503 1.73149V1.73241Z"
+                                    fill="#1D92CD" />
+                                <path
+                                    d="M15.747 3.57547C17.1935 3.56815 18.3377 4.70408 18.3358 6.14598C18.334 7.56315 17.1962 8.7119 15.7873 8.71832C14.3555 8.72473 13.1893 7.56773 13.1912 6.1414C13.1921 4.72881 14.3344 3.5828 15.747 3.57547ZM16.6127 6.14415C16.6127 5.66412 16.2582 5.30502 15.7791 5.29953C15.2991 5.29403 14.9317 5.6458 14.9225 6.12033C14.9125 6.61684 15.2844 6.99426 15.7791 6.98785C16.2591 6.98235 16.6136 6.62325 16.6136 6.14415H16.6127Z"
+                                    fill="#1D92CD" />
+                            </svg>
+                            <h1>Laundry Services</h1>
+                        </div>
+
+
+
+                        <!-- Date -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Calendar Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 19 20"
+                                fill="none" class="w-[16.201px] h-[18px] flex-shrink-0">
+                                <path d="M5.75195 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M12.9531 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M17.4528 6.84927V14.4997C17.4528 17.1999 16.1027 19 12.9525 19H5.75218C2.60202 19 1.25195 17.1999 1.25195 14.4997V6.84927C1.25195 4.14911 2.60202 2.349 5.75218 2.349H12.9525C16.1027 2.349 17.4528 4.14911 17.4528 6.84927Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5.75195 9.09912H12.9523" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.75195 13.5994H9.35213" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>April 12, 2025</h2>
+                        </div>
+
+
+                        <!-- Comment Count -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+
+                            <!-- Comment Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 20 20"
+                                fill="none" class="w-[17.941px] h-[18px] flex-shrink-0">
+                                <path
+                                    d="M18.9411 6.37784V10.8687C18.9411 11.1606 18.9298 11.4413 18.8962 11.7108C18.6379 14.7421 16.8528 16.2465 13.5632 16.2465H13.1142C12.8335 16.2465 12.564 16.3813 12.3956 16.6058L11.0484 18.4022C10.4533 19.1993 9.48776 19.1993 8.89272 18.4022L7.54544 16.6058C7.39949 16.4149 7.07392 16.2465 6.82692 16.2465H6.37784C2.79636 16.2465 1 15.3596 1 10.8687V6.37784C1 3.08827 2.51568 1.30314 5.5358 1.04492C5.80525 1.01124 6.08593 1 6.37784 1H13.5632C17.1447 1 18.9411 2.79636 18.9411 6.37784Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.904 9.13973H13.9141" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9.98209 9.13973H9.99219" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M6.04849 9.13973H6.0586" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>02 Comment</h2>
+                        </div>
+                    </div>
+
+                    <!-- Second Row - Title -->
+                    <div
+                        class="text-[#142137] font-poppins text-[34px] font-semibold leading-[64px] tracking-[-0.68px]">
+                        <h1>Laundry Hacks Save Time, Money, & Effort</h1>
+
+                    </div>
+
+                    <!-- Third Row - Description -->
+                    <div
+                        class="text-[rgba(20,33,55,0.70)] -mt-[8px] font-poppins text-[16px] font-normal leading-[26px]">
+                        Cleaning is more than just visiting places—it's about creating lasting memories, discovering new
+                        cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local
+                        adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek
+                        relaxation, adventure, or cultural exploration.
+                    </div>
+
+                    <!-- Fourth Row - Button -->
+                    <div class="flex flex-col items-start gap-3 mt-[38px]">
+                        <button
+                            class="w-[173px] h-[54px] flex items-center gap-3 pl-[30px] py-[22px] rounded-full border border-[rgba(20,33,55,0.20)] bg-[#142137] text-white font-poppins text-[16px] font-medium">
+                            Read More
+                            <div class="w-[34px] h-[34px] flex items-center justify-center rounded-full bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 15 14"
+                                    fill="none">
+                                    <path d="M0.853516 7.1615L12.8535 7.1615" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M7.85352 13.1611L13.8535 7.16113L7.85352 1.16113" stroke="#142137"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <!-- Four Card -->
+
+            <div class="relative mt-[60px] w-[1160px] h-[993px] flex-shrink-0 bg-[#EBEFF3]">
+                <!-- Image Section -->
+                <div class="w-[1160px] h-[570px]">
+                    <img src="./assets/images/blogBig3.png" alt="images" class="h- w-full object-cover" />
+                </div>
+
+                <!-- Array Buttons -->
+                <div
+                    class="absolute top-[29%] left-0 right-0 transform -translate-y-1/2 flex justify-between px-[30px]">
+                    <img src="./assets/images/arrayleft.png" alt="array left" class="cursor-pointer" />
+                    <img src="./assets/images/arrayright.png" alt="array right" class="cursor-pointer" />
+                </div>
+
+                <!-- Text Section -->
+                <div class="pl-[41px] pr-[10px] py-[42px] flex flex-col gap-[14px]">
+                    <!-- First Row -->
+                    <div class="flex items-center gap-[13px]">
+                        <!-- Avatar -->
+                        <div
+                            class="w-[54px] h-[54px] flex-shrink-0 aspect-square rounded-[6px] bg-[#CFD4C6] bg-cover bg-no-repeat">
+                            <img src="./assets/images/postclient3.jpg" /></div>
+
+                        <!-- Name -->
+                        <h2 class="text-[#142137] font-poppins text-[18px] font-semibold leading-none">Alan Fresco</h2>
+
+
+                        <!-- Service Type -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[10px] flex gap-[5px] items-center text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Phone Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
+                                fill="none" class="w-[22px] h-[22px] flex-shrink-0 aspect-square">
+                                <path
+                                    d="M16.3906 0.00652348C17.3671 0.00652348 18.3446 0.0285093 19.3211 0.00102703C20.8363 -0.0411124 22.0281 1.21941 21.9997 2.69245C21.9631 4.58415 21.9887 6.47767 21.9915 8.37028C21.9933 9.80119 21.4821 11.0177 20.4726 12.0263C17.4386 15.0576 14.4064 18.0907 11.3696 21.1202C10.1998 22.2864 8.67634 22.2946 7.51568 21.1367C5.28962 18.9161 3.06814 16.691 0.849406 14.4631C-0.0190321 13.5901 -0.237974 12.4798 0.268615 11.4492C0.40053 11.1808 0.583745 10.9215 0.795358 10.7099C3.87245 7.6136 6.95412 4.52094 10.0459 1.43926C11.0078 0.480134 12.1913 0.0120199 13.5517 0.00743955C14.498 0.00377525 15.4443 0.00743955 16.3906 0.00743955V0.00652348ZM16.3503 1.73241C15.48 1.73241 14.6098 1.74981 13.7395 1.72783C12.6823 1.70034 11.8166 2.0796 11.0755 2.82528C8.11662 5.80252 5.14671 8.7706 2.18229 11.7423C2.07511 11.8504 1.96244 11.9576 1.87816 12.0822C1.66929 12.3891 1.68395 12.7665 1.90747 13.0642C1.98076 13.1613 2.07053 13.2456 2.15664 13.3327C4.32408 15.5047 6.49242 17.6758 8.66077 19.8469C8.73589 19.922 8.81009 20.0008 8.89345 20.0667C9.22599 20.3287 9.61074 20.337 9.94877 20.0869C10.0468 20.0145 10.1329 19.9275 10.2199 19.8414C13.2127 16.8531 16.2019 13.8631 19.1975 10.8776C19.9157 10.1612 20.2839 9.31842 20.2702 8.29516C20.2528 6.90639 20.2656 5.51671 20.2656 4.12794C20.2656 3.60853 20.2766 3.08911 20.2601 2.57062C20.2436 2.05853 19.9331 1.76264 19.4191 1.73424C19.3129 1.72874 19.2057 1.73149 19.0985 1.73149C18.1824 1.73149 17.2664 1.73149 16.3503 1.73149V1.73241Z"
+                                    fill="#1D92CD" />
+                                <path
+                                    d="M15.747 3.57547C17.1935 3.56815 18.3377 4.70408 18.3358 6.14598C18.334 7.56315 17.1962 8.7119 15.7873 8.71832C14.3555 8.72473 13.1893 7.56773 13.1912 6.1414C13.1921 4.72881 14.3344 3.5828 15.747 3.57547ZM16.6127 6.14415C16.6127 5.66412 16.2582 5.30502 15.7791 5.29953C15.2991 5.29403 14.9317 5.6458 14.9225 6.12033C14.9125 6.61684 15.2844 6.99426 15.7791 6.98785C16.2591 6.98235 16.6136 6.62325 16.6136 6.14415H16.6127Z"
+                                    fill="#1D92CD" />
+                            </svg>
+                            <h1>Laundry Services</h1>
+                        </div>
+
+
+
+                        <!-- Date -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+                            <!-- Calendar Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 19 20"
+                                fill="none" class="w-[16.201px] h-[18px] flex-shrink-0">
+                                <path d="M5.75195 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M12.9531 1V3.70016" stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M17.4528 6.84927V14.4997C17.4528 17.1999 16.1027 19 12.9525 19H5.75218C2.60202 19 1.25195 17.1999 1.25195 14.4997V6.84927C1.25195 4.14911 2.60202 2.349 5.75218 2.349H12.9525C16.1027 2.349 17.4528 4.14911 17.4528 6.84927Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M5.75195 9.09912H12.9523" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M5.75195 13.5994H9.35213" stroke="#1D92CD" stroke-width="2"
+                                    stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>May 09, 2025</h2>
+                        </div>
+
+
+                        <!-- Comment Count -->
+                        <div
+                            class="text-[rgba(20,33,55,0.60)] pl-[7px] flex items-center gap-[7px] text-center font-poppins text-[16px] font-medium leading-[26px]">
+
+                            <!-- Comment Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 20 20"
+                                fill="none" class="w-[17.941px] h-[18px] flex-shrink-0">
+                                <path
+                                    d="M18.9411 6.37784V10.8687C18.9411 11.1606 18.9298 11.4413 18.8962 11.7108C18.6379 14.7421 16.8528 16.2465 13.5632 16.2465H13.1142C12.8335 16.2465 12.564 16.3813 12.3956 16.6058L11.0484 18.4022C10.4533 19.1993 9.48776 19.1993 8.89272 18.4022L7.54544 16.6058C7.39949 16.4149 7.07392 16.2465 6.82692 16.2465H6.37784C2.79636 16.2465 1 15.3596 1 10.8687V6.37784C1 3.08827 2.51568 1.30314 5.5358 1.04492C5.80525 1.01124 6.08593 1 6.37784 1H13.5632C17.1447 1 18.9411 2.79636 18.9411 6.37784Z"
+                                    stroke="#1D92CD" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M13.904 9.13973H13.9141" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M9.98209 9.13973H9.99219" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M6.04849 9.13973H6.0586" stroke="#1D92CD" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                            <h2>02 Comment</h2>
+                        </div>
+                    </div>
+
+                    <!-- Second Row - Title -->
+                    <div
+                        class="text-[#142137] font-poppins text-[34px] font-semibold leading-[64px] tracking-[-0.68px]">
+                        <h1>Keep Your Clothes Fresh & Clean for Longer.</h1>
+
+                    </div>
+
+                    <!-- Third Row - Description -->
+                    <div
+                        class="text-[rgba(20,33,55,0.70)] -mt-[8px] font-poppins text-[16px] font-normal leading-[26px]">
+                        Cleaning is more than just visiting places—it's about creating lasting memories, discovering new
+                        cultures, and experiencing the extrinary. From breathtaking landscapes to immersive local
+                        adventures, we curate seamless travel experiences tailored to your dreams. Whether you seek
+                        relaxation, adventure, or cultural exploration.
+                    </div>
+
+                    <!-- Fourth Row - Button -->
+                    <div class="flex flex-col items-start gap-3 mt-[38px]">
+                        <button
+                            class="w-[173px] h-[54px] flex items-center gap-3 pl-[30px] py-[22px] rounded-full border border-[rgba(20,33,55,0.20)] bg-[#142137] text-white font-poppins text-[16px] font-medium">
+                            Read More
+                            <div class="w-[34px] h-[34px] flex items-center justify-center rounded-full bg-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 15 14"
+                                    fill="none">
+                                    <path d="M0.853516 7.1615L12.8535 7.1615" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M7.85352 13.1611L13.8535 7.16113L7.85352 1.16113" stroke="#142137"
+                                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                        </button>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+            <!-- Pagination -->
+
+            <div class="flex items-center justify-center pt-16 pb-1.5">
+                <div class="flex gap-2.5">
+                    <!-- Left Arrow -->
+                    <button class="w-[36px] h-[36px] lg:w-[44px] lg:h-[44px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M43.5 0.5V43.5H0.5V0.5H43.5Z" stroke="#142137" stroke-opacity="0.1" />
+                            <path opacity="0.6" d="M25 17L20 22L25 27" stroke="#142137" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <!-- Page 01 -->
+                    <button
+                        class="w-[44px] h-[44px] border border-[#1421371A] bg-transparent text-[#14213799] text-[16px] font-medium leading-[26px] font-[Poppins]">
+                        01
+                    </button>
+
+                    <!-- Page 02 - Active -->
+                    <button
+                        class="w-[44px] h-[44px] bg-[#4375E7] text-white text-[16px] font-medium leading-[26px] font-[Poppins]">
+                        02
+                    </button>
+
+                    <!-- Page 03 -->
+                    <button
+                        class="w-[44px] h-[44px] border border-[#1421371A] bg-transparent text-[#14213799] text-[16px] font-medium leading-[26px] font-[Poppins]">
+                        03
+                    </button>
+
+                    <!-- Right Arrow -->
+                    <button class="w-[44px] h-[44px] flex items-center justify-center border border-[#1421371A] ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M43.5 0.5V43.5H0.5V0.5H43.5Z" stroke="#142137" stroke-opacity="0.1" />
+                            <path opacity="0.6" d="M20 17L25 22L20 27" stroke="#142137" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Blog Right Sidebar -->
+    <div class="blog-sidebar sticky top-0 h-fit w-full md:w-4/12 flex flex-col gap-6 md:gap-[27px] ">
+
+            <!-- For mobile device only -->
+            <div class="flex flex-row h-[130px] gap-6 md:hidden">
+
+                <!-- search section -->
+                <div
+                    class="w-6/12 bg-[#EBEFF3] p-4 sm:p-5 text-[#142137] font-poppins text-xl font-semibold leading-relaxed  tracking-tight">
+                    <h2 class="mb-3">Search</h2>
+
+                    <div class="relative w-full md:w-[318px] mb-6 md:mb-0">
+                        <input type="text" placeholder="Search Here...."
+                            class="w-full h-11 md:h-[44px] border border-[#1421371A] bg-transparent text-[#142137B3] font-poppins text-sm md:text-[15px] font-normal leading-relaxed md:leading-[26px] pl-4 pr-12 outline-none" />
+
+                        <!-- Icon inside input -->
+                        <button type="submit"
+                            class="absolute right-0 top-1/2 -translate-y-1/2 w-11 md:w-[44px] h-11 md:h-[44px] bg-[#4375E7] flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 44 44"
+                                fill="none">
+                                <path
+                                    d="M21.1111 28.2222C25.0384 28.2222 28.2222 25.0384 28.2222 21.1111C28.2222 17.1837 25.0384 14 21.1111 14C17.1837 14 14 17.1837 14 21.1111C14 25.0384 17.1837 28.2222 21.1111 28.2222Z"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M29.9995 29.9995L26.1328 26.1328" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Follow Us Card -->
+                <div class="w-6/12 p-4 sm:p-5 bg-[#EBEFF3] text-[#142137] font-poppins">
+                    <!-- Title -->
+                    <h2
+                        class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-3 tracking-tight md:tracking-[-0.48px]">
+                        Follow Us
+                    </h2>
+
+                    <!-- Icons Row -->
+                    <div class="flex items-center gap-3.5">
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#1877F2" />
+                                <path
+                                    d="M31 14H27.7273C26.2806 14 24.8933 14.5795 23.8703 15.6109C22.8474 16.6424 22.2727 18.0413 22.2727 19.5V22.8H19V27.2H22.2727V36H26.6364V27.2H29.9091L31 22.8H26.6364V19.5C26.6364 19.2083 26.7513 18.9285 26.9559 18.7222C27.1605 18.5159 27.4379 18.4 27.7273 18.4H31V14Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class=" flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#040618" />
+                                <path
+                                    d="M23.7255 27.0089C23.2439 27.5553 22.7731 28.0895 22.3024 28.624C20.7579 30.377 19.2128 32.1295 17.6709 33.8846C17.5961 33.9699 17.5193 34.0012 17.4072 33.9997C16.9966 33.9939 16.586 33.9977 16.1754 33.9971C16.1279 33.9971 16.0807 33.9928 16 33.9887C16.1604 33.8056 16.3021 33.6434 16.4443 33.482C18.4631 31.1907 20.4819 28.899 22.5007 26.6077C22.6514 26.4368 22.7984 26.2627 22.9544 26.0966C23.0177 26.0295 23.0139 25.9838 22.9629 25.9118C22.1478 24.7575 21.3357 23.6011 20.5224 22.4453C19.5782 21.1036 18.6332 19.7621 17.6888 18.4206C17.1459 17.6486 16.603 16.8767 16.0598 16.1047C16.0437 16.0816 16.0293 16.057 16.0006 16.0116C16.0683 16.0081 16.1191 16.0032 16.1695 16.0032C17.846 16.0026 19.5228 16.0038 21.1993 16C21.3122 15.9997 21.3756 16.0396 21.4369 16.1273C22.6244 17.8184 23.8149 19.5079 25.0043 21.1979C25.2996 21.6172 25.5938 22.0375 25.8888 22.4572C25.9246 22.5084 25.9619 22.5584 26.0091 22.6241C26.1642 22.4497 26.3118 22.2854 26.4578 22.1196C28.2203 20.1193 29.9827 18.1189 31.7431 16.1169C31.8126 16.0376 31.8821 15.9986 31.9921 16.0003C32.4074 16.0064 32.823 16.0026 33.2386 16.0029C33.2858 16.0029 33.333 16.0075 33.4128 16.0119C33.2257 16.2259 33.0594 16.4179 32.8913 16.6086C30.8658 18.9068 28.8409 21.2057 26.8121 23.501C26.7274 23.5968 26.7309 23.6598 26.8004 23.7582C28.5048 26.175 30.2059 28.5936 31.9082 31.0119C32.5713 31.9539 33.2354 32.8951 33.8985 33.8372C33.9287 33.8803 33.9569 33.9248 34 33.9899C33.9302 33.9931 33.8792 33.9971 33.8284 33.9971C32.1566 33.9974 30.4851 33.9962 28.8133 34C28.691 34.0003 28.6221 33.9595 28.5532 33.8612C27.3301 32.1179 26.1027 30.3776 24.8767 28.6364C24.5144 28.1222 24.1537 27.6067 23.7918 27.0919C23.775 27.0688 23.756 27.0474 23.7255 27.0089ZM31.8355 32.8827C31.7994 32.8257 31.7765 32.7849 31.7495 32.747C31.4791 32.369 31.2078 31.9918 30.9374 31.6141C28.923 28.8001 26.9086 25.9861 24.8943 23.1725C23.4911 21.2126 22.0871 19.2536 20.686 17.292C20.6236 17.2044 20.5608 17.165 20.4482 17.1656C19.7296 17.1708 19.0113 17.1679 18.2927 17.1682C18.2508 17.1682 18.2091 17.1729 18.1472 17.1766C18.1895 17.2391 18.2203 17.2865 18.2531 17.3325C19.9839 19.7485 21.7149 22.1639 23.4454 24.5799C25.404 27.3146 27.3624 30.0496 29.3178 32.7869C29.3776 32.8705 29.441 32.8922 29.536 32.8916C30.2496 32.8888 30.9632 32.8902 31.6771 32.8896C31.7228 32.8902 31.7695 32.8859 31.8355 32.8827Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#0A66C2" />
+                                <path
+                                    d="M28.732 21.3154C30.407 21.3154 32.0135 21.9808 33.198 23.1653C34.3825 24.3498 35.0479 25.9562 35.0479 27.6313V34.9998H30.8373V27.6313C30.8373 27.0729 30.6155 26.5374 30.2206 26.1426C29.8258 25.7478 29.2903 25.526 28.732 25.526C28.1736 25.526 27.6381 25.7478 27.2433 26.1426C26.8485 26.5374 26.6266 27.0729 26.6266 27.6313V34.9998H22.416V27.6313C22.416 25.9562 23.0814 24.3498 24.2659 23.1653C25.4504 21.9808 27.0569 21.3154 28.732 21.3154Z"
+                                    fill="white" />
+                                <path d="M18.2106 22.3682H14V34.9999H18.2106V22.3682Z" fill="white" />
+                                <path
+                                    d="M16.1053 19.2106C17.268 19.2106 18.2106 18.268 18.2106 17.1053C18.2106 15.9426 17.268 15 16.1053 15C14.9426 15 14 15.9426 14 17.1053C14 18.268 14.9426 19.2106 16.1053 19.2106Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#CB2027" />
+                                <path
+                                    d="M25.009 14C18.9289 14 14 18.9208 14 24.991C14 29.6496 16.8996 33.6298 20.9947 35.2309C20.8945 34.3629 20.814 33.0236 21.0305 32.0739C21.2297 31.2141 22.3169 26.6096 22.3169 26.6096C22.3169 26.6096 21.9911 25.9496 21.9911 24.9815C21.9911 23.4527 22.879 22.3132 23.9843 22.3132C24.9264 22.3132 25.38 23.0191 25.38 23.8605C25.38 24.8011 24.7822 26.2126 24.4646 27.5244C24.202 28.6188 25.0172 29.5143 26.0953 29.5143C28.0528 29.5143 29.557 27.4518 29.557 24.4844C29.557 21.8517 27.6637 20.0156 24.9544 20.0156C21.8198 20.0156 19.9799 22.3587 19.9799 24.783C19.9799 25.7236 20.3427 26.7372 20.795 27.2894C20.8867 27.3968 20.8962 27.4965 20.8686 27.6048C20.7869 27.9485 20.5971 28.6992 20.56 28.8534C20.5149 29.0524 20.3965 29.0971 20.1882 28.9982C18.8109 28.3559 17.9497 26.3565 17.9497 24.7375C17.9497 21.2725 20.4684 18.0889 25.2255 18.0889C29.0405 18.0889 32.0115 20.8032 32.0115 24.4397C32.0115 28.0761 29.6198 31.279 26.3032 31.279C25.1885 31.279 24.137 30.6998 23.7845 30.0123C23.7845 30.0123 23.2319 32.1105 23.0959 32.6265C22.8519 33.5852 22.1805 34.7797 21.7277 35.5123C22.7615 35.8277 23.8495 36 24.9909 36C31.0711 36 36 31.0792 36 25.009C36.0176 18.9208 31.0892 14 25.009 14Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- search section for md device -->
+            <div
+                class="search-area hidden md:flex md:flex-col md:w-auto lg:w-[380px] md:h-[165px]  bg-[#EBEFF3] p-6 text-[#142137] font-poppins text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] tracking-tight md:tracking-[-0.48px]">
+                <h2 class="mb-6">Search</h2>
+
+                <div class="relative w-full lg:w-[318px] mb-6 md:mb-0">
+                    <input type="text" placeholder="Search Here...."
+                        class="w-full h-11 md:h-[44px] border border-[#1421371A] bg-transparent text-[#142137B3] font-poppins text-sm md:text-[15px] font-normal leading-relaxed md:leading-[26px] pl-4 pr-12 outline-none" />
+
+                    <!-- Icon inside input -->
+                    <button type="submit"
+                        class="absolute right-0 top-1/2 -translate-y-1/2 w-11 md:w-[44px] h-11 md:h-[44px] bg-[#4375E7] flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 44 44" fill="none">
+                            <path
+                                d="M21.1111 28.2222C25.0384 28.2222 28.2222 25.0384 28.2222 21.1111C28.2222 17.1837 25.0384 14 21.1111 14C17.1837 14 14 17.1837 14 21.1111C14 25.0384 17.1837 28.2222 21.1111 28.2222Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M29.9995 29.9995L26.1328 26.1328" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Recent Posts Card -->
+            <div class="w-full lg:w-[380px] h-auto lg:h-[469px] bg-[#EBEFF3] p-5 md:p-6 text-[#142137] font-poppins">
+                <!-- Title -->
+                <h2
+                    class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 md:mb-[26px] tracking-tight md:tracking-[-0.48px]">
+                    Recent Posts
+                </h2>
+
+                <!-- Post Rows -->
+                <div class="flex flex-row flex-wrap gap-4 md:flex-col md:flex-nowrap md:gap-6">
+                    <!-- Single Row -->
+                    <div class="flex gap-5 items-center">
+                        <!-- Left: Image -->
+                        <div class="w-[90px] h-[100px] aspect-[9/10] flex-shrink-0 bg-gray-300">
+                            <img src="./assets/images/post1.png" />
+                        </div>
+
+                        <!-- Right: Content -->
+                        <div class="flex-1">
+                            <!-- Date -->
+                            <div class="flex items-center gap-1.5 text-[15px] text-[#142137B3] leading-[26px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"
+                                    fill="none">
+                                    <path d="M5.5 1V3.69865" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12.6953 1V3.69865" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 10.8955H11.7941" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 14.4932H9.09541" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M12.6942 2.34961C15.6897 2.51153 17.1919 3.65396 17.1919 7.88184V13.4411C17.1919 17.1472 16.2924 19.0003 11.7946 19.0003H6.3973C1.89955 19.0003 1 17.1472 1 13.4411V7.88184C1 3.65396 2.50225 2.52052 5.49775 2.34961H12.6942Z"
+                                        stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>June 29, 2025</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-[18px] font-medium leading-[28px] tracking-[-0.36px] mt-1">
+                                Natural Laundry <br /> Detergents Explained.
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- Single Row -->
+                    <div class="flex gap-5 items-center">
+                        <!-- Left: Image -->
+                        <div class="w-[90px] h-[100px] aspect-[9/10] flex-shrink-0 bg-gray-300">
+                            <img src="./assets/images/post2.png" />
+                        </div>
+
+                        <!-- Right: Content -->
+                        <div class="flex-1">
+                            <!-- Date -->
+                            <div class="flex items-center gap-1.5 text-[15px] text-[#142137B3] leading-[26px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"
+                                    fill="none">
+                                    <path d="M5.5 1V3.69865" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12.6953 1V3.69865" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 10.8955H11.7941" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 14.4932H9.09541" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M12.6942 2.34961C15.6897 2.51153 17.1919 3.65396 17.1919 7.88184V13.4411C17.1919 17.1472 16.2924 19.0003 11.7946 19.0003H6.3973C1.89955 19.0003 1 17.1472 1 13.4411V7.88184C1 3.65396 2.50225 2.52052 5.49775 2.34961H12.6942Z"
+                                        stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>March 25, 2025</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-[18px] font-medium leading-[28px] tracking-[-0.36px] mt-1">
+                                15 Reasons Let Experts
+                                <br /> Handle Dry Cleaning.
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- Single Row -->
+                    <div class="flex gap-5 items-center">
+                        <!-- Left: Image -->
+                        <div class="w-[90px] h-[100px] aspect-[9/10] flex-shrink-0 bg-gray-300">
+                            <img src="./assets/images/post3.png" />
+                        </div>
+
+                        <!-- Right: Content -->
+                        <div class="flex-1">
+                            <!-- Date -->
+                            <div class="flex items-center gap-1.5 text-[15px] text-[#142137B3] leading-[26px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 18 20"
+                                    fill="none">
+                                    <path d="M5.5 1V3.69865" stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M12.6953 1V3.69865" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 10.8955H11.7941" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M4.59766 14.4932H9.09541" stroke="#142137" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M12.6942 2.34961C15.6897 2.51153 17.1919 3.65396 17.1919 7.88184V13.4411C17.1919 17.1472 16.2924 19.0003 11.7946 19.0003H6.3973C1.89955 19.0003 1 17.1472 1 13.4411V7.88184C1 3.65396 2.50225 2.52052 5.49775 2.34961H12.6942Z"
+                                        stroke="#142137" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>April 16, 2025</span>
+                            </div>
+                            <!-- Title -->
+                            <h3 class="text-[18px] font-medium leading-[28px] tracking-[-0.36px] mt-1">
+                                Complete Guide to
+
+                                <br /> Green & Natural Laundry.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Category Card -->
+            <div
+                class="w-full lg:w-[380px] h-auto md:h-[407px] flex-shrink-0 bg-[#EBEFF3] p-5 md:p-6 text-[#142137] font-poppins">
+                <!-- Title -->
+                <h2
+                    class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 tracking-tight md:tracking-[-0.48px]">
+                    Categories
+                </h2>
+
+                <!-- Category List -->
+                <div class="grid grid-cols-2 md:grid-cols-1 gap-4">
+                    <!-- Single Category -->
+                    <div
+                        class="h-[46px] flex items-center justify-between border border-[#14213723] bg-transparent px-4.5">
+                        <div class="flex items-center gap-2">
+                            <!-- Dot Icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle opacity="0.5" cx="2" cy="2" r="2" fill="#142137" />
+                            </svg>
+                            <!-- Category Name -->
+                            <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">
+                                Laundry Services
+                            </span>
+                        </div>
+                        <!-- Count -->
+                        <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">(6)</span>
+                    </div>
+
+                    <!-- More Categories -->
+                    <div
+                        class="h-[46px] flex items-center justify-between bg-[#4375E7] border border-[#14213723] px-4.5">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle opacity="0.5" cx="2" cy="2" r="2" fill="#142137" />
+                            </svg>
+                            <span class="text-[15px] text-white font-medium leading-[26px]">
+                                Dry Cleaning
+                            </span>
+                        </div>
+                        <span class="text-[15px] text-white font-medium leading-[26px]">(8)</span>
+                    </div>
+
+                    <div
+                        class="h-[46px] flex items-center justify-between border border-[#14213723] bg-transparent px-4.5">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle opacity="0.5" cx="2" cy="2" r="2" fill="#142137" />
+                            </svg>
+                            <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">
+                                Coats & Jackets
+                            </span>
+                        </div>
+                        <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">(3)</span>
+                    </div>
+
+                    <div
+                        class="h-[46px] flex items-center justify-between border border-[#14213723] bg-transparent px-4.5">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle opacity="0.5" cx="2" cy="2" r="2" fill="#142137" />
+                            </svg>
+                            <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">
+                                Carpet & Rug Cleaning
+                            </span>
+                        </div>
+                        <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">(5)</span>
+                    </div>
+
+                    <div
+                        class="h-[46px] flex items-center justify-between border border-[#14213723] bg-transparent px-4.5">
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                                <circle opacity="0.5" cx="2" cy="2" r="2" fill="#142137" />
+                            </svg>
+                            <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">
+                                Shoe & Sneaker
+                            </span>
+                        </div>
+                        <span class="text-[15px] text-[#142137B3] font-medium leading-[26px]">(7)</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Popular Tags Card -->
+            <div class="w-full lg:w-[380px] h-auto flex-shrink-0 bg-[#EBEFF3] p-5 md:p-6 text-[#142137] font-poppins">
+                <!-- Title -->
+                <h2
+                    class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-4 tracking-tight md:tracking-[-0.48px]">
+                    Popular Tags
+                </h2>
+
+                <!-- Tag List -->
+                <div class="flex mt-3 md:mt-4 flex-wrap gap-2 md:gap-[10px]">
+                    <!-- Row 1 - 4 Tags -->
+                    <span
+                        class="w-[67px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Fresh</span>
+                    <span
+                        class="w-[89px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-white border border-[#14213723] bg-[#4375E7] flex items-center justify-center">Flawless</span>
+                    <span
+                        class="w-[72px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Clean</span>
+                    <span
+                        class="w-[66px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Crisp</span>
+
+                    <!-- Row 2 - 3 Tags -->
+                    <span
+                        class="w-[55px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Rent</span>
+                    <span
+                        class="w-[126px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Fresh
+                        Clothes</span>
+                    <span
+                        class="w-[89px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Flawless</span>
+
+                    <!-- Row 3 - 1 Tag -->
+                    <span
+                        class="w-[94px] h-[28px] text-[15px] font-medium leading-[26px] tracking-[-0.3px] text-[#142137B3] border border-[#14213723] flex items-center justify-center">Our
+                        Care</span>
+                </div>
+            </div>
+
+            <!-- Follow Us Card -->
+            <div
+                class="w-full hidden md:flex md:flex-col lg:w-[380px] h-auto md:h-[171px] flex-shrink-0 bg-[#EBEFF3] px-6 md:pl-[30px] md:pt-[24px] text-[#142137] font-poppins">
+                <!-- Title -->
+                <h2
+                    class="text-xl md:text-[24px] font-semibold leading-relaxed md:leading-[34px] mb-6 tracking-tight md:tracking-[-0.48px]">
+                    Follow Us
+                </h2>
+
+                <!-- Icons Row -->
+                <div class="flex items-center gap-2 md:gap-2.5">
+
+                    <!-- Icons Row -->
+                    <div class="flex items-center gap-2.5">
+                        <!-- Example Icons (use react-icons in React) -->
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#1877F2" />
+                                <path
+                                    d="M31 14H27.7273C26.2806 14 24.8933 14.5795 23.8703 15.6109C22.8474 16.6424 22.2727 18.0413 22.2727 19.5V22.8H19V27.2H22.2727V36H26.6364V27.2H29.9091L31 22.8H26.6364V19.5C26.6364 19.2083 26.7513 18.9285 26.9559 18.7222C27.1605 18.5159 27.4379 18.4 27.7273 18.4H31V14Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class=" flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#040618" />
+                                <path
+                                    d="M23.7255 27.0089C23.2439 27.5553 22.7731 28.0895 22.3024 28.624C20.7579 30.377 19.2128 32.1295 17.6709 33.8846C17.5961 33.9699 17.5193 34.0012 17.4072 33.9997C16.9966 33.9939 16.586 33.9977 16.1754 33.9971C16.1279 33.9971 16.0807 33.9928 16 33.9887C16.1604 33.8056 16.3021 33.6434 16.4443 33.482C18.4631 31.1907 20.4819 28.899 22.5007 26.6077C22.6514 26.4368 22.7984 26.2627 22.9544 26.0966C23.0177 26.0295 23.0139 25.9838 22.9629 25.9118C22.1478 24.7575 21.3357 23.6011 20.5224 22.4453C19.5782 21.1036 18.6332 19.7621 17.6888 18.4206C17.1459 17.6486 16.603 16.8767 16.0598 16.1047C16.0437 16.0816 16.0293 16.057 16.0006 16.0116C16.0683 16.0081 16.1191 16.0032 16.1695 16.0032C17.846 16.0026 19.5228 16.0038 21.1993 16C21.3122 15.9997 21.3756 16.0396 21.4369 16.1273C22.6244 17.8184 23.8149 19.5079 25.0043 21.1979C25.2996 21.6172 25.5938 22.0375 25.8888 22.4572C25.9246 22.5084 25.9619 22.5584 26.0091 22.6241C26.1642 22.4497 26.3118 22.2854 26.4578 22.1196C28.2203 20.1193 29.9827 18.1189 31.7431 16.1169C31.8126 16.0376 31.8821 15.9986 31.9921 16.0003C32.4074 16.0064 32.823 16.0026 33.2386 16.0029C33.2858 16.0029 33.333 16.0075 33.4128 16.0119C33.2257 16.2259 33.0594 16.4179 32.8913 16.6086C30.8658 18.9068 28.8409 21.2057 26.8121 23.501C26.7274 23.5968 26.7309 23.6598 26.8004 23.7582C28.5048 26.175 30.2059 28.5936 31.9082 31.0119C32.5713 31.9539 33.2354 32.8951 33.8985 33.8372C33.9287 33.8803 33.9569 33.9248 34 33.9899C33.9302 33.9931 33.8792 33.9971 33.8284 33.9971C32.1566 33.9974 30.4851 33.9962 28.8133 34C28.691 34.0003 28.6221 33.9595 28.5532 33.8612C27.3301 32.1179 26.1027 30.3776 24.8767 28.6364C24.5144 28.1222 24.1537 27.6067 23.7918 27.0919C23.775 27.0688 23.756 27.0474 23.7255 27.0089ZM31.8355 32.8827C31.7994 32.8257 31.7765 32.7849 31.7495 32.747C31.4791 32.369 31.2078 31.9918 30.9374 31.6141C28.923 28.8001 26.9086 25.9861 24.8943 23.1725C23.4911 21.2126 22.0871 19.2536 20.686 17.292C20.6236 17.2044 20.5608 17.165 20.4482 17.1656C19.7296 17.1708 19.0113 17.1679 18.2927 17.1682C18.2508 17.1682 18.2091 17.1729 18.1472 17.1766C18.1895 17.2391 18.2203 17.2865 18.2531 17.3325C19.9839 19.7485 21.7149 22.1639 23.4454 24.5799C25.404 27.3146 27.3624 30.0496 29.3178 32.7869C29.3776 32.8705 29.441 32.8922 29.536 32.8916C30.2496 32.8888 30.9632 32.8902 31.6771 32.8896C31.7228 32.8902 31.7695 32.8859 31.8355 32.8827Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#0A66C2" />
+                                <path
+                                    d="M28.732 21.3154C30.407 21.3154 32.0135 21.9808 33.198 23.1653C34.3825 24.3498 35.0479 25.9562 35.0479 27.6313V34.9998H30.8373V27.6313C30.8373 27.0729 30.6155 26.5374 30.2206 26.1426C29.8258 25.7478 29.2903 25.526 28.732 25.526C28.1736 25.526 27.6381 25.7478 27.2433 26.1426C26.8485 26.5374 26.6266 27.0729 26.6266 27.6313V34.9998H22.416V27.6313C22.416 25.9562 23.0814 24.3498 24.2659 23.1653C25.4504 21.9808 27.0569 21.3154 28.732 21.3154Z"
+                                    fill="white" />
+                                <path d="M18.2106 22.3682H14V34.9999H18.2106V22.3682Z" fill="white" />
+                                <path
+                                    d="M16.1053 19.2106C17.268 19.2106 18.2106 18.268 18.2106 17.1053C18.2106 15.9426 17.268 15 16.1053 15C14.9426 15 14 15.9426 14 17.1053C14 18.268 14.9426 19.2106 16.1053 19.2106Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <a href="#"
+                            class="flex items-center justify-center bg-white rounded-full shadow hover:bg-orange-500 hover:text-white transition">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50"
+                                fill="none">
+                                <circle cx="25" cy="25" r="25" fill="#CB2027" />
+                                <path
+                                    d="M25.009 14C18.9289 14 14 18.9208 14 24.991C14 29.6496 16.8996 33.6298 20.9947 35.2309C20.8945 34.3629 20.814 33.0236 21.0305 32.0739C21.2297 31.2141 22.3169 26.6096 22.3169 26.6096C22.3169 26.6096 21.9911 25.9496 21.9911 24.9815C21.9911 23.4527 22.879 22.3132 23.9843 22.3132C24.9264 22.3132 25.38 23.0191 25.38 23.8605C25.38 24.8011 24.7822 26.2126 24.4646 27.5244C24.202 28.6188 25.0172 29.5143 26.0953 29.5143C28.0528 29.5143 29.557 27.4518 29.557 24.4844C29.557 21.8517 27.6637 20.0156 24.9544 20.0156C21.8198 20.0156 19.9799 22.3587 19.9799 24.783C19.9799 25.7236 20.3427 26.7372 20.795 27.2894C20.8867 27.3968 20.8962 27.4965 20.8686 27.6048C20.7869 27.9485 20.5971 28.6992 20.56 28.8534C20.5149 29.0524 20.3965 29.0971 20.1882 28.9982C18.8109 28.3559 17.9497 26.3565 17.9497 24.7375C17.9497 21.2725 20.4684 18.0889 25.2255 18.0889C29.0405 18.0889 32.0115 20.8032 32.0115 24.4397C32.0115 28.0761 29.6198 31.279 26.3032 31.279C25.1885 31.279 24.137 30.6998 23.7845 30.0123C23.7845 30.0123 23.2319 32.1105 23.0959 32.6265C22.8519 33.5852 22.1805 34.7797 21.7277 35.5123C22.7615 35.8277 23.8495 36 24.9909 36C31.0711 36 36 31.0792 36 25.009C36.0176 18.9208 31.0892 14 25.009 14Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer
+        class="footer-area w-full font-poppins text-white px-[2.5%] lg:px-[5%] 2xl:px-[8%] py-12 md:py-16 lg:py-[90px] bg-[#142137]">
+
+        <!-- Only for mobile, sm,md,and lg device subscribe form and social icon -->
+        <div class="w-full mb-10 px-16 xl:hidden ">
+
+            <!-- heading and social icon -->
+            <div class="heading-social-icon mb-9 w-full flex justify-between items-center">
+                <div class="heading">
+                    <h3 class="text-white text-xl font-semibold tracking-[-0.4px]">Newsletters</h3>
+                    <p class="text-white/70 text-base font-normal leading-[26px]">Sign up and receive our special
+                        offers.
+                    </p>
+                </div>
+                <div class="social-icon flex items-center justify-center gap-5">
+                    <!-- Facebook -->
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                            <path
+                                d="M9.35 0H6.8C5.67283 0 4.59183 0.447767 3.7948 1.2448C2.99777 2.04183 2.55 3.12283 2.55 4.25V6.8H0V10.2H2.55V17H5.95V10.2H8.5L9.35 6.8H5.95V4.25C5.95 4.02457 6.03955 3.80837 6.19896 3.64896C6.35837 3.48955 6.57457 3.4 6.8 3.4H9.35V0Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path
+                                d="M5.92547 8.56247C5.55609 8.98742 5.19502 9.40292 4.83396 9.81865C3.64932 11.1821 2.46422 12.5452 1.2816 13.9102C1.22424 13.9766 1.1653 14.0009 1.07936 13.9998C0.764417 13.9953 0.449472 13.9982 0.134527 13.9977C0.098083 13.9977 0.0618643 13.9944 0 13.9912C0.123054 13.8488 0.23171 13.7226 0.340816 13.5971C1.88922 11.815 3.43763 10.0326 4.98604 8.25045C5.10167 8.11749 5.21437 7.98207 5.33405 7.85294C5.38264 7.80075 5.37972 7.7652 5.34057 7.70919C4.71541 6.81137 4.09249 5.91198 3.46867 5.01303C2.74452 3.96944 2.0197 2.92607 1.29533 1.8827C0.878923 1.28228 0.46252 0.681858 0.045892 0.0814371C0.0335192 0.0634402 0.0224961 0.0443185 0.000449922 0.00899965C0.0524159 0.00630012 0.0913342 0.00247578 0.130027 0.00247578C1.4159 0.00202586 2.70201 0.00292571 3.98788 1.21355e-06C4.07449 -0.000223747 4.12309 0.0308209 4.1701 0.098984C5.08097 1.41433 5.99409 2.72833 6.9063 4.04278C7.13284 4.36897 7.35847 4.69584 7.58479 5.02226C7.61223 5.06207 7.6408 5.10099 7.67702 5.15206C7.79602 5.01641 7.90918 4.88863 8.02121 4.75973C9.373 3.2039 10.7248 1.64807 12.075 0.0908855C12.1283 0.0292461 12.1816 -0.00112359 12.266 0.000226175C12.5845 0.00495036 12.9033 0.00202586 13.2221 0.00225082C13.2583 0.00225082 13.2945 0.0058502 13.3557 0.00922461C13.2122 0.175696 13.0846 0.32507 12.9557 0.473319C11.4021 2.26086 9.84902 4.04885 8.29296 5.83414C8.22795 5.9086 8.23065 5.95764 8.28396 6.03413C9.59121 7.9139 10.896 9.79503 12.2017 11.6759C12.7103 12.4086 13.2196 13.1406 13.7282 13.8733C13.7514 13.9069 13.773 13.9415 13.8061 13.9921C13.7525 13.9946 13.7134 13.9977 13.6745 13.9977C12.3922 13.998 11.1101 13.9971 9.82787 14C9.73406 14.0002 9.6812 13.9685 9.62833 13.892C8.69024 12.5362 7.74878 11.1826 6.80844 9.82832C6.53062 9.42834 6.25392 9.02746 5.97631 8.62703C5.96349 8.60903 5.94887 8.59239 5.92547 8.56247ZM12.1459 13.131C12.1182 13.0867 12.1007 13.0549 12.08 13.0255C11.8725 12.7314 11.6645 12.4381 11.457 12.1443C9.91201 9.95565 8.36697 7.767 6.82194 5.57858C5.74573 4.05425 4.66884 2.53059 3.5942 1.0049C3.54629 0.936739 3.49814 0.906144 3.41176 0.906594C2.8606 0.910643 2.30967 0.908394 1.75852 0.908619C1.72635 0.908619 1.69441 0.912218 1.64694 0.915142C1.67933 0.963734 1.70295 1.00063 1.72815 1.0364C3.05565 2.9155 4.38337 4.79415 5.71064 6.67324C7.21292 8.80025 8.71499 10.9275 10.2148 13.0565C10.2607 13.1215 10.3093 13.1384 10.3822 13.1379C10.9295 13.1357 11.4768 13.1368 12.0244 13.1364C12.0595 13.1368 12.0953 13.1334 12.1459 13.131Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8.99h4.55v14.01H.22V8.99zm7.14 0h4.36v1.91h.06c.61-1.15 2.1-2.37 4.33-2.37 4.63 0 5.48 3.05 5.48 7.01v8.45h-4.54v-7.5c0-1.79-.03-4.09-2.49-4.09-2.49 0-2.87 1.95-2.87 3.97v7.62H7.36V8.99z" />
+                        </svg>
+
+
+                    </a>
+
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M9.00757 0C4.03279 0 0 4.02609 0 8.99262C0 12.8043 2.37242 16.0608 5.7231 17.3707C5.64105 16.6605 5.57519 15.5647 5.75233 14.7878C5.91537 14.0843 6.80489 10.317 6.80489 10.317C6.80489 10.317 6.53832 9.77695 6.53832 8.98488C6.53832 7.73402 7.2648 6.80168 8.16911 6.80168C8.93996 6.80168 9.31112 7.3793 9.31112 8.06766C9.31112 8.83723 8.82199 9.99211 8.56211 11.0654C8.3473 11.9609 9.01426 12.6935 9.89639 12.6935C11.498 12.6935 12.7287 11.006 12.7287 8.57812C12.7287 6.4241 11.1796 4.92188 8.96285 4.92188C6.39816 4.92188 4.89273 6.83895 4.89273 8.82246C4.89273 9.59203 5.18959 10.4214 5.5597 10.8731C5.63471 10.961 5.64245 11.0426 5.61992 11.1312C5.55301 11.4124 5.39771 12.0266 5.36743 12.1528C5.33045 12.3156 5.23361 12.3521 5.06317 12.2713C3.9363 11.7457 3.23165 10.1099 3.23165 8.7852C3.23165 5.9502 5.29242 3.34547 9.1847 3.34547C12.3061 3.34547 14.737 5.56629 14.737 8.54156C14.737 11.5168 12.7801 14.1374 10.0665 14.1374C9.15442 14.1374 8.29412 13.6635 8.00571 13.101C8.00571 13.101 7.55356 14.8177 7.44228 15.2399C7.24261 16.0242 6.69326 17.0016 6.3228 17.601C7.16866 17.859 8.05889 18 8.99278 18C13.9676 18 18.0004 13.9739 18.0004 9.00738C18.0148 4.02609 13.9824 0 9.00757 0Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+
+                </div>
+            </div>
+            <!-- Subscribe form Form -->
+            <form class="w-full relative">
+                <!-- Input -->
+                <input type="email" placeholder="Enter your Email..." class="w-full h-[50px] px-4 pr-2 text-white/70 text-[15px] font-normal 
+           border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] 
+           backdrop-blur-[5px] outline-none rounded" />
+
+                <!-- Button inside input -->
+                <button type="submit" class="absolute right-1 top-1 bottom-1 w-[80px] bg-[#4375E7] text-white 
+           text-sm font-medium rounded">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-4 ">
+            <!-- First Column -->
+            <div class="w-full flex flex-col items-center sm:items-start gap-2">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footerlogo.png" alt="Logo"
+                    class="w-[183px] h-[40px] mb-4">
+                <p class="text-base text-center sm:text-start leading-[26px] text-white/70 w-full mb-6">
+                    Fusce non ellus nege purus fermentum commodo nunc ame alique Suspendisse poten In eu ipsum massa.
+                </p>
+                <div class="flex items-center gap-[14px] mt-1">
+                    <div
+                        class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+                        <!-- Phone Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                            <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5"
+                                d="M1.464 3.249c.3-.497 1.952-2.302 3.13-2.248.352.03.664.243.917.49.58.568 2.243 2.712 2.337 3.163.23 1.107-1.09 1.745-.686 2.86 1.03 2.518 2.803 4.292 5.324 5.32 1.115.405 1.753-.914 2.86-.684.452.095 2.597 1.758 3.165 2.339.246.251.46.564.49.916.044 1.24-1.873 2.914-2.246 3.128-.882.631-2.032.62-3.434-.032C9.407 16.875 3.154 10.74 1.496 6.681c-.634-1.394-.677-2.552-.032-3.433Z" />
+                            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12.43 1.238c3.508.39 6.277 3.157 6.671 6.663" />
+                            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M12.429 4.592c1.676.327 2.986 1.637 3.313 3.314" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Hotline:</p>
+                        <p class="text-white text-base font-semibold leading-[24px] tracking-[-0.32px]">(234) 987 - 354
+                            -
+                            3670</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-4 mt-3">
+                    <div
+                        class="w-[46px] h-[46px] rounded-full border border-white/10 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] backdrop-blur-[5px] flex items-center justify-center">
+                        <!-- Email Icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" fill="none" viewBox="0 0 21 18">
+                            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M1 5.706C1 2.412 2.882 1 5.706 1h9.412c2.824 0 4.706 1.412 4.706 4.706v6.588c0 3.294-1.882 4.706-4.706 4.706H5.706" />
+                            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M15.117 6.176 12.171 8.528c-0.97.772-2.561.772-3.53 0L5.705 6.176" />
+                            <path stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                d="M1 13.235h5.647M1 9.47h2.824" />
+                        </svg>
+                    </div>
+                    <div>
+                        <p class="text-[#4375E7] text-[15px] font-medium leading-[24px] tracking-[-0.3px]">Email:</p>
+                        <p class="text-white text-base font-semibold leading-[24px] tracking-[-0.32px]">
+                            example@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="w-full mt-4 sm:mt-4 lg:mt-0 flex items-center xl:items-start flex-col gap-5 ml-4">
+                <h3
+                    class="text-center xl:text-start  w-full text-white text-[26px] lg:text-xl font-semibold tracking-[-0.4px]">
+                    Our Services
+                </h3>
+                <ul
+                    class="text-white/70 text-start text-base font-medium leading-[44px] grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-1 gap-x-6">
+                    <li>Laundry Service</li>
+                    <li>Dry Cleaning</li>
+                    <li>Ironing</li>
+                    <li>Alteration & Repairs</li>
+                    <li>Dry Cleaners</li>
+                    <li>Shirt Service</li>
+                </ul>
+            </div>
+
+            <!-- Third Column -->
+            <div class="w-full mt-4 sm:mt-4 lg:mt-0 flex items-center xl:items-start flex-col gap-5">
+                <h3
+                    class="text-center xl:text-start  w-full text-white text-[26px] lg:text-xl font-semibold tracking-[-0.4px]">
+                    Quick Links</h3>
+                <ul
+                    class="text-white/70 text-start text-base font-medium leading-[44px] grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-1 gap-x-6">
+                    <li>About Us</li>
+                    <li>Pricing</li>
+                    <li>Our Services</li>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+            </div>
+
+            <!-- Fourth Column -->
+            <div class="w-full  mt-4 sm:mt-4 lg:mt-0 flex items-center xl:items-start flex-col gap-5">
+                <h3
+                    class="text-center xl:text-start  w-full text-white text-[26px] lg:text-xl font-semibold tracking-[-0.4px]">
+                    Commercial Services</h3>
+                <ul
+                    class="text-white/70 text-base font-medium leading-[44px] grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-1 gap-x-6">
+                    <li>Airbnb Laundry</li>
+                    <li>Restaurant Laundry</li>
+                    <li>Workwear Laundry</li>
+                    <li>Cafe Laundry</li>
+                    <li>Hotel Laundry</li>
+                    <li>Gym Laundry</li>
+                </ul>
+            </div>
+
+            <!-- Fifth Column -->
+            <div class="w-full hidden xl:flex items-start flex-col gap-5">
+                <h3 class="text-white w-full text-xl font-semibold tracking-[-0.4px]">Newsletters</h3>
+                <p class="text-white/70 text-base font-normal leading-[26px] w-full">Sign up and receive our special
+                    offers.
+                </p>
+                <form class="w-full relative">
+                    <!-- Input -->
+                    <input type="email" placeholder="Enter your Email..." class="w-full h-[50px] px-4 pr-2 text-white/70 text-[15px] font-normal 
+           border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.20)] 
+           backdrop-blur-[5px] outline-none rounded" />
+
+                    <!-- Button inside input -->
+                    <button type="submit" class="absolute right-1 top-1 bottom-1 w-[80px] bg-[#4375E7] text-white 
+           text-sm font-medium rounded">
+                        Subscribe
+                    </button>
+                </form>
+
+                <!-- socail icon -->
+                <div class="social-icon flex items-center justify-center gap-6 mt-4">
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+                            <path
+                                d="M9.35 0H6.8C5.67283 0 4.59183 0.447767 3.7948 1.2448C2.99777 2.04183 2.55 3.12283 2.55 4.25V6.8H0V10.2H2.55V17H5.95V10.2H8.5L9.35 6.8H5.95V4.25C5.95 4.02457 6.03955 3.80837 6.19896 3.64896C6.35837 3.48955 6.57457 3.4 6.8 3.4H9.35V0Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path
+                                d="M5.92547 8.56247C5.55609 8.98742 5.19502 9.40292 4.83396 9.81865C3.64932 11.1821 2.46422 12.5452 1.2816 13.9102C1.22424 13.9766 1.1653 14.0009 1.07936 13.9998C0.764417 13.9953 0.449472 13.9982 0.134527 13.9977C0.098083 13.9977 0.0618643 13.9944 0 13.9912C0.123054 13.8488 0.23171 13.7226 0.340816 13.5971C1.88922 11.815 3.43763 10.0326 4.98604 8.25045C5.10167 8.11749 5.21437 7.98207 5.33405 7.85294C5.38264 7.80075 5.37972 7.7652 5.34057 7.70919C4.71541 6.81137 4.09249 5.91198 3.46867 5.01303C2.74452 3.96944 2.0197 2.92607 1.29533 1.8827C0.878923 1.28228 0.46252 0.681858 0.045892 0.0814371C0.0335192 0.0634402 0.0224961 0.0443185 0.000449922 0.00899965C0.0524159 0.00630012 0.0913342 0.00247578 0.130027 0.00247578C1.4159 0.00202586 2.70201 0.00292571 3.98788 1.21355e-06C4.07449 -0.000223747 4.12309 0.0308209 4.1701 0.098984C5.08097 1.41433 5.99409 2.72833 6.9063 4.04278C7.13284 4.36897 7.35847 4.69584 7.58479 5.02226C7.61223 5.06207 7.6408 5.10099 7.67702 5.15206C7.79602 5.01641 7.90918 4.88863 8.02121 4.75973C9.373 3.2039 10.7248 1.64807 12.075 0.0908855C12.1283 0.0292461 12.1816 -0.00112359 12.266 0.000226175C12.5845 0.00495036 12.9033 0.00202586 13.2221 0.00225082C13.2583 0.00225082 13.2945 0.0058502 13.3557 0.00922461C13.2122 0.175696 13.0846 0.32507 12.9557 0.473319C11.4021 2.26086 9.84902 4.04885 8.29296 5.83414C8.22795 5.9086 8.23065 5.95764 8.28396 6.03413C9.59121 7.9139 10.896 9.79503 12.2017 11.6759C12.7103 12.4086 13.2196 13.1406 13.7282 13.8733C13.7514 13.9069 13.773 13.9415 13.8061 13.9921C13.7525 13.9946 13.7134 13.9977 13.6745 13.9977C12.3922 13.998 11.1101 13.9971 9.82787 14C9.73406 14.0002 9.6812 13.9685 9.62833 13.892C8.69024 12.5362 7.74878 11.1826 6.80844 9.82832C6.53062 9.42834 6.25392 9.02746 5.97631 8.62703C5.96349 8.60903 5.94887 8.59239 5.92547 8.56247ZM12.1459 13.131C12.1182 13.0867 12.1007 13.0549 12.08 13.0255C11.8725 12.7314 11.6645 12.4381 11.457 12.1443C9.91201 9.95565 8.36697 7.767 6.82194 5.57858C5.74573 4.05425 4.66884 2.53059 3.5942 1.0049C3.54629 0.936739 3.49814 0.906144 3.41176 0.906594C2.8606 0.910643 2.30967 0.908394 1.75852 0.908619C1.72635 0.908619 1.69441 0.912218 1.64694 0.915142C1.67933 0.963734 1.70295 1.00063 1.72815 1.0364C3.05565 2.9155 4.38337 4.79415 5.71064 6.67324C7.21292 8.80025 8.71499 10.9275 10.2148 13.0565C10.2607 13.1215 10.3093 13.1384 10.3822 13.1379C10.9295 13.1357 11.4768 13.1368 12.0244 13.1364C12.0595 13.1368 12.0953 13.1334 12.1459 13.131Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white">
+                            <path
+                                d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.22 8.99h4.55v14.01H.22V8.99zm7.14 0h4.36v1.91h.06c.61-1.15 2.1-2.37 4.33-2.37 4.63 0 5.48 3.05 5.48 7.01v8.45h-4.54v-7.5c0-1.79-.03-4.09-2.49-4.09-2.49 0-2.87 1.95-2.87 3.97v7.62H7.36V8.99z" />
+                        </svg>
+
+
+                    </a>
+
+                    <a href="#"
+                        class="w-[36px] h-[36px] flex items-center justify-center rounded-full border border-white/14 bg-[#142137] shadow-[0_10px_60px_0_rgba(3,6,17,0.2)] backdrop-blur-[5px] p-2.5 hover:bg-[#4375E7]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M9.00757 0C4.03279 0 0 4.02609 0 8.99262C0 12.8043 2.37242 16.0608 5.7231 17.3707C5.64105 16.6605 5.57519 15.5647 5.75233 14.7878C5.91537 14.0843 6.80489 10.317 6.80489 10.317C6.80489 10.317 6.53832 9.77695 6.53832 8.98488C6.53832 7.73402 7.2648 6.80168 8.16911 6.80168C8.93996 6.80168 9.31112 7.3793 9.31112 8.06766C9.31112 8.83723 8.82199 9.99211 8.56211 11.0654C8.3473 11.9609 9.01426 12.6935 9.89639 12.6935C11.498 12.6935 12.7287 11.006 12.7287 8.57812C12.7287 6.4241 11.1796 4.92188 8.96285 4.92188C6.39816 4.92188 4.89273 6.83895 4.89273 8.82246C4.89273 9.59203 5.18959 10.4214 5.5597 10.8731C5.63471 10.961 5.64245 11.0426 5.61992 11.1312C5.55301 11.4124 5.39771 12.0266 5.36743 12.1528C5.33045 12.3156 5.23361 12.3521 5.06317 12.2713C3.9363 11.7457 3.23165 10.1099 3.23165 8.7852C3.23165 5.9502 5.29242 3.34547 9.1847 3.34547C12.3061 3.34547 14.737 5.56629 14.737 8.54156C14.737 11.5168 12.7801 14.1374 10.0665 14.1374C9.15442 14.1374 8.29412 13.6635 8.00571 13.101C8.00571 13.101 7.55356 14.8177 7.44228 15.2399C7.24261 16.0242 6.69326 17.0016 6.3228 17.601C7.16866 17.859 8.05889 18 8.99278 18C13.9676 18 18.0004 13.9739 18.0004 9.00738C18.0148 4.02609 13.9824 0 9.00757 0Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- divider and footer bottom -->
+        <div class="mt-3 flex flex-col gap-[30px]">
+            <div class="w-full h-px  bg-white/10"></div>
+            <div class="footer-bottom flex flex-col md:flex-row justify-between items-center gap-4">
+                <h2 class="text-white/70 text-base font-normal leading-[26px]">©2025 Laundre All Rights Reserved</h2>
+                <p class="text-base font-normal leading-[26px]">
+                    <span class="text-white/70">Privacy Policy</span>
+                    <span class="text-white/70 mx-[14px]">|</span>
+                    <span class="text-white">Term of Service</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
