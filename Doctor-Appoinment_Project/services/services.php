@@ -48,7 +48,7 @@
 </section>
 
 <!-- card section -->
- <section class="w-[1366px] px-[187px] py-[62px] grid grid-cols-3 gap-6">
+ <section class="w-[1366px] px-[187px] py-[67px] grid grid-cols-3 gap-5">
 
 
       <!-- First Card -->

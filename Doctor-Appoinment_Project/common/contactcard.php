@@ -1,4 +1,4 @@
-<section class="w-[1366px] px-[187px] py-[62px] flex flex-col gap-14">
+<section class="w-[1366px] px-[187px] pt-[56px] pb-[66px] flex flex-col gap-14">
     <!-- heading -->
      <div class="heading flex flex-col gap-0 justify-center items-center">
         <h2 class="font-worksans text-[18px] font-bold leading-normal tracking-[2.88px] uppercase text-[#159EEC] text-center">Get in touch</h2>
