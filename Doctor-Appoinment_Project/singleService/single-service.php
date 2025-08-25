@@ -53,7 +53,7 @@ include '../common/header-top.php';
 </section>
 
 <!-- Service details Section -->
-  <section class="w-[1366px] flex gap-6 px-[187px] pt-[60px] pb-[98px]">
+  <section class="w-[1366px] flex gap-6 px-[187px] pt-[60px] pb-16">
 
  <!-- sidebar Left -->
 <div class="w-[240px] h-[484px] border border-[#1F2B6C] rounded-[5px]">
@@ -129,14 +129,76 @@ include '../common/header-top.php';
 
 
    <!-- Right Side Service Details -->
-   <div class="w-[731px] h-[900px]">
+   <div class="w-[731px]">
+
     <div class="service-img w-[731px] h-[454px]">
-      <img src="../src/images/servicecard.png" alt="Service Image" class="w-full h-full object-cover ">
+      <img src="../src/images/servie-detail.png" alt="Service Image" class="w-full h-full object-cover ">
     </div>
+    <div class="content-wrapper flex flex-col gap-6 mt-6">
+      <!-- title -->
+      <h2 class="text-[32px] font-normal leading-normal font-yeseva text-[#1F2B6C]">
+        A passion for putting patients first
+      </h2>
+      <!-- characteristics -->
+      <div class="grid grid-cols-3 items-center space-x-2 space-y-4 -mt-1.5">
+
+        <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+  A Passion for Healing
+           </p>
+        </div>
+         <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             5-Star Care
+           </p>
+        </div>
+         <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+              A Legacy of Excellence
+           </p>
+        </div>
+         <div class="flex  items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             All our best
+           </p>
+        </div>
+         <div class="flex items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             Believe in Us
+           </p>
+        </div>
+         <div class="flex items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+              Always Caring
+           </p>
+        </div>
+      </div>
+      <div class="description text-[16px] -mt-4 font-normal leading-[140%] font-worksans text-black">
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
+     
+       <p class="mt-2">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque. Convallis felis vitae tortor augue. Velit nascetur proin massa in.
+       </p>
+      
+      </div>
+    </div>
+
   
+
    </div>
 
   </section>
+
+    <!-- team memeber -->
+     <?php
+      include '../common/team.php';
+      ?>
 
  <?php
  include '../common/contactcard.php';
