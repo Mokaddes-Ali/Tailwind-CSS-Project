@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="m-0 p-0 bg-[#fcfefe]">
-<?php include '../common/header-top.php'; ?>
-    <?php include '../common/header.php'; ?>
+<?php include './common/header-top.php'; ?>
+    <?php include './common/header.php'; ?>
 
    <section class="relative bg-[url('../src/images/servicehead.png')] bg-cover bg-center w-[1366px] h-[250px] flex items-center  mx-auto">
 
   <!-- Frame -->
   <div class="absolute inset-0">
-    <img src="../src/images/Frame 2.png" alt="Frame" class="w-full h-full object-cover" />
+    <img src="./src/images/Frame 2.png" alt="Frame" class="w-full h-full object-cover" />
   </div>
 
   <!-- Overlay -->
@@ -24,7 +24,7 @@
   <div class="relative  flex flex-col gap-0 px-[187px] pt-[85px] pb-[98px] text-start text-[#1F2B6C]" >
     <p class="text-[#1F2B6C] font-['Work_Sans'] text-[18px] not-italic font-normal leading-[140%] flex items-center gap-0">
   <!-- Home link -->
-  <a href="../home/home.php" class="hover:text-red-600 flex items-center gap-1">
+  <a href="./home/home.php" class="hover:text-red-600 flex items-center gap-1">
     Home
   </a>
 
@@ -42,7 +42,7 @@
 
   <!-- Divider (bottom) -->
   <div class="absolute bottom-0 left-0 w-full">
-    <img src="../src/images/divider.png" alt="Divider" class="w-full object-contain">
+    <img src="./src/images/divider.png" alt="Divider" class="w-full object-contain">
   </div>
 
 </section>
@@ -55,11 +55,11 @@
      <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
   <!-- Card Image -->
   <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -89,11 +89,11 @@
       <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
   <!-- Card Image -->
   <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -124,11 +124,11 @@
       <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
      <!-- Card Image -->
      <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -159,11 +159,11 @@
      <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
   <!-- Card Image -->
   <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -193,11 +193,11 @@
       <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
   <!-- Card Image -->
   <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -228,11 +228,11 @@
       <div class="relative bg-white w-[317px] h-[552px] shadow-md rounded-lg overflow-hidden group">
      <!-- Card Image -->
      <div class="relative w-[317px] h-[300px]">
-    <img src="../src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
+    <img src="./src/images/servicecard.png" alt="Service 1" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-98">
     
     <!-- Hover Overlay Image -->
     <div class="absolute inset-0 opacity-0 group-hover:opacity-60 transition-opacity duration-500">
-      <img src="../src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
+      <img src="./src/images/hoverimg.png" alt="Hover Image" class="w-full h-full object-cover">
     </div>
     
     <!-- SVG Circle -->
@@ -261,8 +261,8 @@
  </section>
 
  <?php 
- include_once("../common/contactcard.php");
- include_once("../common/footer.php");
+ include_once("./common/contactcard.php");
+ include_once("./common/footer.php");
  ?>
 
 

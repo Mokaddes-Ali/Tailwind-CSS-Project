@@ -4,7 +4,7 @@
     <!-- first row logo and description-->
      <div class="min-w-[293px] mt-3 logo-description flex flex-col gap-6">
      <div class="w-[193px] h-[25px]">
-        <img src="../src/images/footerlogo.png" alt="Logo" class="w-full h-full">
+        <img src="./src/images/footerlogo.png" alt="Logo" class="w-full h-full">
      </div>
         <p class="text-[#FCFEFE] font-worksans text-[18px] not-italic font-normal leading-[140%]">Leading the Way in Medical Execellence, Trusted Care.</p>
     </div>

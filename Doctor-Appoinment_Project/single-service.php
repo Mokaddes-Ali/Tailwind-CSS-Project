@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body class="m-0 p-0 bg-[#fcfefe]">
 
 <?php
-include '../common/header-top.php';
- include '../common/header.php'; 
+include './common/header-top.php';
+ include './common/header.php'; 
  ?>
 
     <section class="relative bg-[url('../src/images/servicecard.png')] bg-cover bg-center w-[1366px] h-[250px] flex items-center  mx-auto">
 
   <!-- Frame -->
   <div class="absolute inset-0">
-    <img src="../src/images/Frame 2.png" alt="Frame" class="w-full h-full object-cover" />
+    <img src="./src/images/Frame 2.png" alt="Frame" class="w-full h-full object-cover" />
   </div>
 
   <!-- Overlay -->
@@ -27,7 +27,7 @@ include '../common/header-top.php';
   <div class="relative  flex flex-col gap-0 px-[187px] pt-[85px] pb-[98px] text-start text-[#1F2B6C]" >
     <p class="text-[#1F2B6C] font-['Work_Sans'] text-[18px] not-italic font-normal leading-[140%] flex items-center gap-0">
   <!-- Home link -->
-  <a href="../home/home.php" class="hover:text-red-600 flex items-center gap-1">
+  <a href="./home/home.php" class="hover:text-red-600 flex items-center gap-1">
     Home
   </a>
 
@@ -47,7 +47,7 @@ include '../common/header-top.php';
 
   <!-- Divider (bottom) -->
   <div class="absolute bottom-0 left-0 w-full">
-    <img src="../src/images/divider.png" alt="Divider" class="w-full object-contain">
+    <img src="./src/images/divider.png" alt="Divider" class="w-full object-contain">
   </div>
 
 </section>
@@ -132,7 +132,7 @@ include '../common/header-top.php';
    <div class="w-[731px]">
 
     <div class="service-img w-[731px] h-[454px]">
-      <img src="../src/images/servie-detail.png" alt="Service Image" class="w-full h-full object-cover ">
+      <img src="./src/images/servie-detail.png" alt="Service Image" class="w-full h-full object-cover ">
     </div>
     <div class="content-wrapper flex flex-col gap-6 mt-6">
       <!-- title -->
@@ -197,12 +197,12 @@ include '../common/header-top.php';
 
     <!-- team memeber -->
      <?php
-      include '../common/team.php';
+      include './common/team.php';
       ?>
 
  <?php
- include '../common/contactcard.php';
- include '../common/footer.php';
+ include './common/contactcard.php';
+ include './common/footer.php';
  ?>
 
 </body>
