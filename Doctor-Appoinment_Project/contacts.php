@@ -76,59 +76,42 @@ include './common/header-top.php';
         <h3 class="font-yeseva text-[32px] font-normal leading-normal text-[#1F2B6C] text-center">
             Contact
         </h3>
-         <form class="bg-[#1F2B6C] text-white mt-6 rounded-lg w-[486px] mx-auto space-y-6">
-  <!-- Name and Email -->
-  <div class="flex pt-4">
-    <div class="relative w-1/2">
-      <input type="text" id="name" required
-             class="peer w-full bg-transparent border-b-1 border-r-1 border-white p-2 text-white placeholder-transparent focus:outline-none"
-             placeholder="Name" />
-      <label for="name"
-             class="absolute left-3 -top-3.5 text-white text-sm transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-white">
-        Name
-      </label>
-    </div>
-    <div class="relative w-1/2">
-      <input type="email" id="email" required
-             class="peer w-full bg-transparent border-b-1 border-white p-2 text-white placeholder-transparent focus:outline-none"
-             placeholder="Email" />
-      <label for="email"
-             class="absolute left-3 -top-3.5 text-white text-sm transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-white">
-        Email
-      </label>
-    </div>
-  </div>
+         <form class="bg-[#1F2B6C] text-white mt-6 rounded-[5px] w-[486px] mx-auto space-y-2">
+         <!-- Name and Email -->
+         <div class="grid grid-cols-2">
+           <div class="relative">
+               <input type="text" id="name" placeholder="Name" required class="w-full bg-transparent border-b border-white px-2 py-3.5 focus:outline-none placeholder-white placeholder:font-worksans placeholder:text-base placeholder:font-normal placeholder:leading-[140%] placeholder:pl-3   placeholder:pt-4"
+             />
+          </div>
+        <div class="relative ">
+            <input type="email" id="email" placeholder="Email" required class="w-full bg-transparent border-b border-l border-white px-2 py-3.5 focus:outline-none placeholder-white placeholder:font-worksans placeholder:text-base placeholder:font-normal placeholder:leading-[140%] placeholder:pl-3   placeholder:pt-4"
+             />
+     
+        </div>
+       </div>
 
-  <!-- Subject -->
-  <div class="relative">
-    <input type="text" id="subject" required
-           class="peer w-full bg-transparent border-b-1 border-white p-2 text-white placeholder-transparent focus:outline-none"
-           placeholder="Subject" />
-    <label for="subject"
-           class="absolute left-2 -top-3.5 text-white text-sm transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-white">
-      Subject
-    </label>
-  </div>
+    <!-- Subject -->
+     <div class="relative">
+               <input type="text" id="subject" placeholder="Subject" required class="w-full bg-transparent border-b border-white px-2 py-2 focus:outline-none placeholder-white placeholder:font-worksans placeholder:text-base placeholder:font-normal placeholder:leading-[140%] placeholder:pl-3   placeholder:pt-0"
+             />
+          </div>
 
   <!-- Message -->
   <div class="relative">
-    <textarea id="message" required rows="6"
-              class="peer w-full bg-transparent p-2 text-white placeholder-transparent focus:outline-none"
+    <textarea id="message" required 
+              class="peer w-full h-[216px] bg-transparent p-2 text-white focus:outline-none placeholder-white placeholder:font-worksans placeholder:text-base placeholder:font-normal placeholder:leading-[140%] placeholder:pl-3   placeholder:pt-0"
               placeholder="Message"></textarea>
-    <label for="message"
-           class="absolute left-2 -top-3.5 text-white text-sm transition-all peer-placeholder-shown:top-2 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-300 peer-focus:-top-3.5 peer-focus:text-sm peer-focus:text-white">
-      Message
-    </label>
+   
   </div>
 
   <!-- Submit Button -->
   <div class="flex justify-center bg-[#BFD2F8]">
     <button type="submit"
-            class="bg-transparent w-full border-none text-[#1F2B6C] text-center font-[Work_Sans] text-[16px] font-medium uppercase leading-normal py-2 px-6 rounded-b-md hover:bg-pink-300 hover:text-[#1F2B6C] transition-colors duration-300">
+            class="bg-transparent w-full border-none text-[#1F2B6C] text-center font-[Work_Sans] text-[16px] font-medium uppercase leading-normal py-3 px-6 rounded-b-md hover:bg-pink-300 hover:text-[#1F2B6C] transition-colors duration-300">
       Submit
     </button>
   </div>
-</form>
+          </form>
 
        </div>
        </div>
