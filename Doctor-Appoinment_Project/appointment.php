@@ -206,59 +206,71 @@ include './common/header-top.php';
        </div>
 
      <!-- right Appointment information -->
-    <div class="w-[481px] h-[650px] flex-shrink-0 rounded-[5px] bg-[#1F2B6C] px-[50px] pt-[48px] pb-[46.5px]">
+    <div class="w-[481px] h-[650px] flex-shrink-0 rounded-[5px] bg-[#1F2B6C] pt-[40px] pl-[70px]">
        <!-- Heading -->
-  <h2 class="text-[#BFD2F8] font-yeseva text-[48px] font-normal leading-none mb-4">Schedule hours</h2>
+  <h1 class="text-[#BFD2F8] font-yeseva text-[48px] font-normal leading-norma mb-1">Shedule hours</h1>
 
-  <!-- Schedule List -->
-  <ul class="space-y-2 text-sm">
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Monday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Tuesday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Wednesday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Thursday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Friday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <span>Saturday</span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="3" viewBox="0 0 20 3" fill="none">
-        <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
-      </svg>
-      <span>09:00 AM - 07:00 PM</span>
-    </li>
-    <li class="flex justify-between"><span>Sunday</span><span>Closed</span></li>
-  </ul>
+<!-- Schedule List -->
+<ul class="pt-10 -ml-5 pr-9 space-y-6 text-[#FCFEFE] font-worksans text-[18px] font-normal leading-[140%]">
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Monday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+   <li class="flex items-center justify-between w-full">
+    <span class="w-40">Tuesday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+  
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Wednesday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Thursday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Friday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Saturday</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-right">09:00 AM - 07:00 PM</span>
+  </li>
+  <li class="flex items-center justify-between w-full">
+    <span class="w-40">Sunday</span>
+     <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0" width="20" height="3" viewBox="0 0 20 3" fill="none">
+      <path d="M0 1.02002H19.5" stroke="#BFD2F8" stroke-width="2"/>
+    </svg>
+    <span class="w-64 text-center">Closed</span>
+  </li>
+</ul>
+
 
   <!-- Divider -->
-  <hr class="my-4 border-white/50">
+  <div class="divider ml-2 mt-9">
+    <svg xmlns="http://www.w3.org/2000/svg" width="331" height="3" viewBox="0 0 331 3" fill="none">
+  <path d="M0 1.50085L331 1.50088" stroke="#BFD2F8" stroke-width="2"/>
+</svg>
+  </div>
 
   <!-- Emergency -->
   <div class="flex items-center space-x-2 text-sm">
