@@ -53,24 +53,71 @@ include './common/header-top.php';
 </section>
 
 <!-- About card Section -->
-  <section class="w-[1366px] flex gap-6 px-[187px] pt-[64px] pb-[65px]">
+  <section class="w-[1366px] flex gap-5 px-[187px] pt-[65px] pb-[63px]">
 
-  <!-- Team Card -->
-         <div class="team-card flex gap-5">
             <!-- left image -->
-             <div class="left-img w-[458px] h-[509px]">
-                <img src="./src/images/aboutleft.png" alt="aboutusimg" class="w-full h-full object-cover">
+             <div class="left-img w-[408px] h-[509px]">
+                <img src="./src/images/about.png" alt="aboutusimg" class="w-full h-full object-cover">
              </div>
 
-             <!-- right content -->
-             <div class="right-content flex flex-col">
-                <h3 class="font-yeseva text-[32px] font-normal leading-normal text-[#1F2B6C]">Our Team</h3>
-                <p class="text-base font-normal leading-[140%] font-['Work_Sans'] text-[#212124] text-[16px] text-left">
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare.
+            <!-- right content -->
+             <div class="right-content -mt-1 w-[564px] flex flex-col">
+                <h2 class="font-worksans text-[18px] font-bold leading-normal tracking-[2.88px] text-[#159EEC] uppercase">Welcome to Hospital name</h2>
+                <h3 class="font-yeseva -mt-1 text-[#1F2B6C] text-[48px] font-normal leading-normal">
+                  Best Care for Your Good Health
+                 </h3>
+
+                  <!-- characteristics -->
+      <div class="grid grid-cols-2 w-[500px] items-center space-y-4">
+
+        <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+            A Passion for Healing
+           </p>
+        </div>
+         <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             5-Star Care
+           </p>
+        </div>
+
+         <div class="flex  items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             All our best
+           </p>
+        </div>
+
+         <div class="flex items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+             Believe in Us
+           </p>
+        </div>
+         <div class="flex items-center gap-2">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+              Always Caring
+           </p>
+        </div>
+
+         <div class="flex gap-2 items-center">
+          <div class="w-4 h-4 shrink-0 rounded-full bg-[#159EEC]"></div>
+            <p class="text-[18px] font-normal leading-[140%] font-worksans text-black">
+              A Legacy of Excellence
+           </p>
+        </div>
+      </div>
+                <p class="pt-3.5 font-worksans text-black text-[16px] font-normal leading-[140%]">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Quisque placerat scelerisque tortor ornare ornare Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
                 </p>
+                <p class="pt-3.5 font-worksans text-black text-[16px] font-normal leading-[140%]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque. Convallis felis vitae tortor augue. Velit nascetur proin massa in.
+                </p>
+               
              </div>
-         </div>
-
   </section>
 
 
@@ -119,7 +166,10 @@ include './common/header-top.php';
      </div>
   </section>
 
-
+  <!-- team memeber -->
+     <?php
+      include './common/doctorcard.php';
+      ?>
 
  <?php
  include './common/news.php';

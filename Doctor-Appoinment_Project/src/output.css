@@ -266,9 +266,6 @@
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
-  .mt-5 {
-    margin-top: calc(var(--spacing) * 5);
-  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -314,15 +311,6 @@
   .ml-7 {
     margin-left: calc(var(--spacing) * 7);
   }
-  .ml-8 {
-    margin-left: calc(var(--spacing) * 8);
-  }
-  .ml-9 {
-    margin-left: calc(var(--spacing) * 9);
-  }
-  .ml-76 {
-    margin-left: calc(var(--spacing) * 76);
-  }
   .block {
     display: block;
   }
@@ -346,9 +334,6 @@
   }
   .h-4\.5 {
     height: calc(var(--spacing) * 4.5);
-  }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
   }
   .h-7 {
     height: calc(var(--spacing) * 7);
@@ -383,6 +368,9 @@
   .h-\[80px\] {
     height: 80px;
   }
+  .h-\[110px\] {
+    height: 110px;
+  }
   .h-\[154px\] {
     height: 154px;
   }
@@ -403,9 +391,6 @@
   }
   .h-\[350px\] {
     height: 350px;
-  }
-  .h-\[426px\] {
-    height: 426px;
   }
   .h-\[441px\] {
     height: 441px;
@@ -431,9 +416,6 @@
   .h-\[650px\] {
     height: 650px;
   }
-  .h-\[px\] {
-    height: px;
-  }
   .h-full {
     height: 100%;
   }
@@ -445,9 +427,6 @@
   }
   .w-4\.5 {
     width: calc(var(--spacing) * 4.5);
-  }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
   }
   .w-8 {
     width: calc(var(--spacing) * 8);
@@ -461,8 +440,8 @@
   .w-64 {
     width: calc(var(--spacing) * 64);
   }
-  .w-\[5px\] {
-    width: 5px;
+  .w-\[4px\] {
+    width: 4px;
   }
   .w-\[40px\] {
     width: 40px;
@@ -475,6 +454,9 @@
   }
   .w-\[193px\] {
     width: 193px;
+  }
+  .w-\[200px\] {
+    width: 200px;
   }
   .w-\[210px\] {
     width: 210px;
@@ -503,6 +485,9 @@
   .w-\[458px\] {
     width: 458px;
   }
+  .w-\[464px\] {
+    width: 464px;
+  }
   .w-\[481px\] {
     width: 481px;
   }
@@ -512,8 +497,11 @@
   .w-\[491px\] {
     width: 491px;
   }
-  .w-\[597px\] {
-    width: 597px;
+  .w-\[500px\] {
+    width: 500px;
+  }
+  .w-\[564px\] {
+    width: 564px;
   }
   .w-\[731px\] {
     width: 731px;
@@ -655,6 +643,13 @@
       margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
     }
   }
+  .space-x-1 {
+    :where(& > :not(:last-child)) {
+      --tw-space-x-reverse: 0;
+      margin-inline-start: calc(calc(var(--spacing) * 1) * var(--tw-space-x-reverse));
+      margin-inline-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-x-reverse)));
+    }
+  }
   .space-x-2 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -670,9 +665,6 @@
   }
   .rounded-\[5px\] {
     border-radius: 5px;
-  }
-  .rounded-\[10px\] {
-    border-radius: 10px;
   }
   .rounded-\[50px\] {
     border-radius: 50px;
@@ -868,6 +860,12 @@
   .pt-1\.5 {
     padding-top: calc(var(--spacing) * 1.5);
   }
+  .pt-3 {
+    padding-top: calc(var(--spacing) * 3);
+  }
+  .pt-3\.5 {
+    padding-top: calc(var(--spacing) * 3.5);
+  }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
@@ -898,8 +896,14 @@
   .pt-\[60px\] {
     padding-top: 60px;
   }
+  .pt-\[62px\] {
+    padding-top: 62px;
+  }
   .pt-\[64px\] {
     padding-top: 64px;
+  }
+  .pt-\[65px\] {
+    padding-top: 65px;
   }
   .pt-\[68px\] {
     padding-top: 68px;
@@ -928,17 +932,14 @@
   .pb-1\.5 {
     padding-bottom: calc(var(--spacing) * 1.5);
   }
-  .pb-2 {
-    padding-bottom: calc(var(--spacing) * 2);
-  }
   .pb-16 {
     padding-bottom: calc(var(--spacing) * 16);
   }
   .pb-\[8px\] {
     padding-bottom: 8px;
   }
-  .pb-\[10px\] {
-    padding-bottom: 10px;
+  .pb-\[63px\] {
+    padding-bottom: 63px;
   }
   .pb-\[65px\] {
     padding-bottom: 65px;
@@ -981,6 +982,9 @@
   }
   .font-\[\'Work_Sans\'\] {
     font-family: 'Work Sans';
+  }
+  .font-\[\'Yeseva_One\'\] {
+    font-family: 'Yeseva One';
   }
   .font-\[Work_Sans\] {
     font-family: Work Sans;
@@ -1027,6 +1031,9 @@
   }
   .text-\[32px\] {
     font-size: 32px;
+  }
+  .text-\[36px\] {
+    font-size: 36px;
   }
   .text-\[48px\] {
     font-size: 48px;
@@ -1077,6 +1084,9 @@
   }
   .text-\[\#FCFEFE\] {
     color: #FCFEFE;
+  }
+  .text-\[px\] {
+    color: px;
   }
   .text-black {
     color: var(--color-black);
